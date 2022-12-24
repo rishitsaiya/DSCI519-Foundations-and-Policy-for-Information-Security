@@ -1,0 +1,3340 @@
+<?xml version="1.0"?>
+<!DOCTYPE CyberCIEGEeventLog SYSTEM "..\..\eventlog.dtd">
+<CyberCIEGEeventLog>
+<gameEvent>
+	<dtimeGame>20220101060200</dtimeGame>	<dtimeReal>20221120160621</dtimeReal>
+	<loadFile>C:\Users\Mohit Yadav\AppData\Roaming\CyberCIEGE\Identity Management\Mohit Yadav\AuthPhaseTwo.sdf</loadFile>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220101060200</dtimeGame>	<dtimeReal>20221120160621</dtimeReal>
+	<loadFile>Authentication.CSM 9/30/16 3 46 PM</loadFile>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<creates>
+		<user>Blake</user>
+	</creates>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<creates>
+		<user>Customer</user>
+	</creates>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<creates>
+		<user>Joe</user>
+	</creates>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<creates>
+		<user>Mary</user>
+	</creates>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<creates>
+		<user>Frank</user>
+	</creates>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<creates>
+		<user>Peggy</user>
+	</creates>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<creates>
+		<user>Fiona</user>
+	</creates>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<creates>
+		<user>ITguy1</user>
+	</creates>
+</gameEvent>
+<componentEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<name>Lollipop Server</name>
+	<networkConnect>Lan1</networkConnect>
+	<cost>0</cost><cash>6125</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<name>Lollipop Server</name>
+	<accountAdd>
+		<user>Joe</user>
+	</accountAdd>
+	<cost>0</cost><cash>6125</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<name>Lollipop Server</name>
+	<accountAdd>
+		<user>Mary</user>
+	</accountAdd>
+	<cost>0</cost><cash>6125</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<name>Lollipop Server</name>
+	<accountAdd>
+		<user>Frank</user>
+	</accountAdd>
+	<cost>0</cost><cash>6125</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<name>Lollipop Server</name>
+	<accountAdd>
+		<user>Peggy</user>
+	</accountAdd>
+	<cost>0</cost><cash>6125</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<name>Lollipop Server</name>
+	<accountAdd>
+		<user>Fiona</user>
+	</accountAdd>
+	<cost>0</cost><cash>6125</cash>
+</componentEvent>
+<assetEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<name>M and F Web Site</name>
+	<moveType>Add : SCENARIO_FILE</moveType>
+	<computerName>Lollipop Server</computerName>
+</assetEvent>
+<assetEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<name>Sugar Spinner Data</name>
+	<moveType>Add : SCENARIO_FILE</moveType>
+	<computerName>Lollipop Server</computerName>
+</assetEvent>
+<gameEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<creates>
+		<computerName>Lollipop Server</computerName>
+	</creates>
+</gameEvent>
+<componentEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<name>Button Holer</name>
+	<networkConnect>Lan1</networkConnect>
+	<cost>0</cost><cash>6125</cash>
+</componentEvent>
+<gameEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<creates>
+		<computerName>Button Holer</computerName>
+	</creates>
+</gameEvent>
+<componentEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<name>Joe's Workstation</name>
+	<networkConnect>Lan1</networkConnect>
+	<cost>0</cost><cash>6125</cash>
+</componentEvent>
+<assetEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<name>Joe's Stuff</name>
+	<moveType>Add : SCENARIO_FILE</moveType>
+	<computerName>Joe's Workstation</computerName>
+</assetEvent>
+<gameEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<creates>
+		<computerName>Joe's Workstation</computerName>
+	</creates>
+</gameEvent>
+<componentEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<name>Mary's Workstation</name>
+	<networkConnect>Lan1</networkConnect>
+	<cost>0</cost><cash>6125</cash>
+</componentEvent>
+<assetEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<name>Mary's Stuff</name>
+	<moveType>Add : SCENARIO_FILE</moveType>
+	<computerName>Mary's Workstation</computerName>
+</assetEvent>
+<gameEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<creates>
+		<computerName>Mary's Workstation</computerName>
+	</creates>
+</gameEvent>
+<componentEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<name>Frank's Workstation</name>
+	<networkConnect>Lan1</networkConnect>
+	<cost>0</cost><cash>6125</cash>
+</componentEvent>
+<assetEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<name>Frank's Stuff</name>
+	<moveType>Add : SCENARIO_FILE</moveType>
+	<computerName>Frank's Workstation</computerName>
+</assetEvent>
+<gameEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<creates>
+		<computerName>Frank's Workstation</computerName>
+	</creates>
+</gameEvent>
+<componentEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<name>Peggy's Workstation</name>
+	<networkConnect>Lan1</networkConnect>
+	<cost>0</cost><cash>6125</cash>
+</componentEvent>
+<assetEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<name>Peggy's Stuff</name>
+	<moveType>Add : SCENARIO_FILE</moveType>
+	<computerName>Peggy's Workstation</computerName>
+</assetEvent>
+<gameEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<creates>
+		<computerName>Peggy's Workstation</computerName>
+	</creates>
+</gameEvent>
+<componentEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<name>Hotel Workstation</name>
+	<networkConnect>Offsite LAN</networkConnect>
+	<cost>0</cost><cash>6125</cash>
+</componentEvent>
+<gameEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<creates>
+		<computerName>Hotel Workstation</computerName>
+	</creates>
+</gameEvent>
+<componentEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<name>Visitor's Workstation</name>
+	<networkConnect>Lan1</networkConnect>
+	<cost>0</cost><cash>6125</cash>
+</componentEvent>
+<gameEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<creates>
+		<computerName>Visitor's Workstation</computerName>
+	</creates>
+</gameEvent>
+<componentEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<name>Customer's Workstation</name>
+	<networkConnect>Customer LAN</networkConnect>
+	<cost>0</cost><cash>6125</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<name>Customer's Workstation</name>
+	<accountAdd>
+		<user>Customer</user>
+	</accountAdd>
+	<cost>0</cost><cash>6125</cash>
+</componentEvent>
+<gameEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<creates>
+		<computerName>Customer's Workstation</computerName>
+	</creates>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<creates>
+		<computerName>Smartcard Minter</computerName>
+	</creates>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<creates>
+		<computerName>Veriscream CA</computerName>
+	</creates>
+</gameEvent>
+<componentEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<name>customer router</name>
+	<networkConnect>Internet</networkConnect>
+	<cost>0</cost><cash>6125</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<name>customer router</name>
+	<networkConnect>Customer LAN</networkConnect>
+	<cost>0</cost><cash>6125</cash>
+</componentEvent>
+<gameEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<creates>
+		<deviceName>customer router</deviceName>
+	</creates>
+</gameEvent>
+<componentEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<name>HotelRouter</name>
+	<networkConnect>Internet</networkConnect>
+	<cost>0</cost><cash>6125</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<name>HotelRouter</name>
+	<networkConnect>Offsite LAN</networkConnect>
+	<cost>0</cost><cash>6125</cash>
+</componentEvent>
+<gameEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<creates>
+		<deviceName>HotelRouter</deviceName>
+	</creates>
+</gameEvent>
+<componentEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<name>router</name>
+	<networkConnect>Internet</networkConnect>
+	<cost>0</cost><cash>6125</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<name>router</name>
+	<networkConnect>Lan1</networkConnect>
+	<cost>0</cost><cash>6125</cash>
+</componentEvent>
+<gameEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<creates>
+		<deviceName>router</deviceName>
+	</creates>
+</gameEvent>
+<goalFailure>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>0</cost><cash>6125</cash>
+</goalFailure>
+<gameEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160622</dtimeReal>
+	<start></start>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160629</dtimeReal>
+	<resume></resume>
+</gameEvent>
+<goalFailure>
+	<dtimeGame>20220106222500</dtimeGame>	<dtimeReal>20221120160629</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>0</cost><cash>6125</cash>
+</goalFailure>
+<summaryEvent>
+	<dtimeGame>20220106222602</dtimeGame>	<dtimeReal>20221120160630</dtimeReal>
+	<bonus>1</bonus><cash>6126</cash>
+</summaryEvent>
+<trigger>
+	<dtimeGame>20220106222602</dtimeGame>	<dtimeReal>20221120160630</dtimeReal>
+	<name>GoToBlake</name>
+	<triggerType>SPEAK_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: BlakeFailsGoal(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106223104</dtimeGame>	<dtimeReal>20221120160631</dtimeReal>
+	<name>insider</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>12</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106223104</dtimeGame>	<dtimeReal>20221120160631</dtimeReal>
+	<name>InterentTrojan</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>14</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106223104</dtimeGame>	<dtimeReal>20221120160631</dtimeReal>
+	<name>WireTap</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>11</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106224104</dtimeGame>	<dtimeReal>20221120160633</dtimeReal>
+	<name>NoBlakeProfile</name>
+	<triggerType>TICKER_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: PhaseTwoDone(true) and BlakeFailsGoal(true) and_not VisitorHasBlakeProfile(false) :end</conditions>
+</trigger>
+<gameEvent>
+	<dtimeGame>20220106224747</dtimeGame>	<dtimeReal>20221120160634</dtimeReal>
+	<pause></pause>
+</gameEvent>
+<goalFailure>
+	<dtimeGame>20220106224747</dtimeGame>	<dtimeReal>20221120160634</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>0</cost><cash>6152</cash>
+</goalFailure>
+<uiEvent>
+	<dtimeGame>20220106224747</dtimeGame>	<dtimeReal>20221120160636</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<assetEvent>
+	<dtimeGame>20220106224747</dtimeGame>	<dtimeReal>20221120160650</dtimeReal>
+	<name>Sugar Spinner Data</name>
+	<moveType>Remove : PLAYER</moveType>
+	<computerName>Lollipop Server</computerName>
+</assetEvent>
+<assetEvent>
+	<dtimeGame>20220106224747</dtimeGame>	<dtimeReal>20221120160650</dtimeReal>
+	<name>Sugar Spinner Data</name>
+	<moveType>Add : PLAYER</moveType>
+	<computerName>Visitor's Workstation</computerName>
+</assetEvent>
+<uiEvent>
+	<dtimeGame>20220106224747</dtimeGame>	<dtimeReal>20221120160650</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<goalFailure>
+	<dtimeGame>20220106224747</dtimeGame>	<dtimeReal>20221120160709</dtimeReal>
+	<name>Remote Sugar Data Access</name>
+	<userList>Fiona</userList>
+	<reason>Asset Goal Remote Sugar Data Access failed for Fiona because no one machine with suitable software could access all the assets required in the asset goal.</reason>
+	<cost>0</cost><cash>6152</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220106224747</dtimeGame>	<dtimeReal>20221120160709</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake</userList>
+	<reason>Asset Goal Modify Sugar Data failed for Blake because user doesn't have modify rights to asset Sugar Spinner Data</reason>
+	<cost>0</cost><cash>6152</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220106224747</dtimeGame>	<dtimeReal>20221120160709</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Peggy</userList>
+	<reason>Asset Goal Modify Sugar Data failed for Peggy because user doesn't have modify rights to asset Sugar Spinner Data</reason>
+	<cost>0</cost><cash>6152</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220106224747</dtimeGame>	<dtimeReal>20221120160709</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Frank</userList>
+	<reason>Asset Goal Modify Sugar Data failed for Frank because user doesn't have modify rights to asset Sugar Spinner Data</reason>
+	<cost>0</cost><cash>6152</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220106224747</dtimeGame>	<dtimeReal>20221120160709</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Mary</userList>
+	<reason>Asset Goal Modify Sugar Data failed for Mary because user doesn't have modify rights to asset Sugar Spinner Data</reason>
+	<cost>0</cost><cash>6152</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220106224747</dtimeGame>	<dtimeReal>20221120160709</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Joe</userList>
+	<reason>Asset Goal Modify Sugar Data failed for Joe because user doesn't have modify rights to asset Sugar Spinner Data</reason>
+	<cost>0</cost><cash>6152</cash>
+</goalFailure>
+<uiEvent>
+	<dtimeGame>20220106224747</dtimeGame>	<dtimeReal>20221120160709</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<gameEvent>
+	<dtimeGame>20220106224747</dtimeGame>	<dtimeReal>20221120160711</dtimeReal>
+	<resume></resume>
+</gameEvent>
+<goalFailure>
+	<dtimeGame>20220106224747</dtimeGame>	<dtimeReal>20221120160711</dtimeReal>
+	<name>Remote Sugar Data Access</name>
+	<userList>Fiona</userList>
+	<reason>Asset Goal Remote Sugar Data Access failed for Fiona because no one machine with suitable software could access all the assets required in the asset goal.</reason>
+	<cost>0</cost><cash>6152</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220106224747</dtimeGame>	<dtimeReal>20221120160711</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake</userList>
+	<reason>Asset Goal Modify Sugar Data failed for Blake because user doesn't have modify rights to asset Sugar Spinner Data</reason>
+	<cost>0</cost><cash>6152</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220106224747</dtimeGame>	<dtimeReal>20221120160711</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Peggy</userList>
+	<reason>Asset Goal Modify Sugar Data failed for Peggy because user doesn't have modify rights to asset Sugar Spinner Data</reason>
+	<cost>0</cost><cash>6152</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220106224747</dtimeGame>	<dtimeReal>20221120160711</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Frank</userList>
+	<reason>Asset Goal Modify Sugar Data failed for Frank because user doesn't have modify rights to asset Sugar Spinner Data</reason>
+	<cost>0</cost><cash>6152</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220106224747</dtimeGame>	<dtimeReal>20221120160711</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Mary</userList>
+	<reason>Asset Goal Modify Sugar Data failed for Mary because user doesn't have modify rights to asset Sugar Spinner Data</reason>
+	<cost>0</cost><cash>6152</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220106224747</dtimeGame>	<dtimeReal>20221120160711</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Joe</userList>
+	<reason>Asset Goal Modify Sugar Data failed for Joe because user doesn't have modify rights to asset Sugar Spinner Data</reason>
+	<cost>0</cost><cash>6152</cash>
+</goalFailure>
+<summaryEvent>
+	<dtimeGame>20220106224801</dtimeGame>	<dtimeReal>20221120160711</dtimeReal>
+	<bonus>-0</bonus><cash>6150</cash>
+</summaryEvent>
+<userEvent>
+	<dtimeGame>20220106224811</dtimeGame>	<dtimeReal>20221120160711</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>6150</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220106225103</dtimeGame>	<dtimeReal>20221120160711</dtimeReal>
+	<name>GoToFiona</name>
+	<triggerType>SPEAK_TRIGGER</triggerType>
+	<timesGoneOff>3</timesGoneOff>
+	<conditions>ConditionList: FionaFailsGoal(true) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220106225118</dtimeGame>	<dtimeReal>20221120160711</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>6145</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106225216</dtimeGame>	<dtimeReal>20221120160712</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>6143</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106225425</dtimeGame>	<dtimeReal>20221120160712</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>6139</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106225508</dtimeGame>	<dtimeReal>20221120160712</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>6138</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106230122</dtimeGame>	<dtimeReal>20221120160713</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>6127</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106230610</dtimeGame>	<dtimeReal>20221120160714</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>6118</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106230820</dtimeGame>	<dtimeReal>20221120160715</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>6114</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106230903</dtimeGame>	<dtimeReal>20221120160715</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>6113</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106231517</dtimeGame>	<dtimeReal>20221120160716</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>6102</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106231601</dtimeGame>	<dtimeReal>20221120160717</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>6100</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106231908</dtimeGame>	<dtimeReal>20221120160717</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>6095</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106232215</dtimeGame>	<dtimeReal>20221120160718</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>6089</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106232215</dtimeGame>	<dtimeReal>20221120160718</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>6089</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106232258</dtimeGame>	<dtimeReal>20221120160718</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>6089</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220106232600</dtimeGame>	<dtimeReal>20221120160719</dtimeReal>
+	<name>NoBlakeProfile</name>
+	<triggerType>TICKER_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: PhaseTwoDone(true) and BlakeFailsGoal(true) and_not VisitorHasBlakeProfile(false) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220106232605</dtimeGame>	<dtimeReal>20221120160719</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>6082</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106232703</dtimeGame>	<dtimeReal>20221120160719</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>6080</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106232912</dtimeGame>	<dtimeReal>20221120160719</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>6077</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220106233103</dtimeGame>	<dtimeReal>20221120160720</dtimeReal>
+	<name>InterentTrojan</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>15</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220106233400</dtimeGame>	<dtimeReal>20221120160720</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>6068</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106233610</dtimeGame>	<dtimeReal>20221120160721</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>6064</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106233653</dtimeGame>	<dtimeReal>20221120160721</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>6064</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220106234103</dtimeGame>	<dtimeReal>20221120160722</dtimeReal>
+	<name>GoToBlake</name>
+	<triggerType>SPEAK_TRIGGER</triggerType>
+	<timesGoneOff>3</timesGoneOff>
+	<conditions>ConditionList: BlakeFailsGoal(true) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220106234307</dtimeGame>	<dtimeReal>20221120160722</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>6052</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106234307</dtimeGame>	<dtimeReal>20221120160722</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>6052</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220106234600</dtimeGame>	<dtimeReal>20221120160723</dtimeReal>
+	<name>insider</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>13</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106234600</dtimeGame>	<dtimeReal>20221120160723</dtimeReal>
+	<name>WireTap</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>12</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220106234657</dtimeGame>	<dtimeReal>20221120160723</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>6047</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106235005</dtimeGame>	<dtimeReal>20221120160724</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>6039</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106235048</dtimeGame>	<dtimeReal>20221120160724</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>6039</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106235702</dtimeGame>	<dtimeReal>20221120160725</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>6027</cash>
+</userEvent>
+<goalFailure>
+	<dtimeGame>20220106235931</dtimeGame>	<dtimeReal>20221120160726</dtimeReal>
+	<name>Remote Sugar Data Access</name>
+	<userList>Fiona</userList>
+	<reason></reason>
+	<cost>17</cost><cash>6023</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220106235931</dtimeGame>	<dtimeReal>20221120160726</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake,Joe,Mary,Frank,Peggy</userList>
+	<reason>Asset Goal Modify Sugar Data failed for me because user doesn't have modify rights to asset Sugar Spinner Data</reason>
+	<cost>83</cost><cash>6023</cash>
+</goalFailure>
+<userEvent>
+	<dtimeGame>20220107000155</dtimeGame>	<dtimeReal>20221120160739</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>6020</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107001102</dtimeGame>	<dtimeReal>20221120160741</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>6002</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107001145</dtimeGame>	<dtimeReal>20221120160741</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>6002</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107001550</dtimeGame>	<dtimeReal>20221120160742</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>5995</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107001759</dtimeGame>	<dtimeReal>20221120160742</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>5991</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107001759</dtimeGame>	<dtimeReal>20221120160742</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>5991</cash>
+</userEvent>
+<goalFailure>
+	<dtimeGame>20220107001818</dtimeGame>	<dtimeReal>20221120160742</dtimeReal>
+	<name>Remote Sugar Data Access</name>
+	<userList>Fiona</userList>
+	<reason></reason>
+	<cost>4</cost><cash>5989</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220107001818</dtimeGame>	<dtimeReal>20221120160742</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake,Joe,Mary,Frank,Peggy</userList>
+	<reason>Asset Goal Modify Sugar Data failed for me because user doesn't have modify rights to asset Sugar Spinner Data</reason>
+	<cost>21</cost><cash>5989</cash>
+</goalFailure>
+<componentEvent>
+	<dtimeGame>20220107001906</dtimeGame>	<dtimeReal>20221120160742</dtimeReal>
+	<name>CardReader_2</name>
+	<buy>
+		<catalogName>CardReader</catalogName>
+		<position>6</position>
+	</buy>
+	<cost>1000</cost><cash>4988</cash>
+</componentEvent>
+<goalFailure>
+	<dtimeGame>20220107001906</dtimeGame>	<dtimeReal>20221120160742</dtimeReal>
+	<name>Remote Sugar Data Access</name>
+	<userList>Fiona</userList>
+	<reason>Asset Goal Remote Sugar Data Access failed for Fiona because no one machine with suitable software could access all the assets required in the asset goal.</reason>
+	<cost>0</cost><cash>4988</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220107001906</dtimeGame>	<dtimeReal>20221120160742</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake</userList>
+	<reason>Asset Goal Modify Sugar Data failed for Blake because user doesn't have modify rights to asset Sugar Spinner Data</reason>
+	<cost>0</cost><cash>4988</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220107001906</dtimeGame>	<dtimeReal>20221120160742</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Peggy</userList>
+	<reason>Asset Goal Modify Sugar Data failed for Peggy because user doesn't have modify rights to asset Sugar Spinner Data</reason>
+	<cost>0</cost><cash>4988</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220107001906</dtimeGame>	<dtimeReal>20221120160742</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Frank</userList>
+	<reason>Asset Goal Modify Sugar Data failed for Frank because user doesn't have modify rights to asset Sugar Spinner Data</reason>
+	<cost>0</cost><cash>4988</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220107001906</dtimeGame>	<dtimeReal>20221120160742</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Mary</userList>
+	<reason>Asset Goal Modify Sugar Data failed for Mary because user doesn't have modify rights to asset Sugar Spinner Data</reason>
+	<cost>0</cost><cash>4988</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220107001906</dtimeGame>	<dtimeReal>20221120160742</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Joe</userList>
+	<reason>Asset Goal Modify Sugar Data failed for Joe because user doesn't have modify rights to asset Sugar Spinner Data</reason>
+	<cost>0</cost><cash>4988</cash>
+</goalFailure>
+<trigger>
+	<dtimeGame>20220107002004</dtimeGame>	<dtimeReal>20221120160742</dtimeReal>
+	<name>GoToFiona</name>
+	<triggerType>SPEAK_TRIGGER</triggerType>
+	<timesGoneOff>4</timesGoneOff>
+	<conditions>ConditionList: FionaFailsGoal(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220107002004</dtimeGame>	<dtimeReal>20221120160742</dtimeReal>
+	<name>NoBlakeProfile</name>
+	<triggerType>TICKER_TRIGGER</triggerType>
+	<timesGoneOff>3</timesGoneOff>
+	<conditions>ConditionList: PhaseTwoDone(true) and BlakeFailsGoal(true) and_not VisitorHasBlakeProfile(false) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220107002247</dtimeGame>	<dtimeReal>20221120160743</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4982</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107002456</dtimeGame>	<dtimeReal>20221120160743</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4979</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107002945</dtimeGame>	<dtimeReal>20221120160744</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4970</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220107003004</dtimeGame>	<dtimeReal>20221120160744</dtimeReal>
+	<name>InterentTrojan</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>16</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220107003237</dtimeGame>	<dtimeReal>20221120160745</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4964</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107003545</dtimeGame>	<dtimeReal>20221120160746</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4959</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107003852</dtimeGame>	<dtimeReal>20221120160746</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4954</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107004340</dtimeGame>	<dtimeReal>20221120160747</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4945</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107004549</dtimeGame>	<dtimeReal>20221120160748</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4941</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107005037</dtimeGame>	<dtimeReal>20221120160749</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4932</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107005637</dtimeGame>	<dtimeReal>20221120160750</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4922</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107005734</dtimeGame>	<dtimeReal>20221120160750</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4920</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107005944</dtimeGame>	<dtimeReal>20221120160751</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4916</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220107010003</dtimeGame>	<dtimeReal>20221120160751</dtimeReal>
+	<name>insider</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>14</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220107010003</dtimeGame>	<dtimeReal>20221120160751</dtimeReal>
+	<name>WireTap</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>13</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220107010432</dtimeGame>	<dtimeReal>20221120160752</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4907</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107010641</dtimeGame>	<dtimeReal>20221120160752</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4904</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107010641</dtimeGame>	<dtimeReal>20221120160752</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4904</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107010725</dtimeGame>	<dtimeReal>20221120160752</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4902</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107011032</dtimeGame>	<dtimeReal>20221120160753</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4897</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107011339</dtimeGame>	<dtimeReal>20221120160754</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4891</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107011422</dtimeGame>	<dtimeReal>20221120160754</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107011729</dtimeGame>	<dtimeReal>20221120160754</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4884</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107011827</dtimeGame>	<dtimeReal>20221120160755</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4882</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107012427</dtimeGame>	<dtimeReal>20221120160756</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4872</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107012734</dtimeGame>	<dtimeReal>20221120160756</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4866</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107012817</dtimeGame>	<dtimeReal>20221120160757</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4864</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220107013003</dtimeGame>	<dtimeReal>20221120160757</dtimeReal>
+	<name>InterentTrojan</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>17</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<goalFailure>
+	<dtimeGame>20220107013310</dtimeGame>	<dtimeReal>20221120160758</dtimeReal>
+	<name>Remote Sugar Data Access</name>
+	<userList>Fiona</userList>
+	<reason></reason>
+	<cost>17</cost><cash>4856</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220107013310</dtimeGame>	<dtimeReal>20221120160758</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake,Joe,Mary,Frank,Peggy</userList>
+	<reason>Asset Goal Modify Sugar Data failed for me because user doesn't have modify rights to asset Sugar Spinner Data</reason>
+	<cost>86</cost><cash>4856</cash>
+</goalFailure>
+<userEvent>
+	<dtimeGame>20220107013431</dtimeGame>	<dtimeReal>20221120160758</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4854</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107013515</dtimeGame>	<dtimeReal>20221120160758</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4852</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107013822</dtimeGame>	<dtimeReal>20221120160759</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4847</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107014129</dtimeGame>	<dtimeReal>20221120160759</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4841</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107014129</dtimeGame>	<dtimeReal>20221120160759</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4841</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107014212</dtimeGame>	<dtimeReal>20221120160800</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4839</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107014519</dtimeGame>	<dtimeReal>20221120160800</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4834</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107014617</dtimeGame>	<dtimeReal>20221120160800</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4832</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107015524</dtimeGame>	<dtimeReal>20221120160802</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4816</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107015524</dtimeGame>	<dtimeReal>20221120160802</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4816</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107015914</dtimeGame>	<dtimeReal>20221120160803</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4809</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107020709</dtimeGame>	<dtimeReal>20221120160805</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4795</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107020919</dtimeGame>	<dtimeReal>20221120160805</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4791</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107020919</dtimeGame>	<dtimeReal>20221120160805</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4791</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107021002</dtimeGame>	<dtimeReal>20221120160805</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4789</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107021406</dtimeGame>	<dtimeReal>20221120160806</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4782</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220107021504</dtimeGame>	<dtimeReal>20221120160806</dtimeReal>
+	<name>insider</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>15</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220107021504</dtimeGame>	<dtimeReal>20221120160806</dtimeReal>
+	<name>WireTap</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>14</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220107021616</dtimeGame>	<dtimeReal>20221120160807</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4779</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107022313</dtimeGame>	<dtimeReal>20221120160808</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4766</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107022357</dtimeGame>	<dtimeReal>20221120160808</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4766</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220107023001</dtimeGame>	<dtimeReal>20221120160809</dtimeReal>
+	<name>InterentTrojan</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>18</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220107023011</dtimeGame>	<dtimeReal>20221120160810</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4754</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107023011</dtimeGame>	<dtimeReal>20221120160810</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4754</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107023054</dtimeGame>	<dtimeReal>20221120160810</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4754</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107023401</dtimeGame>	<dtimeReal>20221120160810</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4747</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107023708</dtimeGame>	<dtimeReal>20221120160811</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4741</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107023752</dtimeGame>	<dtimeReal>20221120160811</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4741</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107024756</dtimeGame>	<dtimeReal>20221120160813</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4723</cash>
+</userEvent>
+<goalFailure>
+	<dtimeGame>20220107024801</dtimeGame>	<dtimeReal>20221120160813</dtimeReal>
+	<name>Remote Sugar Data Access</name>
+	<userList>Fiona</userList>
+	<reason></reason>
+	<cost>17</cost><cash>4722</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220107024801</dtimeGame>	<dtimeReal>20221120160813</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake,Joe,Mary,Frank,Peggy</userList>
+	<reason>Asset Goal Modify Sugar Data failed for me because user doesn't have modify rights to asset Sugar Spinner Data</reason>
+	<cost>87</cost><cash>4722</cash>
+</goalFailure>
+<userEvent>
+	<dtimeGame>20220107025147</dtimeGame>	<dtimeReal>20221120160814</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4716</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107025551</dtimeGame>	<dtimeReal>20221120160815</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4709</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107025801</dtimeGame>	<dtimeReal>20221120160815</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4704</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107025844</dtimeGame>	<dtimeReal>20221120160815</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4704</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107030249</dtimeGame>	<dtimeReal>20221120160816</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4697</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107030458</dtimeGame>	<dtimeReal>20221120160817</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4693</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107031239</dtimeGame>	<dtimeReal>20221120160818</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4679</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107031644</dtimeGame>	<dtimeReal>20221120160819</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4672</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107031853</dtimeGame>	<dtimeReal>20221120160820</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4668</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107031936</dtimeGame>	<dtimeReal>20221120160820</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4666</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107032244</dtimeGame>	<dtimeReal>20221120160820</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4661</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107032941</dtimeGame>	<dtimeReal>20221120160822</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4648</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220107033000</dtimeGame>	<dtimeReal>20221120160822</dtimeReal>
+	<name>insider</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>16</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220107033000</dtimeGame>	<dtimeReal>20221120160822</dtimeReal>
+	<name>InterentTrojan</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>19</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220107033000</dtimeGame>	<dtimeReal>20221120160822</dtimeReal>
+	<name>WireTap</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>15</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220107033248</dtimeGame>	<dtimeReal>20221120160823</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4643</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107033736</dtimeGame>	<dtimeReal>20221120160824</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4634</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107033946</dtimeGame>	<dtimeReal>20221120160824</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4631</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107033946</dtimeGame>	<dtimeReal>20221120160824</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4631</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107034029</dtimeGame>	<dtimeReal>20221120160824</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4629</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107034643</dtimeGame>	<dtimeReal>20221120160825</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4618</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107035731</dtimeGame>	<dtimeReal>20221120160828</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4598</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107040038</dtimeGame>	<dtimeReal>20221120160828</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4593</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107040038</dtimeGame>	<dtimeReal>20221120160828</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4593</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107040428</dtimeGame>	<dtimeReal>20221120160829</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4586</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107040526</dtimeGame>	<dtimeReal>20221120160829</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4584</cash>
+</userEvent>
+<goalFailure>
+	<dtimeGame>20220107040702</dtimeGame>	<dtimeReal>20221120160830</dtimeReal>
+	<name>Remote Sugar Data Access</name>
+	<userList>Fiona</userList>
+	<reason></reason>
+	<cost>18</cost><cash>4581</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220107040702</dtimeGame>	<dtimeReal>20221120160830</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake,Joe,Mary,Frank,Peggy</userList>
+	<reason>Asset Goal Modify Sugar Data failed for me because user doesn't have modify rights to asset Sugar Spinner Data</reason>
+	<cost>91</cost><cash>4581</cash>
+</goalFailure>
+<userEvent>
+	<dtimeGame>20220107040735</dtimeGame>	<dtimeReal>20221120160830</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4581</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107040819</dtimeGame>	<dtimeReal>20221120160830</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4579</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107041126</dtimeGame>	<dtimeReal>20221120160831</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4573</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107041223</dtimeGame>	<dtimeReal>20221120160831</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4572</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107041433</dtimeGame>	<dtimeReal>20221120160831</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4568</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107042214</dtimeGame>	<dtimeReal>20221120160833</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4554</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107042911</dtimeGame>	<dtimeReal>20221120160834</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4541</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220107043004</dtimeGame>	<dtimeReal>20221120160834</dtimeReal>
+	<name>InterentTrojan</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>20</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220107043218</dtimeGame>	<dtimeReal>20221120160835</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4536</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107043316</dtimeGame>	<dtimeReal>20221120160835</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4534</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107043525</dtimeGame>	<dtimeReal>20221120160836</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4531</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107043916</dtimeGame>	<dtimeReal>20221120160836</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4523</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107044013</dtimeGame>	<dtimeReal>20221120160837</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4522</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107044223</dtimeGame>	<dtimeReal>20221120160837</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4518</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107044306</dtimeGame>	<dtimeReal>20221120160837</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4516</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220107044501</dtimeGame>	<dtimeReal>20221120160838</dtimeReal>
+	<name>insider</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>17</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220107044501</dtimeGame>	<dtimeReal>20221120160838</dtimeReal>
+	<name>WireTap</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>16</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220107044613</dtimeGame>	<dtimeReal>20221120160838</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4511</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107045003</dtimeGame>	<dtimeReal>20221120160839</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4504</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107045618</dtimeGame>	<dtimeReal>20221120160840</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4493</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107045701</dtimeGame>	<dtimeReal>20221120160840</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4491</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107050106</dtimeGame>	<dtimeReal>20221120160841</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4484</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107050315</dtimeGame>	<dtimeReal>20221120160841</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4481</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107050358</dtimeGame>	<dtimeReal>20221120160842</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4481</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107050705</dtimeGame>	<dtimeReal>20221120160842</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4473</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107051013</dtimeGame>	<dtimeReal>20221120160843</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4468</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107051403</dtimeGame>	<dtimeReal>20221120160844</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4461</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107051500</dtimeGame>	<dtimeReal>20221120160844</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4459</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107051710</dtimeGame>	<dtimeReal>20221120160844</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4456</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107051710</dtimeGame>	<dtimeReal>20221120160844</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4456</cash>
+</userEvent>
+<goalFailure>
+	<dtimeGame>20220107052153</dtimeGame>	<dtimeReal>20221120160845</dtimeReal>
+	<name>Remote Sugar Data Access</name>
+	<userList>Fiona</userList>
+	<reason></reason>
+	<cost>17</cost><cash>4448</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220107052153</dtimeGame>	<dtimeReal>20221120160845</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake,Joe,Mary,Frank,Peggy</userList>
+	<reason>Asset Goal Modify Sugar Data failed for me because user doesn't have modify rights to asset Sugar Spinner Data</reason>
+	<cost>86</cost><cash>4448</cash>
+</goalFailure>
+<userEvent>
+	<dtimeGame>20220107052407</dtimeGame>	<dtimeReal>20221120160846</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4443</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107052407</dtimeGame>	<dtimeReal>20221120160846</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4443</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107052451</dtimeGame>	<dtimeReal>20221120160846</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4443</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107052758</dtimeGame>	<dtimeReal>20221120160847</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4438</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107052855</dtimeGame>	<dtimeReal>20221120160847</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4436</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220107053003</dtimeGame>	<dtimeReal>20221120160847</dtimeReal>
+	<name>InterentTrojan</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>21</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220107053105</dtimeGame>	<dtimeReal>20221120160847</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4431</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107053148</dtimeGame>	<dtimeReal>20221120160847</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4431</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107053846</dtimeGame>	<dtimeReal>20221120160849</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4418</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107054500</dtimeGame>	<dtimeReal>20221120160850</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4406</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107054948</dtimeGame>	<dtimeReal>20221120160851</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4399</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107055645</dtimeGame>	<dtimeReal>20221120160853</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4386</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107055855</dtimeGame>	<dtimeReal>20221120160853</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4382</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220107060002</dtimeGame>	<dtimeReal>20221120160853</dtimeReal>
+	<name>insider</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>18</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220107060002</dtimeGame>	<dtimeReal>20221120160853</dtimeReal>
+	<name>WireTap</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>17</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220107060245</dtimeGame>	<dtimeReal>20221120160854</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4375</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107060343</dtimeGame>	<dtimeReal>20221120160854</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4374</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107061333</dtimeGame>	<dtimeReal>20221120160856</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4356</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107061947</dtimeGame>	<dtimeReal>20221120160857</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4345</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107062435</dtimeGame>	<dtimeReal>20221120160858</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4336</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107062728</dtimeGame>	<dtimeReal>20221120160859</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4331</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220107063001</dtimeGame>	<dtimeReal>20221120160859</dtimeReal>
+	<name>InterentTrojan</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>22</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220107063035</dtimeGame>	<dtimeReal>20221120160900</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4325</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107063133</dtimeGame>	<dtimeReal>20221120160900</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4324</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107063342</dtimeGame>	<dtimeReal>20221120160900</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4320</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107063342</dtimeGame>	<dtimeReal>20221120160900</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4320</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107063425</dtimeGame>	<dtimeReal>20221120160900</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4318</cash>
+</userEvent>
+<goalFailure>
+	<dtimeGame>20220107063644</dtimeGame>	<dtimeReal>20221120160901</dtimeReal>
+	<name>Remote Sugar Data Access</name>
+	<userList>Fiona</userList>
+	<reason></reason>
+	<cost>17</cost><cash>4315</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220107063644</dtimeGame>	<dtimeReal>20221120160901</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake,Joe,Mary,Frank,Peggy</userList>
+	<reason>Asset Goal Modify Sugar Data failed for me because user doesn't have modify rights to asset Sugar Spinner Data</reason>
+	<cost>87</cost><cash>4315</cash>
+</goalFailure>
+<userEvent>
+	<dtimeGame>20220107063732</dtimeGame>	<dtimeReal>20221120160901</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4313</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107064040</dtimeGame>	<dtimeReal>20221120160902</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4307</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107064430</dtimeGame>	<dtimeReal>20221120160903</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4300</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107064737</dtimeGame>	<dtimeReal>20221120160903</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4295</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107064820</dtimeGame>	<dtimeReal>20221120160903</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4293</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107065127</dtimeGame>	<dtimeReal>20221120160904</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4288</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107065225</dtimeGame>	<dtimeReal>20221120160904</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4286</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107065434</dtimeGame>	<dtimeReal>20221120160905</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4282</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107065434</dtimeGame>	<dtimeReal>20221120160905</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4282</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107065922</dtimeGame>	<dtimeReal>20221120160906</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4274</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107070132</dtimeGame>	<dtimeReal>20221120160906</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4270</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107070522</dtimeGame>	<dtimeReal>20221120160907</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4263</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107070829</dtimeGame>	<dtimeReal>20221120160908</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4257</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107071317</dtimeGame>	<dtimeReal>20221120160909</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4249</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220107071503</dtimeGame>	<dtimeReal>20221120160909</dtimeReal>
+	<name>insider</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>19</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220107071503</dtimeGame>	<dtimeReal>20221120160909</dtimeReal>
+	<name>WireTap</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>18</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220107071527</dtimeGame>	<dtimeReal>20221120160909</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4245</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107071527</dtimeGame>	<dtimeReal>20221120160909</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4245</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107071917</dtimeGame>	<dtimeReal>20221120160910</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4238</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107072224</dtimeGame>	<dtimeReal>20221120160910</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4232</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107072224</dtimeGame>	<dtimeReal>20221120160910</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4232</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107072307</dtimeGame>	<dtimeReal>20221120160911</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4231</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107072712</dtimeGame>	<dtimeReal>20221120160911</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4224</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107072922</dtimeGame>	<dtimeReal>20221120160912</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4220</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220107073000</dtimeGame>	<dtimeReal>20221120160912</dtimeReal>
+	<name>InterentTrojan</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>23</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220107073410</dtimeGame>	<dtimeReal>20221120160913</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4211</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107073619</dtimeGame>	<dtimeReal>20221120160913</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4207</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107073619</dtimeGame>	<dtimeReal>20221120160913</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4207</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107073702</dtimeGame>	<dtimeReal>20221120160913</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4206</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107074010</dtimeGame>	<dtimeReal>20221120160914</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4200</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107074107</dtimeGame>	<dtimeReal>20221120160914</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4199</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107074317</dtimeGame>	<dtimeReal>20221120160915</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4195</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107074707</dtimeGame>	<dtimeReal>20221120160916</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4188</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107075014</dtimeGame>	<dtimeReal>20221120160916</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4183</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107075014</dtimeGame>	<dtimeReal>20221120160916</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4183</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107075057</dtimeGame>	<dtimeReal>20221120160916</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4183</cash>
+</userEvent>
+<goalFailure>
+	<dtimeGame>20220107075136</dtimeGame>	<dtimeReal>20221120160917</dtimeReal>
+	<name>Remote Sugar Data Access</name>
+	<userList>Fiona</userList>
+	<reason></reason>
+	<cost>17</cost><cash>4181</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220107075136</dtimeGame>	<dtimeReal>20221120160917</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake,Joe,Mary,Frank,Peggy</userList>
+	<reason>Asset Goal Modify Sugar Data failed for me because user doesn't have modify rights to asset Sugar Spinner Data</reason>
+	<cost>87</cost><cash>4181</cash>
+</goalFailure>
+<userEvent>
+	<dtimeGame>20220107080102</dtimeGame>	<dtimeReal>20221120160918</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4163</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107080200</dtimeGame>	<dtimeReal>20221120160919</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4161</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107080409</dtimeGame>	<dtimeReal>20221120160919</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4158</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107080452</dtimeGame>	<dtimeReal>20221120160919</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4158</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107081107</dtimeGame>	<dtimeReal>20221120160921</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4145</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107081150</dtimeGame>	<dtimeReal>20221120160921</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4145</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107081554</dtimeGame>	<dtimeReal>20221120160922</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4138</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107081847</dtimeGame>	<dtimeReal>20221120160922</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4133</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220107083004</dtimeGame>	<dtimeReal>20221120160924</dtimeReal>
+	<name>insider</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>20</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220107083004</dtimeGame>	<dtimeReal>20221120160925</dtimeReal>
+	<name>InterentTrojan</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>24</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220107083004</dtimeGame>	<dtimeReal>20221120160925</dtimeReal>
+	<name>WireTap</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>19</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220107083159</dtimeGame>	<dtimeReal>20221120160925</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4109</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107083549</dtimeGame>	<dtimeReal>20221120160926</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4102</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107083856</dtimeGame>	<dtimeReal>20221120160926</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4097</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107083939</dtimeGame>	<dtimeReal>20221120160927</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4095</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107084247</dtimeGame>	<dtimeReal>20221120160927</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4090</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107084637</dtimeGame>	<dtimeReal>20221120160928</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4083</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107085334</dtimeGame>	<dtimeReal>20221120160929</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4070</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107085739</dtimeGame>	<dtimeReal>20221120160930</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4063</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107085948</dtimeGame>	<dtimeReal>20221120160931</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4059</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107090032</dtimeGame>	<dtimeReal>20221120160931</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4058</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107090339</dtimeGame>	<dtimeReal>20221120160932</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4052</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107090437</dtimeGame>	<dtimeReal>20221120160932</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4050</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107090646</dtimeGame>	<dtimeReal>20221120160932</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4047</cash>
+</userEvent>
+<goalFailure>
+	<dtimeGame>20220107091036</dtimeGame>	<dtimeReal>20221120160933</dtimeReal>
+	<name>Remote Sugar Data Access</name>
+	<userList>Fiona</userList>
+	<reason></reason>
+	<cost>18</cost><cash>4040</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220107091036</dtimeGame>	<dtimeReal>20221120160933</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake,Joe,Mary,Frank,Peggy</userList>
+	<reason>Asset Goal Modify Sugar Data failed for me because user doesn't have modify rights to asset Sugar Spinner Data</reason>
+	<cost>91</cost><cash>4040</cash>
+</goalFailure>
+<userEvent>
+	<dtimeGame>20220107091036</dtimeGame>	<dtimeReal>20221120160933</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4040</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107091734</dtimeGame>	<dtimeReal>20221120160934</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4027</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107092041</dtimeGame>	<dtimeReal>20221120160935</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4022</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107092124</dtimeGame>	<dtimeReal>20221120160935</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4020</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107092739</dtimeGame>	<dtimeReal>20221120160937</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4009</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220107093003</dtimeGame>	<dtimeReal>20221120160937</dtimeReal>
+	<name>InterentTrojan</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>25</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220107093129</dtimeGame>	<dtimeReal>20221120160937</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4002</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107093436</dtimeGame>	<dtimeReal>20221120160938</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3997</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107093436</dtimeGame>	<dtimeReal>20221120160938</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3997</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107094133</dtimeGame>	<dtimeReal>20221120160939</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3984</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107094133</dtimeGame>	<dtimeReal>20221120160939</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3984</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220107094500</dtimeGame>	<dtimeReal>20221120160940</dtimeReal>
+	<name>insider</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>21</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220107094500</dtimeGame>	<dtimeReal>20221120160940</dtimeReal>
+	<name>WireTap</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>20</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220107094524</dtimeGame>	<dtimeReal>20221120160940</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3977</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107095221</dtimeGame>	<dtimeReal>20221120160942</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3965</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107095528</dtimeGame>	<dtimeReal>20221120160942</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3959</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107095528</dtimeGame>	<dtimeReal>20221120160942</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3959</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107095612</dtimeGame>	<dtimeReal>20221120160942</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3958</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107100016</dtimeGame>	<dtimeReal>20221120160943</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3950</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107100226</dtimeGame>	<dtimeReal>20221120160944</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3947</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107100309</dtimeGame>	<dtimeReal>20221120160944</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3945</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107100616</dtimeGame>	<dtimeReal>20221120160945</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3940</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107100714</dtimeGame>	<dtimeReal>20221120160945</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3938</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107100923</dtimeGame>	<dtimeReal>20221120160945</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3934</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107100923</dtimeGame>	<dtimeReal>20221120160945</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3934</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107101007</dtimeGame>	<dtimeReal>20221120160945</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3933</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107101314</dtimeGame>	<dtimeReal>20221120160946</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3927</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107101621</dtimeGame>	<dtimeReal>20221120160947</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3922</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107101704</dtimeGame>	<dtimeReal>20221120160947</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3920</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107102109</dtimeGame>	<dtimeReal>20221120160948</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3913</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107102318</dtimeGame>	<dtimeReal>20221120160948</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3909</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107102401</dtimeGame>	<dtimeReal>20221120160948</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3908</cash>
+</userEvent>
+<goalFailure>
+	<dtimeGame>20220107102528</dtimeGame>	<dtimeReal>20221120160949</dtimeReal>
+	<name>Remote Sugar Data Access</name>
+	<userList>Fiona</userList>
+	<reason></reason>
+	<cost>17</cost><cash>3906</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220107102528</dtimeGame>	<dtimeReal>20221120160949</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake,Joe,Mary,Frank,Peggy</userList>
+	<reason>Asset Goal Modify Sugar Data failed for me because user doesn't have modify rights to asset Sugar Spinner Data</reason>
+	<cost>87</cost><cash>3906</cash>
+</goalFailure>
+<userEvent>
+	<dtimeGame>20220107102806</dtimeGame>	<dtimeReal>20221120160949</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3900</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220107103001</dtimeGame>	<dtimeReal>20221120160949</dtimeReal>
+	<name>InterentTrojan</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>26</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220107103016</dtimeGame>	<dtimeReal>20221120160950</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3897</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107103016</dtimeGame>	<dtimeReal>20221120160950</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3897</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107103503</dtimeGame>	<dtimeReal>20221120160951</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3888</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107103713</dtimeGame>	<dtimeReal>20221120160951</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3884</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107103756</dtimeGame>	<dtimeReal>20221120160951</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3884</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107104103</dtimeGame>	<dtimeReal>20221120160952</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3877</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107104454</dtimeGame>	<dtimeReal>20221120160953</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3872</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107104859</dtimeGame>	<dtimeReal>20221120160953</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3865</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107105108</dtimeGame>	<dtimeReal>20221120160954</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3859</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107105151</dtimeGame>	<dtimeReal>20221120160954</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3859</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107105556</dtimeGame>	<dtimeReal>20221120160955</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3852</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107105806</dtimeGame>	<dtimeReal>20221120160955</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3847</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220107110001</dtimeGame>	<dtimeReal>20221120160956</dtimeReal>
+	<name>insider</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>22</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220107110001</dtimeGame>	<dtimeReal>20221120160956</dtimeReal>
+	<name>WireTap</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>21</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220107110253</dtimeGame>	<dtimeReal>20221120160956</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3840</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107110546</dtimeGame>	<dtimeReal>20221120160957</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3834</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107110853</dtimeGame>	<dtimeReal>20221120160958</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3829</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107110951</dtimeGame>	<dtimeReal>20221120160958</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3827</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107111244</dtimeGame>	<dtimeReal>20221120160958</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3822</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107111648</dtimeGame>	<dtimeReal>20221120160959</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3815</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107111858</dtimeGame>	<dtimeReal>20221120161000</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3811</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107111858</dtimeGame>	<dtimeReal>20221120161000</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3811</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107111941</dtimeGame>	<dtimeReal>20221120161000</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3809</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107112555</dtimeGame>	<dtimeReal>20221120161001</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3799</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107112639</dtimeGame>	<dtimeReal>20221120161001</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3797</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220107113000</dtimeGame>	<dtimeReal>20221120161002</dtimeReal>
+	<name>InterentTrojan</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>27</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220107113043</dtimeGame>	<dtimeReal>20221120161002</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3790</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107113643</dtimeGame>	<dtimeReal>20221120161003</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3779</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107113741</dtimeGame>	<dtimeReal>20221120161004</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3777</cash>
+</userEvent>
+<goalFailure>
+	<dtimeGame>20220107114019</dtimeGame>	<dtimeReal>20221120161004</dtimeReal>
+	<name>Remote Sugar Data Access</name>
+	<userList>Fiona</userList>
+	<reason></reason>
+	<cost>17</cost><cash>3772</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220107114019</dtimeGame>	<dtimeReal>20221120161004</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake,Joe,Mary,Frank,Peggy</userList>
+	<reason>Asset Goal Modify Sugar Data failed for me because user doesn't have modify rights to asset Sugar Spinner Data</reason>
+	<cost>87</cost><cash>3772</cash>
+</goalFailure>
+<userEvent>
+	<dtimeGame>20220107114731</dtimeGame>	<dtimeReal>20221120161006</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3759</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107115136</dtimeGame>	<dtimeReal>20221120161007</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3752</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107115736</dtimeGame>	<dtimeReal>20221120161008</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3742</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107120043</dtimeGame>	<dtimeReal>20221120161008</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3736</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107120043</dtimeGame>	<dtimeReal>20221120161008</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3736</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107120433</dtimeGame>	<dtimeReal>20221120161009</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3729</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107120530</dtimeGame>	<dtimeReal>20221120161009</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3727</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107120740</dtimeGame>	<dtimeReal>20221120161010</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3724</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107120823</dtimeGame>	<dtimeReal>20221120161010</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3722</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107121438</dtimeGame>	<dtimeReal>20221120161011</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3711</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220107121502</dtimeGame>	<dtimeReal>20221120161011</dtimeReal>
+	<name>insider</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>23</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220107121502</dtimeGame>	<dtimeReal>20221120161011</dtimeReal>
+	<name>WireTap</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>22</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220107122135</dtimeGame>	<dtimeReal>20221120161013</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3699</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107122218</dtimeGame>	<dtimeReal>20221120161013</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3697</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107122832</dtimeGame>	<dtimeReal>20221120161014</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3686</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107122916</dtimeGame>	<dtimeReal>20221120161014</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3684</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220107123004</dtimeGame>	<dtimeReal>20221120161014</dtimeReal>
+	<name>InterentTrojan</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>28</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220107123223</dtimeGame>	<dtimeReal>20221120161015</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3679</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107123530</dtimeGame>	<dtimeReal>20221120161016</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3674</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107123920</dtimeGame>	<dtimeReal>20221120161016</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3667</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107124018</dtimeGame>	<dtimeReal>20221120161017</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3665</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107124227</dtimeGame>	<dtimeReal>20221120161017</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3661</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107124311</dtimeGame>	<dtimeReal>20221120161017</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3659</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107124618</dtimeGame>	<dtimeReal>20221120161018</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3654</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107124715</dtimeGame>	<dtimeReal>20221120161018</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3652</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107125315</dtimeGame>	<dtimeReal>20221120161019</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3642</cash>
+</userEvent>
+<goalFailure>
+	<dtimeGame>20220107125510</dtimeGame>	<dtimeReal>20221120161020</dtimeReal>
+	<name>Remote Sugar Data Access</name>
+	<userList>Fiona</userList>
+	<reason></reason>
+	<cost>17</cost><cash>3638</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220107125510</dtimeGame>	<dtimeReal>20221120161020</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake,Joe,Mary,Frank,Peggy</userList>
+	<reason>Asset Goal Modify Sugar Data failed for me because user doesn't have modify rights to asset Sugar Spinner Data</reason>
+	<cost>87</cost><cash>3638</cash>
+</goalFailure>
+<userEvent>
+	<dtimeGame>20220107125622</dtimeGame>	<dtimeReal>20221120161020</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3636</cash>
+</userEvent>
+<gameEvent>
+	<dtimeGame>20220107125915</dtimeGame>	<dtimeReal>20221120161021</dtimeReal>
+	<end>quit</end>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220107125915</dtimeGame>	<dtimeReal>20221120161021</dtimeReal>
+	<end>quit</end>
+</gameEvent>
+</CyberCIEGEeventLog>

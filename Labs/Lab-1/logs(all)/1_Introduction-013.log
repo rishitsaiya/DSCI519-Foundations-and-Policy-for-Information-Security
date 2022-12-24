@@ -1,0 +1,3671 @@
+<?xml version="1.0"?>
+<!DOCTYPE CyberCIEGEeventLog SYSTEM "..\..\eventlog.dtd">
+<CyberCIEGEeventLog>
+<gameEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100155</dtimeReal>
+	<loadFile>..\Starting Scenarios\1_Introduction.sdf</loadFile>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100155</dtimeReal>
+	<loadFile>Introduction.CSM 9/30/16 3 47 PM</loadFile>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100155</dtimeReal>
+	<creates>
+		<user>Curly</user>
+	</creates>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100155</dtimeReal>
+	<creates>
+		<user>Moe</user>
+	</creates>
+</gameEvent>
+<componentEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100155</dtimeReal>
+	<name>BitFlipper Firewall</name>
+	<networkConnect>LAN 1</networkConnect>
+	<cost>0</cost><cash>12000</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100155</dtimeReal>
+	<name>BitFlipper Firewall</name>
+	<networkConnect>Internet</networkConnect>
+	<cost>0</cost><cash>12000</cash>
+</componentEvent>
+<gameEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100155</dtimeReal>
+	<creates>
+		<deviceName>BitFlipper Firewall</deviceName>
+	</creates>
+</gameEvent>
+<componentEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100155</dtimeReal>
+	<name>BortSoft Server</name>
+	<networkConnect>LAN 1</networkConnect>
+	<cost>0</cost><cash>12000</cash>
+</componentEvent>
+<assetEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100155</dtimeReal>
+	<name>Moe's E-Mail</name>
+	<moveType>Add : SCENARIO_FILE</moveType>
+	<computerName>BortSoft Server</computerName>
+</assetEvent>
+<assetEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100155</dtimeReal>
+	<name>Curly's E-Mail</name>
+	<moveType>Add : SCENARIO_FILE</moveType>
+	<computerName>BortSoft Server</computerName>
+</assetEvent>
+<assetEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100155</dtimeReal>
+	<name>BortSoft Data</name>
+	<moveType>Add : SCENARIO_FILE</moveType>
+	<computerName>BortSoft Server</computerName>
+</assetEvent>
+<gameEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100155</dtimeReal>
+	<creates>
+		<computerName>BortSoft Server</computerName>
+	</creates>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100155</dtimeReal>
+	<start></start>
+</gameEvent>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100155</dtimeReal>
+	<name>Modify BortSoft Data</name>
+	<userList>Moe</userList>
+	<reason>The Modify BortSoft Data goal failed for Moe because no workstation could access BortSoft Data.</reason>
+	<cost>0</cost><cash>12000</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100155</dtimeReal>
+	<name>Read Moe's E-Mail</name>
+	<userList>Moe</userList>
+	<reason>The Modify BortSoft Data goal failed for me because no workstation could access BortSoft Data.</reason>
+	<cost>0</cost><cash>12000</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100155</dtimeReal>
+	<name>Modify BortSoft Data</name>
+	<userList>Curly</userList>
+	<reason>The Modify BortSoft Data goal failed for Curly because no workstation could access BortSoft Data.</reason>
+	<cost>0</cost><cash>12000</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100155</dtimeReal>
+	<name>Read Curly's E-Mail</name>
+	<userList>Curly</userList>
+	<reason>The Modify BortSoft Data goal failed for me because no workstation could access BortSoft Data.</reason>
+	<cost>0</cost><cash>12000</cash>
+</goalFailure>
+<uiEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100155</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100156</dtimeReal>
+	<name>SetIncomplete1_1</name>
+	<triggerType>SET_OBJECTIVE_STATUS</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: not MoeHasComputer(false) or_not CurlyHasComputer(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100156</dtimeReal>
+	<name>SetIncomplete1_2</name>
+	<triggerType>SET_OBJECTIVE_STATUS</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: not (CompanyHas3PlusComputers(false) and CompanyHas3PlusCompsOnLAN1(false) and MoeHasComputer(false) and CurlyHasComputer(false)) :end</conditions>
+</trigger>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100200</dtimeReal>
+	<name>Modify BortSoft Data</name>
+	<userList>Moe</userList>
+	<reason>The Modify BortSoft Data goal failed for Moe because no workstation could access BortSoft Data.</reason>
+	<cost>0</cost><cash>12000</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100200</dtimeReal>
+	<name>Read Moe's E-Mail</name>
+	<userList>Moe</userList>
+	<reason>The Modify BortSoft Data goal failed for me because no workstation could access BortSoft Data.</reason>
+	<cost>0</cost><cash>12000</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100200</dtimeReal>
+	<name>Modify BortSoft Data</name>
+	<userList>Curly</userList>
+	<reason>The Modify BortSoft Data goal failed for Curly because no workstation could access BortSoft Data.</reason>
+	<cost>0</cost><cash>12000</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100200</dtimeReal>
+	<name>Read Curly's E-Mail</name>
+	<userList>Curly</userList>
+	<reason>The Modify BortSoft Data goal failed for me because no workstation could access BortSoft Data.</reason>
+	<cost>0</cost><cash>12000</cash>
+</goalFailure>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100202</dtimeReal>
+	<name>IntroTipObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: WhichScreen2,2 and_not ObjectiveViewed_intrinsic0,0 :end</conditions>
+</trigger>
+<uiEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100203</dtimeReal>
+	<tab>objective</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100204</dtimeReal>
+	<name>ObjectiveViewed</name>
+	<triggerType>LOG_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: WhichScreen12,12 and_not ThirdPhaseCompleted(false) :end</conditions>
+</trigger>
+<gameEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100204</dtimeReal>
+	<logTrigger>  <name>ObjectiveViewed</name>
+  <message>Objective viewed</message>
+  <conditions>ConditionList: WhichScreen12,12 and_not ThirdPhaseCompleted(false) :end,</conditions>
+</logTrigger>
+</gameEvent>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100204</dtimeReal>
+	<name>Modify BortSoft Data</name>
+	<userList>Moe</userList>
+	<reason>The Modify BortSoft Data goal failed for Moe because no workstation could access BortSoft Data.</reason>
+	<cost>0</cost><cash>12000</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100204</dtimeReal>
+	<name>Read Moe's E-Mail</name>
+	<userList>Moe</userList>
+	<reason>The Modify BortSoft Data goal failed for me because no workstation could access BortSoft Data.</reason>
+	<cost>0</cost><cash>12000</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100204</dtimeReal>
+	<name>Modify BortSoft Data</name>
+	<userList>Curly</userList>
+	<reason>The Modify BortSoft Data goal failed for Curly because no workstation could access BortSoft Data.</reason>
+	<cost>0</cost><cash>12000</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100204</dtimeReal>
+	<name>Read Curly's E-Mail</name>
+	<userList>Curly</userList>
+	<reason>The Modify BortSoft Data goal failed for me because no workstation could access BortSoft Data.</reason>
+	<cost>0</cost><cash>12000</cash>
+</goalFailure>
+<uiEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100204</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100207</dtimeReal>
+	<name>IntroTip1</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: not CurlyHasComputer(false) and WhichScreen2,2 and_not FirstPhaseCompleted(false) and ObjectiveViewed_intrinsic0,1 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100209</dtimeReal>
+	<name>IntroTip3a</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: not (MoeHasComputer(false) or CurlyHasComputer(false)) and WhichScreen9,9 :end</conditions>
+</trigger>
+<componentEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100213</dtimeReal>
+	<name>Curly_ws</name>
+	<accountAdd>
+		<user>Curly</user>
+	</accountAdd>
+	<cost>0</cost><cash>12000</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100213</dtimeReal>
+	<name>Curly_ws</name>
+	<buy>
+		<catalogName>Targo Worksaver</catalogName>
+		<position>2</position>
+	</buy>
+	<cost>1200</cost><cash>10800</cash>
+</componentEvent>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100213</dtimeReal>
+	<name>Modify BortSoft Data</name>
+	<userList>Moe</userList>
+	<reason>The Modify BortSoft Data goal failed for Moe because no workstation could access BortSoft Data.</reason>
+	<cost>0</cost><cash>10800</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100213</dtimeReal>
+	<name>Read Moe's E-Mail</name>
+	<userList>Moe</userList>
+	<reason>The Modify BortSoft Data goal failed for me because no workstation could access BortSoft Data.</reason>
+	<cost>0</cost><cash>10800</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100213</dtimeReal>
+	<name>Modify BortSoft Data</name>
+	<userList>Curly</userList>
+	<reason>I failed Modify BortSoft Data.  </reason>
+	<cost>0</cost><cash>10800</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100213</dtimeReal>
+	<name>Read Curly's E-Mail</name>
+	<userList>Curly</userList>
+	<reason>I failed Modify BortSoft Data.  </reason>
+	<cost>0</cost><cash>10800</cash>
+</goalFailure>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100214</dtimeReal>
+	<name>IntroTip2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: not MoeHasComputer(false) and CurlyHasComputer(true) and (WhichScreen2,2 or WhichScreen12,2) and_not FirstPhaseCompleted(false) :end</conditions>
+</trigger>
+<componentEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100221</dtimeReal>
+	<name>Moe_ws</name>
+	<accountAdd>
+		<user>Moe</user>
+	</accountAdd>
+	<cost>0</cost><cash>10800</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100221</dtimeReal>
+	<name>Moe_ws</name>
+	<buy>
+		<catalogName>Targo Worksaver</catalogName>
+		<position>3</position>
+	</buy>
+	<cost>1200</cost><cash>9600</cash>
+</componentEvent>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100221</dtimeReal>
+	<name>Modify BortSoft Data</name>
+	<userList>Moe</userList>
+	<reason>I failed Modify BortSoft Data.  </reason>
+	<cost>0</cost><cash>9600</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100221</dtimeReal>
+	<name>Read Moe's E-Mail</name>
+	<userList>Moe</userList>
+	<reason>I failed Modify BortSoft Data.  </reason>
+	<cost>0</cost><cash>9600</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100221</dtimeReal>
+	<name>Modify BortSoft Data</name>
+	<userList>Curly</userList>
+	<reason>I failed Modify BortSoft Data.  </reason>
+	<cost>0</cost><cash>9600</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100221</dtimeReal>
+	<name>Read Curly's E-Mail</name>
+	<userList>Curly</userList>
+	<reason>I failed Modify BortSoft Data.  </reason>
+	<cost>0</cost><cash>9600</cash>
+</goalFailure>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100222</dtimeReal>
+	<name>SetComplete1_1</name>
+	<triggerType>SET_OBJECTIVE_STATUS</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: MoeHasComputer(true) and CurlyHasComputer(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100224</dtimeReal>
+	<name>IntroTip5</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,1 or HowManyNetworked12,1) and_not WhichScreen3,2 :end</conditions>
+</trigger>
+<uiEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100226</dtimeReal>
+	<tab>network</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100228</dtimeReal>
+	<name>IntroTip5a</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,1 or HowManyNetworked12,1) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100230</dtimeReal>
+	<name>IntroTip5b</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,1 or HowManyNetworked12,1) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100238</dtimeReal>
+	<name>IntroTip5a</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,1 or HowManyNetworked12,1) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100240</dtimeReal>
+	<name>IntroTip5b</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,1 or HowManyNetworked12,1) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100248</dtimeReal>
+	<name>IntroTip5a</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>3</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,1 or HowManyNetworked12,1) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100250</dtimeReal>
+	<name>IntroTip5b</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>3</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,1 or HowManyNetworked12,1) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100258</dtimeReal>
+	<name>IntroTip5a</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>4</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,1 or HowManyNetworked12,1) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100300</dtimeReal>
+	<name>IntroTip5b</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>4</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,1 or HowManyNetworked12,1) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100308</dtimeReal>
+	<name>IntroTip5a</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>5</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,1 or HowManyNetworked12,1) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100310</dtimeReal>
+	<name>IntroTip5b</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>5</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,1 or HowManyNetworked12,1) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100318</dtimeReal>
+	<name>IntroTip5a</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>6</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,1 or HowManyNetworked12,1) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100320</dtimeReal>
+	<name>IntroTip5b</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>6</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,1 or HowManyNetworked12,1) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100328</dtimeReal>
+	<name>IntroTip5a</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>7</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,1 or HowManyNetworked12,1) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100330</dtimeReal>
+	<name>IntroTip5b</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>7</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,1 or HowManyNetworked12,1) and WhichScreen3,3 :end</conditions>
+</trigger>
+<uiEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100330</dtimeReal>
+	<tab>game</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100331</dtimeReal>
+	<tab>objective</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100333</dtimeReal>
+	<name>IntroTip5</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,1 or HowManyNetworked12,1) and_not WhichScreen3,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100337</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<uiEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100337</dtimeReal>
+	<tab>network</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100339</dtimeReal>
+	<name>IntroTip5a</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>8</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,1 or HowManyNetworked12,1) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100341</dtimeReal>
+	<name>IntroTip5b</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>8</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,1 or HowManyNetworked12,1) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100349</dtimeReal>
+	<name>IntroTip5a</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>9</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,1 or HowManyNetworked12,1) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100351</dtimeReal>
+	<name>IntroTip5b</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>9</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,1 or HowManyNetworked12,1) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100359</dtimeReal>
+	<name>IntroTip5a</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>10</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,1 or HowManyNetworked12,1) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100401</dtimeReal>
+	<name>IntroTip5b</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>10</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,1 or HowManyNetworked12,1) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100409</dtimeReal>
+	<name>IntroTip5a</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>11</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,1 or HowManyNetworked12,1) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100411</dtimeReal>
+	<name>IntroTip5b</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>11</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,1 or HowManyNetworked12,1) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100419</dtimeReal>
+	<name>IntroTip5a</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>12</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,1 or HowManyNetworked12,1) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100421</dtimeReal>
+	<name>IntroTip5b</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>12</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,1 or HowManyNetworked12,1) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100429</dtimeReal>
+	<name>IntroTip5a</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>13</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,1 or HowManyNetworked12,1) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100431</dtimeReal>
+	<name>IntroTip5b</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>13</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,1 or HowManyNetworked12,1) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100439</dtimeReal>
+	<name>IntroTip5a</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>14</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,1 or HowManyNetworked12,1) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100441</dtimeReal>
+	<name>IntroTip5b</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>14</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,1 or HowManyNetworked12,1) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100449</dtimeReal>
+	<name>IntroTip5a</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>15</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,1 or HowManyNetworked12,1) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100451</dtimeReal>
+	<name>IntroTip5b</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>15</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,1 or HowManyNetworked12,1) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100459</dtimeReal>
+	<name>IntroTip5a</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>16</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,1 or HowManyNetworked12,1) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100501</dtimeReal>
+	<name>IntroTip5b</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>16</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,1 or HowManyNetworked12,1) and WhichScreen3,3 :end</conditions>
+</trigger>
+<componentEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100502</dtimeReal>
+	<name>Curly_ws</name>
+	<networkConnect>LAN 1</networkConnect>
+	<cost>0</cost><cash>9600</cash>
+</componentEvent>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100509</dtimeReal>
+	<name>IntroTip5a</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>17</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,2 or HowManyNetworked12,2) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100511</dtimeReal>
+	<name>IntroTip5b</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>17</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,2 or HowManyNetworked12,2) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100519</dtimeReal>
+	<name>IntroTip5a</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>18</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,2 or HowManyNetworked12,2) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100521</dtimeReal>
+	<name>IntroTip5b</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>18</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,2 or HowManyNetworked12,2) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100529</dtimeReal>
+	<name>IntroTip5a</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>19</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,2 or HowManyNetworked12,2) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100531</dtimeReal>
+	<name>IntroTip5b</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>19</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,2 or HowManyNetworked12,2) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100539</dtimeReal>
+	<name>IntroTip5a</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>20</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,2 or HowManyNetworked12,2) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100541</dtimeReal>
+	<name>IntroTip5b</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>20</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,2 or HowManyNetworked12,2) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100549</dtimeReal>
+	<name>IntroTip5a</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>21</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,2 or HowManyNetworked12,2) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100551</dtimeReal>
+	<name>IntroTip5b</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>21</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,2 or HowManyNetworked12,2) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100559</dtimeReal>
+	<name>IntroTip5a</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>22</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,2 or HowManyNetworked12,2) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100601</dtimeReal>
+	<name>IntroTip5b</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>22</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,2 or HowManyNetworked12,2) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100609</dtimeReal>
+	<name>IntroTip5a</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>23</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,2 or HowManyNetworked12,2) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100611</dtimeReal>
+	<name>IntroTip5b</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>23</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,2 or HowManyNetworked12,2) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100619</dtimeReal>
+	<name>IntroTip5a</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>24</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,2 or HowManyNetworked12,2) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100621</dtimeReal>
+	<name>IntroTip5b</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>24</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,2 or HowManyNetworked12,2) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100629</dtimeReal>
+	<name>IntroTip5a</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>25</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,2 or HowManyNetworked12,2) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100631</dtimeReal>
+	<name>IntroTip5b</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>25</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,2 or HowManyNetworked12,2) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100639</dtimeReal>
+	<name>IntroTip5a</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>26</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,2 or HowManyNetworked12,2) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100641</dtimeReal>
+	<name>IntroTip5b</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>26</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,2 or HowManyNetworked12,2) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100649</dtimeReal>
+	<name>IntroTip5a</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>27</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,2 or HowManyNetworked12,2) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100651</dtimeReal>
+	<name>IntroTip5b</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>27</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,2 or HowManyNetworked12,2) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100659</dtimeReal>
+	<name>IntroTip5a</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>28</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,2 or HowManyNetworked12,2) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100701</dtimeReal>
+	<name>IntroTip5b</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>28</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,2 or HowManyNetworked12,2) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100709</dtimeReal>
+	<name>IntroTip5a</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>29</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,2 or HowManyNetworked12,2) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100711</dtimeReal>
+	<name>IntroTip5b</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>29</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,2 or HowManyNetworked12,2) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100719</dtimeReal>
+	<name>IntroTip5a</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>30</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,2 or HowManyNetworked12,2) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100721</dtimeReal>
+	<name>IntroTip5b</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>30</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,2 or HowManyNetworked12,2) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100729</dtimeReal>
+	<name>IntroTip5a</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>31</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,2 or HowManyNetworked12,2) and WhichScreen3,3 :end</conditions>
+</trigger>
+<componentEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100730</dtimeReal>
+	<name>Moe_ws</name>
+	<networkConnect>LAN 1</networkConnect>
+	<cost>0</cost><cash>9600</cash>
+</componentEvent>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100730</dtimeReal>
+	<name>SetComplete1_2</name>
+	<triggerType>SET_OBJECTIVE_STATUS</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: CompanyHas3PlusComputers(true) and CompanyHas3PlusCompsOnLAN1(true) and MoeHasComputer(true) and CurlyHasComputer(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100730</dtimeReal>
+	<name>SetIncomplete1_4</name>
+	<triggerType>SET_OBJECTIVE_STATUS</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: (CompanyHas3PlusComputers(true) and CompanyHas3PlusCompsOnLAN1(true) and MoeHasComputer(true) and CurlyHasComputer(true)) and_not HasSomeIT(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100733</dtimeReal>
+	<name>IntroTip5c</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and HowManyNetworked13,3 and WhichScreen3,3 :end</conditions>
+</trigger>
+<uiEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100733</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100736</dtimeReal>
+	<name>CheckITGuy</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: MoeHasComputer(true) and CurlyHasComputer(true) and CompanyHas3PlusCompsOnLAN1(true) and_not FirstPhaseCompleted(false) and_not HasSomeIT(false) and WhichScreen2,2 :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100811</dtimeReal>
+	<hire>
+		<name>Larry</name>
+		<salary>0</salary>
+	</hire>
+	<cost>0</cost><cash>9600</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100814</dtimeReal>
+	<name>AdvanceToPhase2</name>
+	<triggerType>SET_PHASE</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: WhichScreen2,2 and (CompanyHas3PlusComputers(true) and CompanyHas3PlusCompsOnLAN1(true) and MoeHasComputer(true) and CurlyHasComputer(true)) and HasSomeIT(true) and_not FirstPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100819</dtimeReal>
+	<name>IntroTipPause2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and GamePaused(true) and WhichScreen2,2 and_not time1hour(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100819</dtimeReal>
+	<name>SetComplete1_4</name>
+	<triggerType>SET_OBJECTIVE_STATUS</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: (CompanyHas3PlusComputers(true) and CompanyHas3PlusCompsOnLAN1(true) and MoeHasComputer(true) and CurlyHasComputer(true)) and HasSomeIT(true) :end</conditions>
+</trigger>
+<gameEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906100828</dtimeReal>
+	<resume></resume>
+</gameEvent>
+<summaryEvent>
+	<dtimeGame>20220410083102</dtimeGame>	<dtimeReal>20220906100828</dtimeReal>
+	<bonus>0</bonus><cash>9600</cash>
+</summaryEvent>
+<trigger>
+	<dtimeGame>20220410083502</dtimeGame>	<dtimeReal>20220906100829</dtimeReal>
+	<name>Phase1</name>
+	<triggerType>SAVEGAME_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) :end</conditions>
+</trigger>
+<gameEvent>
+	<dtimeGame>20220410083502</dtimeGame>	<dtimeReal>20220906100829</dtimeReal>
+	<saveFile>Phase1.sdf</saveFile>
+</gameEvent>
+<trigger>
+	<dtimeGame>20220410094500</dtimeGame>	<dtimeReal>20220906100843</dtimeReal>
+	<name>BadPolicies</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) :end</conditions>
+</trigger>
+<warning>
+	<dtimeGame>20220410094500</dtimeGame>	<dtimeReal>20220906100843</dtimeReal>
+	<malware>Trojan Horse:Aladinz</malware>
+	<name>Curly_ws</name>
+	<cause>User impulsively executed email attachments</cause>
+</warning>
+<warning>
+	<dtimeGame>20220410094500</dtimeGame>	<dtimeReal>20220906100843</dtimeReal>
+	<malware>Virus:POP.Sling Virus</malware>
+	<name>Curly_ws</name>
+	<cause>User impulsively executed email attachments</cause>
+</warning>
+<warning>
+	<dtimeGame>20220410094500</dtimeGame>	<dtimeReal>20220906100843</dtimeReal>
+	<malware>Trojan Horse:Aladinz</malware>
+	<name>Moe_ws</name>
+	<cause>User impulsively executed email attachments</cause>
+</warning>
+<warning>
+	<dtimeGame>20220410094500</dtimeGame>	<dtimeReal>20220906100843</dtimeReal>
+	<malware>Virus:POP.Sling Virus</malware>
+	<name>Moe_ws</name>
+	<cause>User impulsively executed email attachments</cause>
+</warning>
+<trigger>
+	<dtimeGame>20220410094500</dtimeGame>	<dtimeReal>20220906100843</dtimeReal>
+	<name>Malware</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) :end</conditions>
+</trigger>
+<assetAttacked>
+	<dtimeGame>20220410094500</dtimeGame>	<dtimeReal>20220906100843</dtimeReal>
+	<name>BortSoft Data</name>
+	<motiveType>Modification</motiveType>
+	<motive>70</motive>
+	<attackType>ATTACK_TARG_MAL_SOFTWARE</attackType>
+	<attackIndex>[18]</attackIndex>
+	<computerName>BortSoft Server</computerName>
+	<attacker>Attacker</attacker>
+	<cost>500</cost><cash>9129</cash>
+	<reason>Malicious software (Aladinz) on Curly_ws has corrupted BortSoft Data on BortSoft Server. Malware installed on computer because user impulsively executes email attachments.</reason>
+</assetAttacked>
+<trigger>
+	<dtimeGame>20220410094500</dtimeGame>	<dtimeReal>20220906100843</dtimeReal>
+	<name>TipAttackLog</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: assetAttacked(true) and_not attackLogViewed_intrinsic0,0 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410094500</dtimeGame>	<dtimeReal>20220906100843</dtimeReal>
+	<name>DLTrojanPenalty</name>
+	<triggerType>CASH_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and (CurlyHasVirus(true) or MoeHasVirus(true)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<summaryEvent>
+	<dtimeGame>20220410095801</dtimeGame>	<dtimeReal>20220906100846</dtimeReal>
+	<bonus>-0</bonus><cash>8634</cash>
+</summaryEvent>
+<userEvent>
+	<dtimeGame>20220410095806</dtimeGame>	<dtimeReal>20220906100846</dtimeReal>
+	<newMode>
+		<name>Curly</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>8634</cash>
+</userEvent>
+<gameEvent>
+	<dtimeGame>20220410100416</dtimeGame>	<dtimeReal>20220906100848</dtimeReal>
+	<pause></pause>
+</gameEvent>
+<trigger>
+	<dtimeGame>20220410100416</dtimeGame>	<dtimeReal>20220906100850</dtimeReal>
+	<name>attackLogViewed</name>
+	<triggerType>LOG_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: WhichScreen23,23 :end</conditions>
+</trigger>
+<gameEvent>
+	<dtimeGame>20220410100416</dtimeGame>	<dtimeReal>20220906100850</dtimeReal>
+	<logTrigger>  <name>attackLogViewed</name>
+  <message>viewed attack log</message>
+  <conditions>ConditionList: WhichScreen23,23 :end,</conditions>
+</logTrigger>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220410100416</dtimeGame>	<dtimeReal>20220906101126</dtimeReal>
+	<resume></resume>
+</gameEvent>
+<trigger>
+	<dtimeGame>20220410100504</dtimeGame>	<dtimeReal>20220906101126</dtimeReal>
+	<name>CurlyWarnAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen2,2 and CurlyHasVirus(true) and_not CurlyNoAttach(false) and attackLogViewed_intrinsic0,1 :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220410100504</dtimeGame>	<dtimeReal>20220906101126</dtimeReal>
+	<newMode>
+		<name>Curly</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>8633</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220410100713</dtimeGame>	<dtimeReal>20220906101126</dtimeReal>
+	<newMode>
+		<name>Moe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>8633</cash>
+</userEvent>
+<uiEvent>
+	<dtimeGame>20220410101639</dtimeGame>	<dtimeReal>20220906101128</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220410101639</dtimeGame>	<dtimeReal>20220906101129</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410101639</dtimeGame>	<dtimeReal>20220906101130</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<uiEvent>
+	<dtimeGame>20220410101639</dtimeGame>	<dtimeReal>20220906101132</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220410102002</dtimeGame>	<dtimeReal>20220906101133</dtimeReal>
+	<name>CurlyWarnAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen2,2 and CurlyHasVirus(true) and_not CurlyNoAttach(false) and attackLogViewed_intrinsic0,1 :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220410102118</dtimeGame>	<dtimeReal>20220906101133</dtimeReal>
+	<newMode>
+		<name>Moe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>8632</cash>
+</userEvent>
+<gameEvent>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101133</dtimeReal>
+	<pause></pause>
+</gameEvent>
+<uiEvent>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101135</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101139</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101140</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101149</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>3</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101150</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>3</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101159</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>4</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101200</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>4</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101209</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>5</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101210</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>5</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101219</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>6</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101220</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>6</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101229</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>7</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101230</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>7</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101239</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>8</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101240</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>8</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101249</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>9</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101250</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>9</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101259</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>10</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101300</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>10</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101309</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>11</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101310</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>11</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101319</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>12</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101320</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>12</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101329</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>13</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101330</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>13</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101339</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>14</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101340</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>14</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101349</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>15</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101350</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>15</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101359</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>16</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101400</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>16</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101409</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>17</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101410</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>17</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101419</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>18</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101420</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>18</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101429</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>19</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101430</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>19</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101439</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>20</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101440</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>20</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101449</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>21</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101450</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>21</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101459</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>22</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101500</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>22</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101509</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>23</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101510</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>23</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101519</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>24</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101520</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>24</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101529</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>25</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101530</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>25</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101539</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>26</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101540</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>26</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101549</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>27</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101550</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>27</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101559</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>28</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101600</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>28</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101609</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>29</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101610</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>29</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101619</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>30</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101620</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>30</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101629</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>31</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101630</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>31</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101639</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>32</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101640</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>32</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101649</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>33</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101650</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>33</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101659</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>34</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101700</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>34</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101709</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>35</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101710</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>35</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101719</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>36</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101720</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>36</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101729</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>37</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101730</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>37</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101739</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>38</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101740</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>38</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101749</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>39</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101750</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>39</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101759</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>40</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101800</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>40</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101809</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>41</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101810</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>41</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101819</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>42</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101820</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>42</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101829</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>43</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101830</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>43</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101839</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>44</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101840</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>44</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101849</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>45</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101850</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>45</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101859</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>46</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101900</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>46</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101909</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>47</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<componentEvent>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101910</dtimeReal>
+	<name>Curly_ws</name>
+	<procSetting>
+		<field>NoEmailAttachmentExecute:</field>
+		<value>true</value>
+		<newProtection>-1</newProtection>
+	</procSetting>
+	<cost>150</cost><cash>8482</cash>
+</componentEvent>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101910</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>47</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(true) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<componentEvent>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101914</dtimeReal>
+	<name>Moe_ws</name>
+	<procSetting>
+		<field>NoEmailAttachmentExecute:</field>
+		<value>true</value>
+		<newProtection>-1</newProtection>
+	</procSetting>
+	<cost>150</cost><cash>8332</cash>
+</componentEvent>
+<trigger>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101920</dtimeReal>
+	<name>ReturnFromComponent</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and ((MoeNoAttach(true) and CurlyNoAttach(true) and_not TrojWarnWentOff(false)) or (MoeNoExternalSW(false) and CurlyNoExternalSW(false) and TrojWarnWentOff(false))) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<uiEvent>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101920</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<gameEvent>
+	<dtimeGame>20220410102259</dtimeGame>	<dtimeReal>20220906101926</dtimeReal>
+	<resume></resume>
+</gameEvent>
+<userEvent>
+	<dtimeGame>20220410102806</dtimeGame>	<dtimeReal>20220906101927</dtimeReal>
+	<newMode>
+		<name>Moe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>8331</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220410103503</dtimeGame>	<dtimeReal>20220906101928</dtimeReal>
+	<newMode>
+		<name>Moe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>8331</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220410104001</dtimeGame>	<dtimeReal>20220906101929</dtimeReal>
+	<name>MoeWarnExtSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen2,2 and MoeHasVirus(true) and_not MoeNoExternalSW(false) and CurlyNoAttach(true) and MoeNoAttach(true) and attackLogViewed_intrinsic0,1 :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220410105341</dtimeGame>	<dtimeReal>20220906101932</dtimeReal>
+	<newMode>
+		<name>Curly</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>8330</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220410105502</dtimeGame>	<dtimeReal>20220906101932</dtimeReal>
+	<name>CurlyWarnExtSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen2,2 and CurlyHasVirus(true) and_not CurlyNoExternalSW(false) and CurlyNoAttach(true) and MoeNoAttach(true) and attackLogViewed_intrinsic0,1 :end</conditions>
+</trigger>
+<uiEvent>
+	<dtimeGame>20220410105731</dtimeGame>	<dtimeReal>20220906101933</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220410105731</dtimeGame>	<dtimeReal>20220906101934</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410105731</dtimeGame>	<dtimeReal>20220906101935</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<uiEvent>
+	<dtimeGame>20220410105731</dtimeGame>	<dtimeReal>20220906101935</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220410110000</dtimeGame>	<dtimeReal>20220906101936</dtimeReal>
+	<name>BadPolicies</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) :end</conditions>
+</trigger>
+<warning>
+	<dtimeGame>20220410110000</dtimeGame>	<dtimeReal>20220906101936</dtimeReal>
+	<malware>Trojan Horse:Aladinz</malware>
+	<name>Curly_ws</name>
+	<cause>User installed unauthorized external software containing malware because procedures allowed it.</cause>
+</warning>
+<warning>
+	<dtimeGame>20220410110000</dtimeGame>	<dtimeReal>20220906101936</dtimeReal>
+	<malware>Virus:POP.Sling Virus</malware>
+	<name>Curly_ws</name>
+	<cause>User installed unauthorized external software containing malware because procedures allowed it.</cause>
+</warning>
+<warning>
+	<dtimeGame>20220410110000</dtimeGame>	<dtimeReal>20220906101936</dtimeReal>
+	<malware>Trojan Horse:Aladinz</malware>
+	<name>Moe_ws</name>
+	<cause>User installed unauthorized external software containing malware because procedures allowed it.</cause>
+</warning>
+<warning>
+	<dtimeGame>20220410110000</dtimeGame>	<dtimeReal>20220906101936</dtimeReal>
+	<malware>Virus:POP.Sling Virus</malware>
+	<name>Moe_ws</name>
+	<cause>User installed unauthorized external software containing malware because procedures allowed it.</cause>
+</warning>
+<trigger>
+	<dtimeGame>20220410110000</dtimeGame>	<dtimeReal>20220906101936</dtimeReal>
+	<name>Malware</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) :end</conditions>
+</trigger>
+<assetAttacked>
+	<dtimeGame>20220410110000</dtimeGame>	<dtimeReal>20220906101936</dtimeReal>
+	<name>BortSoft Data</name>
+	<motiveType>Modification</motiveType>
+	<motive>70</motive>
+	<attackType>ATTACK_TARG_MAL_SOFTWARE</attackType>
+	<attackIndex>[18]</attackIndex>
+	<computerName>BortSoft Server</computerName>
+	<attacker>Attacker</attacker>
+	<cost>500</cost><cash>7829</cash>
+	<reason>Malicious software (Aladinz) on Curly_ws has corrupted BortSoft Data on BortSoft Server. User installed unauthorized external software containing malware because procedures allowed it.</reason>
+</assetAttacked>
+<trigger>
+	<dtimeGame>20220410110000</dtimeGame>	<dtimeReal>20220906101936</dtimeReal>
+	<name>MoeWarnExtSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen2,2 and MoeHasVirus(true) and_not MoeNoExternalSW(false) and CurlyNoAttach(true) and MoeNoAttach(true) and attackLogViewed_intrinsic0,1 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110000</dtimeGame>	<dtimeReal>20220906101936</dtimeReal>
+	<name>DLTrojanPenalty</name>
+	<triggerType>CASH_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and (CurlyHasVirus(true) or MoeHasVirus(true)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<gameEvent>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906101936</dtimeReal>
+	<pause></pause>
+</gameEvent>
+<uiEvent>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906101937</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906101944</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906101945</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906101954</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>3</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906101955</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>3</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102004</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>4</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102005</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>4</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102014</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>5</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102015</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>5</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102024</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>6</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102025</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>6</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102034</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>7</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102035</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>7</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102044</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>8</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102045</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>8</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102054</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>9</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102055</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>9</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102104</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>10</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102105</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>10</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102114</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>11</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102115</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>11</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102124</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>12</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102125</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>12</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102134</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>13</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102135</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>13</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102144</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>14</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102145</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>14</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102154</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>15</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102155</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>15</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102204</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>16</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102205</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>16</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102214</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>17</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102215</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>17</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102224</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>18</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102225</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>18</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102234</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>19</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102235</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>19</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102244</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>20</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102245</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>20</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102254</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>21</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102255</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>21</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102304</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>22</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102305</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>22</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102314</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>23</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102315</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>23</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102324</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>24</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102325</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>24</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102334</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>25</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102335</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>25</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102344</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>26</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102345</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>26</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102354</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>27</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102355</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>27</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102404</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>28</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102405</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>28</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102414</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>29</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102415</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>29</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102424</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>30</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102425</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>30</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102434</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>31</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102435</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>31</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102444</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>32</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102445</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>32</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102454</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>33</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102455</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>33</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102504</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>34</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102505</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>34</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102514</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>35</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102515</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>35</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102524</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>36</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102525</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>36</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102534</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>37</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102535</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>37</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102544</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>38</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102545</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>38</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102554</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>39</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102555</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>39</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102604</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>40</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102605</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>40</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102614</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>41</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102615</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>41</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102624</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>42</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102625</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>42</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102634</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>43</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102635</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>43</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102644</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>44</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102645</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>44</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102654</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>45</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102655</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>45</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102704</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>46</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102705</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>46</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102714</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>47</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102715</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>47</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102724</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>48</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102725</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>48</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<uiEvent>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906102729</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906103340</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906103340</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>49</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906103341</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>49</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<componentEvent>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906103343</dtimeReal>
+	<name>Moe_ws</name>
+	<procSetting>
+		<field>NoExternalSoftware:</field>
+		<value>true</value>
+		<newProtection>-1</newProtection>
+	</procSetting>
+	<cost>300</cost><cash>7029</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906103346</dtimeReal>
+	<name>Curly_ws</name>
+	<procSetting>
+		<field>NoExternalSoftware:</field>
+		<value>true</value>
+		<newProtection>-1</newProtection>
+	</procSetting>
+	<cost>300</cost><cash>6729</cash>
+</componentEvent>
+<uiEvent>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906103350</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906103445</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906103451</dtimeReal>
+	<name>ReturnFromComponent</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and ((MoeNoAttach(true) and CurlyNoAttach(true) and_not TrojWarnWentOff(true)) or (MoeNoExternalSW(true) and CurlyNoExternalSW(true) and TrojWarnWentOff(true))) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<uiEvent>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906103457</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<gameEvent>
+	<dtimeGame>20220410110248</dtimeGame>	<dtimeReal>20220906103458</dtimeReal>
+	<resume></resume>
+</gameEvent>
+<summaryEvent>
+	<dtimeGame>20220410110302</dtimeGame>	<dtimeReal>20220906103458</dtimeReal>
+	<bonus>-0</bonus><cash>6729</cash>
+</summaryEvent>
+<trigger>
+	<dtimeGame>20220410110502</dtimeGame>	<dtimeReal>20220906103459</dtimeReal>
+	<name>SetUserProcComplete</name>
+	<triggerType>SET_OBJECTIVE_STATUS</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen2,2 and MoeNoAttach(true) and CurlyNoAttach(true) and MoeNoExternalSW(true) and CurlyNoExternalSW(true) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220410110945</dtimeGame>	<dtimeReal>20220906103500</dtimeReal>
+	<newMode>
+		<name>Moe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>6727</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220410111000</dtimeGame>	<dtimeReal>20220906103500</dtimeReal>
+	<name>WarnPoorTraining</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen2,2 and UserProcComplete(true) and_not (CurlyTraining80(false) and MoeTraining80(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410112501</dtimeGame>	<dtimeReal>20220906103503</dtimeReal>
+	<name>WarnPoorTraining</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen2,2 and UserProcComplete(true) and_not (CurlyTraining80(false) and MoeTraining80(false)) :end</conditions>
+</trigger>
+<gameEvent>
+	<dtimeGame>20220410112910</dtimeGame>	<dtimeReal>20220906103504</dtimeReal>
+	<pause></pause>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220410112910</dtimeGame>	<dtimeReal>20220906103507</dtimeReal>
+	<resume></resume>
+</gameEvent>
+<trigger>
+	<dtimeGame>20220410114003</dtimeGame>	<dtimeReal>20220906103509</dtimeReal>
+	<name>WarnPoorTraining</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>3</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen2,2 and UserProcComplete(true) and_not (CurlyTraining80(false) and MoeTraining80(false)) :end</conditions>
+</trigger>
+<gameEvent>
+	<dtimeGame>20220410114358</dtimeGame>	<dtimeReal>20220906103510</dtimeReal>
+	<pause></pause>
+</gameEvent>
+<uiEvent>
+	<dtimeGame>20220410114358</dtimeGame>	<dtimeReal>20220906103523</dtimeReal>
+	<tab>zone</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220410114358</dtimeGame>	<dtimeReal>20220906103525</dtimeReal>
+	<tab>user</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220410114358</dtimeGame>	<dtimeReal>20220906103525</dtimeReal>
+	<name>TipTrain</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen6,6 and UserProcComplete(true) and_not (CurlyTraining80(false) and MoeTraining80(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410114358</dtimeGame>	<dtimeReal>20220906103535</dtimeReal>
+	<name>TipTrain</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen6,6 and UserProcComplete(true) and_not (CurlyTraining80(false) and MoeTraining80(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410114358</dtimeGame>	<dtimeReal>20220906103545</dtimeReal>
+	<name>TipTrain</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>3</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen6,6 and UserProcComplete(true) and_not (CurlyTraining80(false) and MoeTraining80(false)) :end</conditions>
+</trigger>
+<uiEvent>
+	<dtimeGame>20220410114358</dtimeGame>	<dtimeReal>20220906103550</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<gameEvent>
+	<dtimeGame>20220410114358</dtimeGame>	<dtimeReal>20220906104659</dtimeReal>
+	<resume></resume>
+</gameEvent>
+<trigger>
+	<dtimeGame>20220410115500</dtimeGame>	<dtimeReal>20220906104702</dtimeReal>
+	<name>WarnPoorTraining</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>4</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen2,2 and UserProcComplete(true) and_not (CurlyTraining80(false) and MoeTraining80(false)) :end</conditions>
+</trigger>
+<uiEvent>
+	<dtimeGame>20220410120714</dtimeGame>	<dtimeReal>20220906104704</dtimeReal>
+	<tab>user</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220410120714</dtimeGame>	<dtimeReal>20220906104705</dtimeReal>
+	<name>TipTrain</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>4</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen6,6 and UserProcComplete(true) and_not (CurlyTraining80(false) and MoeTraining80(false)) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220410120714</dtimeGame>	<dtimeReal>20220906104706</dtimeReal>
+	<train>
+		<name>Curly</name>
+		<level>90</level>
+	</train>
+	<cost>1250</cost><cash>5457</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220410120714</dtimeGame>	<dtimeReal>20220906104711</dtimeReal>
+	<newMode>
+		<name>Curly</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>5457</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220410120714</dtimeGame>	<dtimeReal>20220906104711</dtimeReal>
+	<train>
+		<name>Moe</name>
+		<level>90</level>
+	</train>
+	<cost>1250</cost><cash>4207</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220410120714</dtimeGame>	<dtimeReal>20220906104714</dtimeReal>
+	<newMode>
+		<name>Curly</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>4207</cash>
+</userEvent>
+<uiEvent>
+	<dtimeGame>20220410120714</dtimeGame>	<dtimeReal>20220906104714</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220410121003</dtimeGame>	<dtimeReal>20220906104715</dtimeReal>
+	<name>SetUserTrainComplete</name>
+	<triggerType>SET_OBJECTIVE_STATUS</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen2,2 and CurlyTraining80(true) and MoeTraining80(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410121500</dtimeGame>	<dtimeReal>20220906104716</dtimeReal>
+	<name>AdvancetoPhase3Virus</name>
+	<triggerType>SET_PHASE</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and UserProcComplete(true) and UserTrainComplete(true) and_not SecondPhaseCompleted(false) and (MoeHasVirus(true) or CurlyHasVirus(true)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410121500</dtimeGame>	<dtimeReal>20220906104721</dtimeReal>
+	<name>ComputersAvailable</name>
+	<triggerType>COMPUTER_AVAIABILITY</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: AdvancePhase3Virus(true) and (MoeHasVirus(true) or CurlyHasVirus(true)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410121500</dtimeGame>	<dtimeReal>20220906104721</dtimeReal>
+	<name>RemoveMalware</name>
+	<triggerType>CLEAR_MALWARE</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: AdvancePhase3Virus(true) and (MoeHasVirus(true) or CurlyHasVirus(true)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410121500</dtimeGame>	<dtimeReal>20220906104721</dtimeReal>
+	<name>Phase2</name>
+	<triggerType>SAVEGAME_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: SecondPhaseCompleted(true) :end</conditions>
+</trigger>
+<gameEvent>
+	<dtimeGame>20220410121500</dtimeGame>	<dtimeReal>20220906104721</dtimeReal>
+	<saveFile>Phase2.sdf</saveFile>
+</gameEvent>
+<trigger>
+	<dtimeGame>20220410121500</dtimeGame>	<dtimeReal>20220906104721</dtimeReal>
+	<name>VirusCleanupThought</name>
+	<triggerType>SET_USER_THOUGHT</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: AdvancePhase3Virus(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410121500</dtimeGame>	<dtimeReal>20220906104721</dtimeReal>
+	<name>VirusCleanupMoeThought</name>
+	<triggerType>SET_USER_THOUGHT</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: AdvancePhase3Virus(true) :end</conditions>
+</trigger>
+<triggerErase>
+	<dtimeGame>20220410121500</dtimeGame>	<dtimeReal>20220906104722</dtimeReal>
+	<name>ComputersAvailable</name>
+	<triggerType>COMPUTER_AVAIABILITY</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: AdvancePhase3Virus(true) and (MoeHasVirus(false) or CurlyHasVirus(false)) :end</conditions>
+</triggerErase>
+<userEvent>
+	<dtimeGame>20220410121552</dtimeGame>	<dtimeReal>20220906104723</dtimeReal>
+	<newMode>
+		<name>Moe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4204</cash>
+</userEvent>
+<summaryEvent>
+	<dtimeGame>20220410121602</dtimeGame>	<dtimeReal>20220906104723</dtimeReal>
+	<bonus>0</bonus><cash>4204</cash>
+</summaryEvent>
+<gameEvent>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906104724</dtimeReal>
+	<pause></pause>
+</gameEvent>
+<uiEvent>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906104725</dtimeReal>
+	<tab>game</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906104727</dtimeReal>
+	<tab>objective</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906104733</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906104753</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>3</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906104813</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>4</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906104833</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>5</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906104853</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>6</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906104913</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>7</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906104933</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>8</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906104953</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>9</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906105013</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>10</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906105033</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>11</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906105053</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>12</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906105113</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>13</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906105133</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>14</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906105153</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>15</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906105213</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>16</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906105233</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>17</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906105253</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>18</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906105313</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>19</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906105333</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>20</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906105353</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>21</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906105413</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>22</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906105433</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>23</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906105453</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>24</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906105513</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>25</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906105533</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>26</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906105553</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>27</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906105613</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>28</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906105633</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>29</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906105653</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>30</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906105713</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>31</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906105733</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>32</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906105753</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>33</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906105813</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>34</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906105833</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>35</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906105853</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>36</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906105913</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>37</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906105933</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>38</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906105953</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>39</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906110013</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>40</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906110033</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>41</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906110053</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>42</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906110113</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>43</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906110133</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>44</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906110153</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>45</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906110213</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>46</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906110233</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>47</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906110253</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>48</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906110313</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>49</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906110333</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>50</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906110353</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>51</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906110413</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>52</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906110433</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>53</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906110453</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>54</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906110513</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>55</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906110533</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>56</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906110553</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>57</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906110613</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>58</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906110633</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>59</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906110653</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>60</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906110713</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>61</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906110733</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>62</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<uiEvent>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906110737</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<gameEvent>
+	<dtimeGame>20220410122025</dtimeGame>	<dtimeReal>20220906110739</dtimeReal>
+	<resume></resume>
+</gameEvent>
+<userEvent>
+	<dtimeGame>20220410122035</dtimeGame>	<dtimeReal>20220906110739</dtimeReal>
+	<newMode>
+		<name>Curly</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>4206</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220410123001</dtimeGame>	<dtimeReal>20220906110741</dtimeReal>
+	<name>PhySecTicker</name>
+	<triggerType>TICKER_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: not OfficeHasSecurity(false) and SecondPhaseCompleted(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410124503</dtimeGame>	<dtimeReal>20220906110744</dtimeReal>
+	<name>PhysSecTip</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: not OfficeHasSecurity(false) and SecondPhaseCompleted(true) :end</conditions>
+</trigger>
+<gameEvent>
+	<dtimeGame>20220410125253</dtimeGame>	<dtimeReal>20220906110746</dtimeReal>
+	<pause></pause>
+</gameEvent>
+<uiEvent>
+	<dtimeGame>20220410125253</dtimeGame>	<dtimeReal>20220906110747</dtimeReal>
+	<tab>zone</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220410125253</dtimeGame>	<dtimeReal>20220906110748</dtimeReal>
+	<name>TipPhysSetting</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: SecondPhaseCompleted(true) and_not BreakinCompleted(false) and WhichScreen5,5 and_not OfficeHasSecurity(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410125253</dtimeGame>	<dtimeReal>20220906110758</dtimeReal>
+	<name>TipPhysSetting</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: SecondPhaseCompleted(true) and_not BreakinCompleted(false) and WhichScreen5,5 and_not OfficeHasSecurity(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410125253</dtimeGame>	<dtimeReal>20220906110808</dtimeReal>
+	<name>TipPhysSetting</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>3</timesGoneOff>
+	<conditions>ConditionList: SecondPhaseCompleted(true) and_not BreakinCompleted(false) and WhichScreen5,5 and_not OfficeHasSecurity(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410125253</dtimeGame>	<dtimeReal>20220906110818</dtimeReal>
+	<name>TipPhysSetting</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>4</timesGoneOff>
+	<conditions>ConditionList: SecondPhaseCompleted(true) and_not BreakinCompleted(false) and WhichScreen5,5 and_not OfficeHasSecurity(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410125253</dtimeGame>	<dtimeReal>20220906110828</dtimeReal>
+	<name>TipPhysSetting</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>5</timesGoneOff>
+	<conditions>ConditionList: SecondPhaseCompleted(true) and_not BreakinCompleted(false) and WhichScreen5,5 and_not OfficeHasSecurity(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410125253</dtimeGame>	<dtimeReal>20220906110838</dtimeReal>
+	<name>TipPhysSetting</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>6</timesGoneOff>
+	<conditions>ConditionList: SecondPhaseCompleted(true) and_not BreakinCompleted(false) and WhichScreen5,5 and_not OfficeHasSecurity(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410125253</dtimeGame>	<dtimeReal>20220906110848</dtimeReal>
+	<name>TipPhysSetting</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>7</timesGoneOff>
+	<conditions>ConditionList: SecondPhaseCompleted(true) and_not BreakinCompleted(false) and WhichScreen5,5 and_not OfficeHasSecurity(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410125253</dtimeGame>	<dtimeReal>20220906110858</dtimeReal>
+	<name>TipPhysSetting</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>8</timesGoneOff>
+	<conditions>ConditionList: SecondPhaseCompleted(true) and_not BreakinCompleted(false) and WhichScreen5,5 and_not OfficeHasSecurity(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410125253</dtimeGame>	<dtimeReal>20220906110908</dtimeReal>
+	<name>TipPhysSetting</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>9</timesGoneOff>
+	<conditions>ConditionList: SecondPhaseCompleted(true) and_not BreakinCompleted(false) and WhichScreen5,5 and_not OfficeHasSecurity(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410125253</dtimeGame>	<dtimeReal>20220906110918</dtimeReal>
+	<name>TipPhysSetting</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>10</timesGoneOff>
+	<conditions>ConditionList: SecondPhaseCompleted(true) and_not BreakinCompleted(false) and WhichScreen5,5 and_not OfficeHasSecurity(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410125253</dtimeGame>	<dtimeReal>20220906110928</dtimeReal>
+	<name>TipPhysSetting</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>11</timesGoneOff>
+	<conditions>ConditionList: SecondPhaseCompleted(true) and_not BreakinCompleted(false) and WhichScreen5,5 and_not OfficeHasSecurity(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410125253</dtimeGame>	<dtimeReal>20220906110938</dtimeReal>
+	<name>TipPhysSetting</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>12</timesGoneOff>
+	<conditions>ConditionList: SecondPhaseCompleted(true) and_not BreakinCompleted(false) and WhichScreen5,5 and_not OfficeHasSecurity(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410125253</dtimeGame>	<dtimeReal>20220906110948</dtimeReal>
+	<name>TipPhysSetting</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>13</timesGoneOff>
+	<conditions>ConditionList: SecondPhaseCompleted(true) and_not BreakinCompleted(false) and WhichScreen5,5 and_not OfficeHasSecurity(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410125253</dtimeGame>	<dtimeReal>20220906110958</dtimeReal>
+	<name>TipPhysSetting</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>14</timesGoneOff>
+	<conditions>ConditionList: SecondPhaseCompleted(true) and_not BreakinCompleted(false) and WhichScreen5,5 and_not OfficeHasSecurity(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410125253</dtimeGame>	<dtimeReal>20220906111008</dtimeReal>
+	<name>TipPhysSetting</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>15</timesGoneOff>
+	<conditions>ConditionList: SecondPhaseCompleted(true) and_not BreakinCompleted(false) and WhichScreen5,5 and_not OfficeHasSecurity(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410125253</dtimeGame>	<dtimeReal>20220906111018</dtimeReal>
+	<name>TipPhysSetting</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>16</timesGoneOff>
+	<conditions>ConditionList: SecondPhaseCompleted(true) and_not BreakinCompleted(false) and WhichScreen5,5 and_not OfficeHasSecurity(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410125253</dtimeGame>	<dtimeReal>20220906111028</dtimeReal>
+	<name>TipPhysSetting</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>17</timesGoneOff>
+	<conditions>ConditionList: SecondPhaseCompleted(true) and_not BreakinCompleted(false) and WhichScreen5,5 and_not OfficeHasSecurity(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410125253</dtimeGame>	<dtimeReal>20220906111038</dtimeReal>
+	<name>TipPhysSetting</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>18</timesGoneOff>
+	<conditions>ConditionList: SecondPhaseCompleted(true) and_not BreakinCompleted(false) and WhichScreen5,5 and_not OfficeHasSecurity(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410125253</dtimeGame>	<dtimeReal>20220906111048</dtimeReal>
+	<name>TipPhysSetting</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>19</timesGoneOff>
+	<conditions>ConditionList: SecondPhaseCompleted(true) and_not BreakinCompleted(false) and WhichScreen5,5 and_not OfficeHasSecurity(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410125253</dtimeGame>	<dtimeReal>20220906111058</dtimeReal>
+	<name>TipPhysSetting</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>20</timesGoneOff>
+	<conditions>ConditionList: SecondPhaseCompleted(true) and_not BreakinCompleted(false) and WhichScreen5,5 and_not OfficeHasSecurity(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410125253</dtimeGame>	<dtimeReal>20220906111108</dtimeReal>
+	<name>TipPhysSetting</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>21</timesGoneOff>
+	<conditions>ConditionList: SecondPhaseCompleted(true) and_not BreakinCompleted(false) and WhichScreen5,5 and_not OfficeHasSecurity(false) :end</conditions>
+</trigger>
+<zoneEvent>
+	<dtimeGame>20220410125253</dtimeGame>	<dtimeReal>20220906111116</dtimeReal>
+	<name>Entire Office</name>
+	<setting>
+		<field>KeyLockOnDoor:</field>
+		<value>true</value>
+		<newProtection>101</newProtection>
+	</setting>
+	<cost>25</cost><cash>4193</cash>
+</zoneEvent>
+<trigger>
+	<dtimeGame>20220410125253</dtimeGame>	<dtimeReal>20220906111116</dtimeReal>
+	<name>TipZoneAccess</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: SecondPhaseCompleted(true) and_not BreakinCompleted(false) and WhichScreen5,5 and OfficeHasSecurity(true) and publicIntoOffice(true) :end</conditions>
+</trigger>
+<zoneEvent>
+	<dtimeGame>20220410125253</dtimeGame>	<dtimeReal>20220906111119</dtimeReal>
+	<name>Entire Office</name>
+	<accessRemove>
+		<group>Public</group>
+	</accessRemove>
+	<cost>0</cost><cash>4193</cash>
+</zoneEvent>
+<zoneEvent>
+	<dtimeGame>20220410125253</dtimeGame>	<dtimeReal>20220906111122</dtimeReal>
+	<name>Entire Office</name>
+	<accessAdd>
+		<group>COMPANY</group>
+	</accessAdd>
+	<cost>0</cost><cash>4193</cash>
+</zoneEvent>
+<uiEvent>
+	<dtimeGame>20220410125253</dtimeGame>	<dtimeReal>20220906111414</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<gameEvent>
+	<dtimeGame>20220410125253</dtimeGame>	<dtimeReal>20220906111416</dtimeReal>
+	<resume></resume>
+</gameEvent>
+<trigger>
+	<dtimeGame>20220410125503</dtimeGame>	<dtimeReal>20220906111416</dtimeReal>
+	<name>SetBreakinComplete</name>
+	<triggerType>SET_OBJECTIVE_STATUS</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: SecondPhaseCompleted(true) and WhichScreen2,2 and OfficeHasSecurity(true) and MoeHasComputer(true) and CurlyHasComputer(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410130000</dtimeGame>	<dtimeReal>20220906111417</dtimeReal>
+	<name>LogoffTicker</name>
+	<triggerType>TICKER_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: SecondPhaseCompleted(true) and BreakinCompleted(true) and_not (CurlyLockLog(false) and MoeLockLog(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410131502</dtimeGame>	<dtimeReal>20220906111420</dtimeReal>
+	<name>LogoffPenalty</name>
+	<triggerType>CASH_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: SecondPhaseCompleted(true) and BreakinCompleted(true) and_not (CurlyLockLog(false) and MoeLockLog(false)) :end</conditions>
+</trigger>
+<gameEvent>
+	<dtimeGame>20220410132207</dtimeGame>	<dtimeReal>20220906111431</dtimeReal>
+	<pause></pause>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220410132207</dtimeGame>	<dtimeReal>20220906111508</dtimeReal>
+	<resume></resume>
+</gameEvent>
+<trigger>
+	<dtimeGame>20220410133003</dtimeGame>	<dtimeReal>20220906111510</dtimeReal>
+	<name>BadPolicies</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>3</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410133003</dtimeGame>	<dtimeReal>20220906111510</dtimeReal>
+	<name>Malware</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>3</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410133003</dtimeGame>	<dtimeReal>20220906111510</dtimeReal>
+	<name>BreakingHW</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: SecondPhaseCompleted(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410133003</dtimeGame>	<dtimeReal>20220906111510</dtimeReal>
+	<name>WarnNoLockLogoff</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: SecondPhaseCompleted(true) and WhichScreen2,2 and_not (MoeLockLog(false) and CurlyLockLog(false)) and BreakinCompleted(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410133003</dtimeGame>	<dtimeReal>20220906111510</dtimeReal>
+	<name>ClearThought</name>
+	<triggerType>CLEAR_TRIGGERED_THOUGHTS</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: AdvancePhase3Virus(true) :end</conditions>
+</trigger>
+<gameEvent>
+	<dtimeGame>20220410133538</dtimeGame>	<dtimeReal>20220906111511</dtimeReal>
+	<pause></pause>
+</gameEvent>
+<uiEvent>
+	<dtimeGame>20220410133538</dtimeGame>	<dtimeReal>20220906111513</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220410133538</dtimeGame>	<dtimeReal>20220906111513</dtimeReal>
+	<name>TipSelectWS1</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (SecondPhaseCompleted(true) and_not (MoeLockLog(false) and CurlyLockLog(false)) and BreakinCompleted(true)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410133538</dtimeGame>	<dtimeReal>20220906111513</dtimeReal>
+	<name>TipLock</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: SecondPhaseCompleted(true) and WhichScreen4,4 and_not (MoeLockLog(false) and CurlyLockLog(false)) and BreakinCompleted(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410133538</dtimeGame>	<dtimeReal>20220906111523</dtimeReal>
+	<name>TipSelectWS1</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (SecondPhaseCompleted(true) and_not (MoeLockLog(false) and CurlyLockLog(false)) and BreakinCompleted(true)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410133538</dtimeGame>	<dtimeReal>20220906111523</dtimeReal>
+	<name>TipLock</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: SecondPhaseCompleted(true) and WhichScreen4,4 and_not (MoeLockLog(false) and CurlyLockLog(false)) and BreakinCompleted(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410133538</dtimeGame>	<dtimeReal>20220906111533</dtimeReal>
+	<name>TipSelectWS1</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>3</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (SecondPhaseCompleted(true) and_not (MoeLockLog(false) and CurlyLockLog(false)) and BreakinCompleted(true)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410133538</dtimeGame>	<dtimeReal>20220906111533</dtimeReal>
+	<name>TipLock</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>3</timesGoneOff>
+	<conditions>ConditionList: SecondPhaseCompleted(true) and WhichScreen4,4 and_not (MoeLockLog(false) and CurlyLockLog(false)) and BreakinCompleted(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410133538</dtimeGame>	<dtimeReal>20220906111543</dtimeReal>
+	<name>TipSelectWS1</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>4</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (SecondPhaseCompleted(true) and_not (MoeLockLog(false) and CurlyLockLog(false)) and BreakinCompleted(true)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410133538</dtimeGame>	<dtimeReal>20220906111543</dtimeReal>
+	<name>TipLock</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>4</timesGoneOff>
+	<conditions>ConditionList: SecondPhaseCompleted(true) and WhichScreen4,4 and_not (MoeLockLog(false) and CurlyLockLog(false)) and BreakinCompleted(true) :end</conditions>
+</trigger>
+<componentEvent>
+	<dtimeGame>20220410133538</dtimeGame>	<dtimeReal>20220906111544</dtimeReal>
+	<name>Curly_ws</name>
+	<configSetting>
+		<field>AutomaticLockLogout:</field>
+		<value>true</value>
+		<newProtection>-1</newProtection>
+	</configSetting>
+	<cost>150</cost><cash>3560</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220410133538</dtimeGame>	<dtimeReal>20220906111550</dtimeReal>
+	<name>Moe_ws</name>
+	<configSetting>
+		<field>AutomaticLockLogout:</field>
+		<value>true</value>
+		<newProtection>-1</newProtection>
+	</configSetting>
+	<cost>150</cost><cash>3410</cash>
+</componentEvent>
+<uiEvent>
+	<dtimeGame>20220410133538</dtimeGame>	<dtimeReal>20220906111555</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<triggerErase>
+	<dtimeGame>20220410133538</dtimeGame>	<dtimeReal>20220906111555</dtimeReal>
+	<name>LogoffTicker</name>
+	<triggerType>TICKER_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: SecondPhaseCompleted(true) and BreakinCompleted(true) and_not (CurlyLockLog(true) and MoeLockLog(true)) :end</conditions>
+</triggerErase>
+<gameEvent>
+	<dtimeGame>20220410133538</dtimeGame>	<dtimeReal>20220906111556</dtimeReal>
+	<resume></resume>
+</gameEvent>
+<trigger>
+	<dtimeGame>20220410134001</dtimeGame>	<dtimeReal>20220906111557</dtimeReal>
+	<name>SetAutoLogoffComplete</name>
+	<triggerType>SET_OBJECTIVE_STATUS</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: SecondPhaseCompleted(true) and WhichScreen2,2 and CurlyLockLog(true) and MoeLockLog(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410144502</dtimeGame>	<dtimeReal>20220906111610</dtimeReal>
+	<name>BadPolicies</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>4</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410144502</dtimeGame>	<dtimeReal>20220906111610</dtimeReal>
+	<name>Malware</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>4</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410145004</dtimeGame>	<dtimeReal>20220906111611</dtimeReal>
+	<name>BreakingHW</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: SecondPhaseCompleted(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410145501</dtimeGame>	<dtimeReal>20220906111612</dtimeReal>
+	<name>Win</name>
+	<triggerType>WIN_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: BreakinCompleted(true) and AutoLogoffCompleted(true) :end</conditions>
+</trigger>
+<gameEvent>
+	<dtimeGame>20220410145501</dtimeGame>	<dtimeReal>20220906111612</dtimeReal>
+	<end>win</end>
+</gameEvent>
+<uiEvent>
+	<dtimeGame>20220410145501</dtimeGame>	<dtimeReal>20220906111615</dtimeReal>
+	<tab>game</tab>
+</uiEvent>
+<gameEvent>
+	<dtimeGame>20220410145501</dtimeGame>	<dtimeReal>20220906111631</dtimeReal>
+	<end>quit</end>
+</gameEvent>
+</CyberCIEGEeventLog>

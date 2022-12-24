@@ -1,0 +1,1162 @@
+<?xml version="1.0"?>
+<!DOCTYPE CyberCIEGEeventLog SYSTEM "..\..\eventlog.dtd">
+<CyberCIEGEeventLog>
+<gameEvent>
+	<dtimeGame>20220105093503</dtimeGame>	<dtimeReal>20221009135228</dtimeReal>
+	<loadFile>..\Mandatory Access Controls\1_MAC.sdf</loadFile>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220105093503</dtimeGame>	<dtimeReal>20221009135228</dtimeReal>
+	<loadFile>MAC.CSM 10/6/11 9 02 AM</loadFile>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220105080003</dtimeGame>	<dtimeReal>20221009135228</dtimeReal>
+	<creates>
+		<user>Jill</user>
+	</creates>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220105080003</dtimeGame>	<dtimeReal>20221009135228</dtimeReal>
+	<creates>
+		<user>Joe</user>
+	</creates>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220105080003</dtimeGame>	<dtimeReal>20221009135228</dtimeReal>
+	<creates>
+		<user>Guard</user>
+	</creates>
+</gameEvent>
+<componentEvent>
+	<dtimeGame>20220105080003</dtimeGame>	<dtimeReal>20221009135228</dtimeReal>
+	<name>NNN Router</name>
+	<networkConnect>NNN's LAN</networkConnect>
+	<cost>0</cost><cash>4000</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220105080003</dtimeGame>	<dtimeReal>20221009135228</dtimeReal>
+	<name>NNN Router</name>
+	<networkConnect>Internet</networkConnect>
+	<cost>0</cost><cash>4000</cash>
+</componentEvent>
+<gameEvent>
+	<dtimeGame>20220105080003</dtimeGame>	<dtimeReal>20221009135228</dtimeReal>
+	<creates>
+		<deviceName>NNN Router</deviceName>
+	</creates>
+</gameEvent>
+<componentEvent>
+	<dtimeGame>20220105080003</dtimeGame>	<dtimeReal>20221009135228</dtimeReal>
+	<name>NNN Web Server</name>
+	<networkConnect>NNN's LAN</networkConnect>
+	<cost>0</cost><cash>4000</cash>
+</componentEvent>
+<assetEvent>
+	<dtimeGame>20220105080003</dtimeGame>	<dtimeReal>20221009135228</dtimeReal>
+	<name>NNN News Feed</name>
+	<moveType>Add : SCENARIO_FILE</moveType>
+	<computerName>NNN Web Server</computerName>
+</assetEvent>
+<gameEvent>
+	<dtimeGame>20220105080003</dtimeGame>	<dtimeReal>20221009135228</dtimeReal>
+	<creates>
+		<computerName>NNN Web Server</computerName>
+	</creates>
+</gameEvent>
+<componentEvent>
+	<dtimeGame>20220105080003</dtimeGame>	<dtimeReal>20221009135228</dtimeReal>
+	<name>router</name>
+	<networkConnect>LAN 1</networkConnect>
+	<cost>0</cost><cash>4000</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220105080003</dtimeGame>	<dtimeReal>20221009135228</dtimeReal>
+	<name>router</name>
+	<networkConnect>Internet</networkConnect>
+	<cost>0</cost><cash>4000</cash>
+</componentEvent>
+<gameEvent>
+	<dtimeGame>20220105080003</dtimeGame>	<dtimeReal>20221009135228</dtimeReal>
+	<creates>
+		<deviceName>router</deviceName>
+	</creates>
+</gameEvent>
+<componentEvent>
+	<dtimeGame>20220105080003</dtimeGame>	<dtimeReal>20221009135228</dtimeReal>
+	<name>Server</name>
+	<accountAdd>
+		<user>Jill</user>
+	</accountAdd>
+	<cost>0</cost><cash>4000</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220105080003</dtimeGame>	<dtimeReal>20221009135228</dtimeReal>
+	<name>Server</name>
+	<accountAdd>
+		<user>Joe</user>
+	</accountAdd>
+	<cost>0</cost><cash>4000</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220105080003</dtimeGame>	<dtimeReal>20221009135228</dtimeReal>
+	<name>Server</name>
+	<accountAdd>
+		<group>Command</group>
+	</accountAdd>
+	<cost>0</cost><cash>4000</cash>
+</componentEvent>
+<assetEvent>
+	<dtimeGame>20220105080003</dtimeGame>	<dtimeReal>20221009135228</dtimeReal>
+	<name>Open Source Reports</name>
+	<moveType>Add : SCENARIO_FILE</moveType>
+	<computerName>Server</computerName>
+</assetEvent>
+<gameEvent>
+	<dtimeGame>20220105080003</dtimeGame>	<dtimeReal>20221009135228</dtimeReal>
+	<creates>
+		<computerName>Server</computerName>
+	</creates>
+</gameEvent>
+<componentEvent>
+	<dtimeGame>20220105080003</dtimeGame>	<dtimeReal>20221009135228</dtimeReal>
+	<name>Joe's workstation</name>
+	<accountAdd>
+		<user>Joe</user>
+	</accountAdd>
+	<cost>0</cost><cash>4000</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220105080003</dtimeGame>	<dtimeReal>20221009135228</dtimeReal>
+	<name>Joe's workstation</name>
+	<networkConnect>LAN 1</networkConnect>
+	<cost>0</cost><cash>4000</cash>
+</componentEvent>
+<gameEvent>
+	<dtimeGame>20220105080003</dtimeGame>	<dtimeReal>20221009135228</dtimeReal>
+	<creates>
+		<computerName>Joe's workstation</computerName>
+	</creates>
+</gameEvent>
+<componentEvent>
+	<dtimeGame>20220105080003</dtimeGame>	<dtimeReal>20221009135228</dtimeReal>
+	<name>Jill's workstation</name>
+	<accountAdd>
+		<user>Jill</user>
+	</accountAdd>
+	<cost>0</cost><cash>4000</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220105080003</dtimeGame>	<dtimeReal>20221009135228</dtimeReal>
+	<name>Jill's workstation</name>
+	<networkConnect>LAN 2</networkConnect>
+	<cost>0</cost><cash>4000</cash>
+</componentEvent>
+<assetEvent>
+	<dtimeGame>20220105080003</dtimeGame>	<dtimeReal>20221009135228</dtimeReal>
+	<name>Deployment Plans</name>
+	<moveType>Add : SCENARIO_FILE</moveType>
+	<computerName>Jill's workstation</computerName>
+</assetEvent>
+<gameEvent>
+	<dtimeGame>20220105080003</dtimeGame>	<dtimeReal>20221009135228</dtimeReal>
+	<creates>
+		<computerName>Jill's workstation</computerName>
+	</creates>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220105080003</dtimeGame>	<dtimeReal>20221009135228</dtimeReal>
+	<start></start>
+</gameEvent>
+<goalFailure>
+	<dtimeGame>20220105080003</dtimeGame>	<dtimeReal>20221009135228</dtimeReal>
+	<name>Summarize open source reports</name>
+	<userList>Joe</userList>
+	<reason>I failed Summarize open source reports.  </reason>
+	<cost>0</cost><cash>4000</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220105080003</dtimeGame>	<dtimeReal>20221009135228</dtimeReal>
+	<name>Plan Troop Deployments</name>
+	<userList>Jill</userList>
+	<reason>I failed Plan Troop Deployments.  </reason>
+	<cost>0</cost><cash>4000</cash>
+</goalFailure>
+<uiEvent>
+	<dtimeGame>20220105080003</dtimeGame>	<dtimeReal>20221009135228</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220105080003</dtimeGame>	<dtimeReal>20221009135228</dtimeReal>
+	<name>encyl</name>
+	<triggerType>ECONTEXT_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: not OneHour(false) :end</conditions>
+</trigger>
+<uiEvent>
+	<dtimeGame>20220105080003</dtimeGame>	<dtimeReal>20221009135233</dtimeReal>
+	<tab>network</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220105080003</dtimeGame>	<dtimeReal>20221009135233</dtimeReal>
+	<name>ConnectBoth</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: not JillConnected(false) or_not JoeConnected(false) and OnScreen3,3 :end</conditions>
+</trigger>
+<componentEvent>
+	<dtimeGame>20220105080003</dtimeGame>	<dtimeReal>20221009135235</dtimeReal>
+	<name>Server</name>
+	<networkConnect>LAN 1</networkConnect>
+	<cost>0</cost><cash>4000</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220105080003</dtimeGame>	<dtimeReal>20221009135236</dtimeReal>
+	<name>Server</name>
+	<networkConnect>LAN 2</networkConnect>
+	<cost>0</cost><cash>4000</cash>
+</componentEvent>
+<trigger>
+	<dtimeGame>20220105080003</dtimeGame>	<dtimeReal>20221009135236</dtimeReal>
+	<name>SetLabels</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: JillConnected(true) and_not JillSecret(false) and OnScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220105080003</dtimeGame>	<dtimeReal>20221009135236</dtimeReal>
+	<name>LANsConnected</name>
+	<triggerType>SET_OBJECTIVE_STATUS</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: not LANsConnected(false) and JoeConnected(true) and JillConnected(true) :end</conditions>
+</trigger>
+<componentEvent>
+	<dtimeGame>20220105080003</dtimeGame>	<dtimeReal>20221009135245</dtimeReal>
+	<name>Server</name>
+	<networkLabel>
+		<network>LAN 2</network><label>UNCLASSIFIED</label>
+	</networkLabel>
+	<cost>0</cost><cash>4000</cash>
+</componentEvent>
+<trigger>
+	<dtimeGame>20220105080003</dtimeGame>	<dtimeReal>20221009135246</dtimeReal>
+	<name>SetLabels</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: JillConnected(true) and_not JillSecret(false) and OnScreen3,3 :end</conditions>
+</trigger>
+<goalFailure>
+	<dtimeGame>20220105080003</dtimeGame>	<dtimeReal>20221009135247</dtimeReal>
+	<name>Summarize open source reports</name>
+	<userList>Joe</userList>
+	<reason>I failed Summarize open source reports.  </reason>
+	<cost>0</cost><cash>4000</cash>
+</goalFailure>
+<uiEvent>
+	<dtimeGame>20220105080003</dtimeGame>	<dtimeReal>20221009135247</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<gameEvent>
+	<dtimeGame>20220105080003</dtimeGame>	<dtimeReal>20221009135248</dtimeReal>
+	<resume></resume>
+</gameEvent>
+<goalFailure>
+	<dtimeGame>20220105080003</dtimeGame>	<dtimeReal>20221009135248</dtimeReal>
+	<name>Summarize open source reports</name>
+	<userList>Joe</userList>
+	<reason>I failed Summarize open source reports.  </reason>
+	<cost>0</cost><cash>4000</cash>
+</goalFailure>
+<summaryEvent>
+	<dtimeGame>20220105080101</dtimeGame>	<dtimeReal>20221009135248</dtimeReal>
+	<bonus>-0</bonus><cash>3999</cash>
+</summaryEvent>
+<userEvent>
+	<dtimeGame>20220105080115</dtimeGame>	<dtimeReal>20221009135248</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3999</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105080130</dtimeGame>	<dtimeReal>20221009135249</dtimeReal>
+	<newMode>
+		<name>Jill</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3999</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220105082002</dtimeGame>	<dtimeReal>20221009135252</dtimeReal>
+	<name>bad labels</name>
+	<triggerType>SPEAK_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: JillConnected(true) and_not JillSecret(false) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220105082207</dtimeGame>	<dtimeReal>20221009135253</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3972</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105083602</dtimeGame>	<dtimeReal>20221009135256</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3954</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105084259</dtimeGame>	<dtimeReal>20221009135257</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3947</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105090351</dtimeGame>	<dtimeReal>20221009135302</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3920</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105091049</dtimeGame>	<dtimeReal>20221009135303</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3911</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220105092000</dtimeGame>	<dtimeReal>20221009135305</dtimeReal>
+	<name>Internet</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: OneHour(true) or_not OneHour(true) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220105092444</dtimeGame>	<dtimeReal>20221009135306</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3893</cash>
+</userEvent>
+<uiEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135307</dtimeReal>
+	<tab>network</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135307</dtimeReal>
+	<name>SetLabels</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>3</timesGoneOff>
+	<conditions>ConditionList: JillConnected(true) and_not JillSecret(false) and OnScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135310</dtimeReal>
+	<name>SetLabels</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>4</timesGoneOff>
+	<conditions>ConditionList: JillConnected(true) and_not JillSecret(false) and OnScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135313</dtimeReal>
+	<name>SetLabels</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>5</timesGoneOff>
+	<conditions>ConditionList: JillConnected(true) and_not JillSecret(false) and OnScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135316</dtimeReal>
+	<name>SetLabels</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>6</timesGoneOff>
+	<conditions>ConditionList: JillConnected(true) and_not JillSecret(false) and OnScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135319</dtimeReal>
+	<name>SetLabels</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>7</timesGoneOff>
+	<conditions>ConditionList: JillConnected(true) and_not JillSecret(false) and OnScreen3,3 :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135329</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135330</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135333</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135336</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135342</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135343</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135346</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135352</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135355</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135357</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135400</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135402</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135403</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135405</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135406</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135411</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135412</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135415</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135418</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135419</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135422</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135424</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135425</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135428</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135431</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135432</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135437</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135440</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135444</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135445</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135453</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135454</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135455</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135457</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135458</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135500</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135503</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135514</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135517</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135520</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135524</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135527</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135529</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135530</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135532</dtimeReal>
+	<newMode>
+		<name>Jill</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135533</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135535</dtimeReal>
+	<newMode>
+		<name>Jill</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135536</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135543</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135545</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135546</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135551</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135552</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135553</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135558</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135559</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135602</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135604</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135606</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135609</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135617</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135618</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135620</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135625</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135630</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135631</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135633</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135634</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135637</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135638</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135648</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135650</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135651</dtimeReal>
+	<newMode>
+		<name>Jill</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135653</dtimeReal>
+	<newMode>
+		<name>Jill</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135657</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135659</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<componentEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135701</dtimeReal>
+	<name>Server</name>
+	<networkLabel>
+		<network>LAN 1</network><label>UNCLASSIFIED</label>
+	</networkLabel>
+	<cost>0</cost><cash>3889</cash>
+</componentEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135703</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135703</dtimeReal>
+	<name>SetLabels</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>8</timesGoneOff>
+	<conditions>ConditionList: JillConnected(true) and_not JillSecret(false) and OnScreen3,3 :end</conditions>
+</trigger>
+<componentEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135708</dtimeReal>
+	<name>Server</name>
+	<networkLabel>
+		<network>LAN 1</network><label>SECRET</label>
+	</networkLabel>
+	<cost>0</cost><cash>3889</cash>
+</componentEvent>
+<userEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135709</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3889</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135710</dtimeReal>
+	<name>SetLabels</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>9</timesGoneOff>
+	<conditions>ConditionList: JillConnected(true) and_not JillSecret(false) and OnScreen3,3 :end</conditions>
+</trigger>
+<goalFailure>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135711</dtimeReal>
+	<name>Summarize open source reports</name>
+	<userList>Joe</userList>
+	<reason>I failed Summarize open source reports.  </reason>
+	<cost>0</cost><cash>3889</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135711</dtimeReal>
+	<name>Summarize open source reports</name>
+	<userList>Joe</userList>
+	<reason>Plan Troop Deployments failed because user Joe failed goal Summarize open source reports</reason>
+	<cost>0</cost><cash>3889</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135711</dtimeReal>
+	<name>Plan Troop Deployments</name>
+	<userList>Jill</userList>
+	<reason></reason>
+	<cost>0</cost><cash>3889</cash>
+</goalFailure>
+<uiEvent>
+	<dtimeGame>20220105092741</dtimeGame>	<dtimeReal>20221009135711</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<userEvent>
+	<dtimeGame>20220105093328</dtimeGame>	<dtimeReal>20221009135712</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3882</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105094721</dtimeGame>	<dtimeReal>20221009135715</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3864</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105100813</dtimeGame>	<dtimeReal>20221009135719</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3837</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105101511</dtimeGame>	<dtimeReal>20221009135720</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3828</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220105102004</dtimeGame>	<dtimeReal>20221009135721</dtimeReal>
+	<name>Targeted Malware</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: OneHour(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220105102004</dtimeGame>	<dtimeReal>20221009135721</dtimeReal>
+	<name>Insiders</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: OneHour(true) :end</conditions>
+</trigger>
+<assetAttacked>
+	<dtimeGame>20220105102004</dtimeGame>	<dtimeReal>20221009135721</dtimeReal>
+	<name>Deployment Plans</name>
+	<motiveType>Dislosure </motiveType>
+	<motive>300</motive>
+	<attackType>ATTACK_INSIDER_HACKING</attackType>
+	<attackIndex>[9][38]</attackIndex>
+	<computerName>Jill's workstation</computerName>
+	<attacker>Joe</attacker>
+	<cost>2000000</cost><cash>-1996178</cash>
+	<reason>read Deployment Plans because Remote Trojan horse provided access.</reason>
+	<route>&lt;start attack route&gt;
+	Asset: Deployment Plans on component:
+	[Jill's workstation]
+		&lt;=== LAN 2 ===&gt;
+	[Server]
+		&lt;=== LAN 1 ===&gt;
+	[Joe's workstation]
+&lt;end attack route&gt;
+</route>
+</assetAttacked>
+<trigger>
+	<dtimeGame>20220105102004</dtimeGame>	<dtimeReal>20221009135721</dtimeReal>
+	<name>Breakin</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: OneHour(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220105102004</dtimeGame>	<dtimeReal>20221009135721</dtimeReal>
+	<name>LoseBadLabels</name>
+	<triggerType>LOSE_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: plansAttacked(true) and JillUnclassified(true) :end</conditions>
+</trigger>
+<gameEvent>
+	<dtimeGame>20220105102004</dtimeGame>	<dtimeReal>20221009135721</dtimeReal>
+	<end>lose</end>
+</gameEvent>
+<uiEvent>
+	<dtimeGame>20220105102004</dtimeGame>	<dtimeReal>20221009135743</dtimeReal>
+	<tab>game</tab>
+</uiEvent>
+<gameEvent>
+	<dtimeGame>20220105102004</dtimeGame>	<dtimeReal>20221009135745</dtimeReal>
+	<end>quit</end>
+</gameEvent>
+</CyberCIEGEeventLog>

@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<!DOCTYPE CyberCIEGEeventLog SYSTEM "..\..\eventlog.dtd">
+<CyberCIEGEeventLog>
+<gameEvent>
+	<dtimeGame>20220410201600</dtimeGame>	<dtimeReal>20220905162934</dtimeReal>
+	<loadFile>C:\Users\Rishit Saiya\AppData\Roaming\CyberCIEGE\Starting Scenarios\Rishit Saiya\saved_Sep5_15_56.sdf</loadFile>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220410201600</dtimeGame>	<dtimeReal>20220905162934</dtimeReal>
+	<loadFile>Introduction.CSM 9/30/16 3 47 PM</loadFile>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220410194500</dtimeGame>	<dtimeReal>20220905162935</dtimeReal>
+	<creates>
+		<user>Curly</user>
+	</creates>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220410194500</dtimeGame>	<dtimeReal>20220905162935</dtimeReal>
+	<creates>
+		<user>Moe</user>
+	</creates>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220410194500</dtimeGame>	<dtimeReal>20220905162935</dtimeReal>
+	<creates>
+		<user>Larry</user>
+	</creates>
+</gameEvent>
+<componentEvent>
+	<dtimeGame>20220410194500</dtimeGame>	<dtimeReal>20220905162935</dtimeReal>
+	<name>BortSoft Server</name>
+	<networkConnect>LAN 1</networkConnect>
+	<cost>0</cost><cash>2437</cash>
+</componentEvent>
+<assetEvent>
+	<dtimeGame>20220410194500</dtimeGame>	<dtimeReal>20220905162935</dtimeReal>
+	<name>BortSoft Data</name>
+	<moveType>Add : SCENARIO_FILE</moveType>
+	<computerName>BortSoft Server</computerName>
+</assetEvent>
+<assetEvent>
+	<dtimeGame>20220410194500</dtimeGame>	<dtimeReal>20220905162935</dtimeReal>
+	<name>Curly's E-Mail</name>
+	<moveType>Add : SCENARIO_FILE</moveType>
+	<computerName>BortSoft Server</computerName>
+</assetEvent>
+<assetEvent>
+	<dtimeGame>20220410194500</dtimeGame>	<dtimeReal>20220905162935</dtimeReal>
+	<name>Moe's E-Mail</name>
+	<moveType>Add : SCENARIO_FILE</moveType>
+	<computerName>BortSoft Server</computerName>
+</assetEvent>
+<gameEvent>
+	<dtimeGame>20220410194500</dtimeGame>	<dtimeReal>20220905162935</dtimeReal>
+	<creates>
+		<computerName>BortSoft Server</computerName>
+	</creates>
+</gameEvent>
+<componentEvent>
+	<dtimeGame>20220410194500</dtimeGame>	<dtimeReal>20220905162935</dtimeReal>
+	<name>Moe_ws</name>
+	<accountAdd>
+		<user>Moe</user>
+	</accountAdd>
+	<cost>0</cost><cash>2437</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220410194500</dtimeGame>	<dtimeReal>20220905162935</dtimeReal>
+	<name>Moe_ws</name>
+	<networkConnect>LAN 1</networkConnect>
+	<cost>0</cost><cash>2437</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220410194500</dtimeGame>	<dtimeReal>20220905162935</dtimeReal>
+	<name>Moe_ws</name>
+	<accountAdd>
+		<user>Moe</user>
+	</accountAdd>
+	<cost>0</cost><cash>2437</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220410194500</dtimeGame>	<dtimeReal>20220905162935</dtimeReal>
+	<name>Moe_ws</name>
+	<accountAdd>
+		<user>Moe</user>
+	</accountAdd>
+	<cost>0</cost><cash>2437</cash>
+</componentEvent>
+<gameEvent>
+	<dtimeGame>20220410194500</dtimeGame>	<dtimeReal>20220905162935</dtimeReal>
+	<creates>
+		<computerName>Moe_ws</computerName>
+	</creates>
+</gameEvent>
+<componentEvent>
+	<dtimeGame>20220410194500</dtimeGame>	<dtimeReal>20220905162935</dtimeReal>
+	<name>BitFlipper Firewall</name>
+	<networkConnect>Internet</networkConnect>
+	<cost>0</cost><cash>2437</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220410194500</dtimeGame>	<dtimeReal>20220905162935</dtimeReal>
+	<name>BitFlipper Firewall</name>
+	<networkConnect>LAN 1</networkConnect>
+	<cost>0</cost><cash>2437</cash>
+</componentEvent>
+<gameEvent>
+	<dtimeGame>20220410194500</dtimeGame>	<dtimeReal>20220905162935</dtimeReal>
+	<creates>
+		<deviceName>BitFlipper Firewall</deviceName>
+	</creates>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220410194500</dtimeGame>	<dtimeReal>20220905162935</dtimeReal>
+	<creates>
+		<deviceName>Bit Flipper Border_2</deviceName>
+	</creates>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220410194500</dtimeGame>	<dtimeReal>20220905162935</dtimeReal>
+	<start></start>
+</gameEvent>
+<uiEvent>
+	<dtimeGame>20220410194500</dtimeGame>	<dtimeReal>20220905162935</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220410194500</dtimeGame>	<dtimeReal>20220905162945</dtimeReal>
+	<name>IntroTip4</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>7</timesGoneOff>
+	<conditions>ConditionList: WhichScreen1,1 :end</conditions>
+</trigger>
+<goalFailure>
+	<dtimeGame>20220410194500</dtimeGame>	<dtimeReal>20220905162948</dtimeReal>
+	<name>Modify BortSoft Data</name>
+	<userList>Curly</userList>
+	<reason>The Modify BortSoft Data goal failed for Curly because no workstation could access BortSoft Data.</reason>
+	<cost>0</cost><cash>2437</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410194500</dtimeGame>	<dtimeReal>20220905162948</dtimeReal>
+	<name>Read Curly's E-Mail</name>
+	<userList>Curly</userList>
+	<reason>The Modify BortSoft Data goal failed for me because no workstation could access BortSoft Data.</reason>
+	<cost>0</cost><cash>2437</cash>
+</goalFailure>
+<uiEvent>
+	<dtimeGame>20220410194500</dtimeGame>	<dtimeReal>20220905163005</dtimeReal>
+	<tab>game</tab>
+</uiEvent>
+<gameEvent>
+	<dtimeGame>20220410194500</dtimeGame>	<dtimeReal>20220905163010</dtimeReal>
+	<end>quit</end>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220410194500</dtimeGame>	<dtimeReal>20220905163010</dtimeReal>
+	<end>quit</end>
+</gameEvent>
+</CyberCIEGEeventLog>

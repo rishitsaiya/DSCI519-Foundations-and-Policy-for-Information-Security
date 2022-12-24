@@ -1,0 +1,2 @@
+ 4 1024 7:41 SYSINFO.TXT
+game path: C:\Program Files (x86)\CyberCIEGE\game\exec\gameshell.exeexec\gameshell.exe
