@@ -1,0 +1,504 @@
+<?xml version="1.0"?>
+<!DOCTYPE CyberCIEGEeventLog SYSTEM "..\..\eventlog.dtd">
+<CyberCIEGEeventLog>
+<gameEvent>
+	<dtimeGame>20220101060200</dtimeGame>	<dtimeReal>20221015164959</dtimeReal>
+	<loadFile>..\Mandatory Access Controls\2_MAC_Integrity.sdf</loadFile>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220101060200</dtimeGame>	<dtimeReal>20221015164959</dtimeReal>
+	<loadFile>MAC_Integrity.CSM 10/6/11 9 02 AM</loadFile>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165000</dtimeReal>
+	<creates>
+		<user>Grace</user>
+	</creates>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165000</dtimeReal>
+	<creates>
+		<user>Sean</user>
+	</creates>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165000</dtimeReal>
+	<creates>
+		<user>Guard</user>
+	</creates>
+</gameEvent>
+<componentEvent>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165000</dtimeReal>
+	<name>NNN Router</name>
+	<networkConnect>NNN's LAN</networkConnect>
+	<cost>0</cost><cash>4000</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165000</dtimeReal>
+	<name>NNN Router</name>
+	<networkConnect>Internet</networkConnect>
+	<cost>0</cost><cash>4000</cash>
+</componentEvent>
+<gameEvent>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165000</dtimeReal>
+	<creates>
+		<deviceName>NNN Router</deviceName>
+	</creates>
+</gameEvent>
+<componentEvent>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165000</dtimeReal>
+	<name>NNN Web Server</name>
+	<networkConnect>NNN's LAN</networkConnect>
+	<cost>0</cost><cash>4000</cash>
+</componentEvent>
+<assetEvent>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165000</dtimeReal>
+	<name>NNN News Feed</name>
+	<moveType>Add : SCENARIO_FILE</moveType>
+	<computerName>NNN Web Server</computerName>
+</assetEvent>
+<gameEvent>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165000</dtimeReal>
+	<creates>
+		<computerName>NNN Web Server</computerName>
+	</creates>
+</gameEvent>
+<componentEvent>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165000</dtimeReal>
+	<name>router</name>
+	<networkConnect>LAN 1</networkConnect>
+	<cost>0</cost><cash>4000</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165000</dtimeReal>
+	<name>router</name>
+	<networkConnect>Internet</networkConnect>
+	<cost>0</cost><cash>4000</cash>
+</componentEvent>
+<gameEvent>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165000</dtimeReal>
+	<creates>
+		<deviceName>router</deviceName>
+	</creates>
+</gameEvent>
+<componentEvent>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165000</dtimeReal>
+	<name>Server</name>
+	<accountAdd>
+		<group>Command</group>
+	</accountAdd>
+	<cost>0</cost><cash>4000</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165000</dtimeReal>
+	<name>Server</name>
+	<accountAdd>
+		<user>Sean</user>
+	</accountAdd>
+	<cost>0</cost><cash>4000</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165000</dtimeReal>
+	<name>Server</name>
+	<accountAdd>
+		<user>Grace</user>
+	</accountAdd>
+	<cost>0</cost><cash>4000</cash>
+</componentEvent>
+<assetEvent>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165000</dtimeReal>
+	<name>Critical Logistics Database</name>
+	<moveType>Add : SCENARIO_FILE</moveType>
+	<computerName>Server</computerName>
+</assetEvent>
+<assetEvent>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165000</dtimeReal>
+	<name>Old Secret Files</name>
+	<moveType>Add : SCENARIO_FILE</moveType>
+	<computerName>Server</computerName>
+</assetEvent>
+<gameEvent>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165000</dtimeReal>
+	<creates>
+		<computerName>Server</computerName>
+	</creates>
+</gameEvent>
+<componentEvent>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165000</dtimeReal>
+	<name>Grace's workstation</name>
+	<accountAdd>
+		<user>Grace</user>
+	</accountAdd>
+	<cost>0</cost><cash>4000</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165000</dtimeReal>
+	<name>Grace's workstation</name>
+	<networkConnect>LAN 1</networkConnect>
+	<cost>0</cost><cash>4000</cash>
+</componentEvent>
+<assetEvent>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165000</dtimeReal>
+	<name>Weekly Reports</name>
+	<moveType>Add : SCENARIO_FILE</moveType>
+	<computerName>Grace's workstation</computerName>
+</assetEvent>
+<gameEvent>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165000</dtimeReal>
+	<creates>
+		<computerName>Grace's workstation</computerName>
+	</creates>
+</gameEvent>
+<componentEvent>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165000</dtimeReal>
+	<name>Sean's workstation</name>
+	<accountAdd>
+		<user>Sean</user>
+	</accountAdd>
+	<cost>0</cost><cash>4000</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165000</dtimeReal>
+	<name>Sean's workstation</name>
+	<networkConnect>LAN 2</networkConnect>
+	<cost>0</cost><cash>4000</cash>
+</componentEvent>
+<gameEvent>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165000</dtimeReal>
+	<creates>
+		<computerName>Sean's workstation</computerName>
+	</creates>
+</gameEvent>
+<goalFailure>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165000</dtimeReal>
+	<name>Maintain Logistics Database</name>
+	<userList>Sean</userList>
+	<reason>I failed Maintain Logistics Database.  </reason>
+	<cost>0</cost><cash>4000</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165000</dtimeReal>
+	<name>Prepare Weekly Reports</name>
+	<userList>Grace</userList>
+	<reason>I failed Prepare Weekly Reports.  </reason>
+	<cost>0</cost><cash>4000</cash>
+</goalFailure>
+<gameEvent>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165000</dtimeReal>
+	<start></start>
+</gameEvent>
+<trigger>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165000</dtimeReal>
+	<name>encyl</name>
+	<triggerType>ECONTEXT_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: not OneHour(false) :end</conditions>
+</trigger>
+<uiEvent>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165016</dtimeReal>
+	<tab>network</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165016</dtimeReal>
+	<name>ConnectBoth</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: not GraceConnected(false) or_not SeanConnected(false) and OnScreen3,3 :end</conditions>
+</trigger>
+<componentEvent>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165019</dtimeReal>
+	<name>Server</name>
+	<networkConnect>LAN 1</networkConnect>
+	<cost>0</cost><cash>4000</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165019</dtimeReal>
+	<name>Server</name>
+	<networkConnect>LAN 2</networkConnect>
+	<cost>0</cost><cash>4000</cash>
+</componentEvent>
+<trigger>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165019</dtimeReal>
+	<name>SetLabels</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: GraceConnected(true) and_not GraceGeneral(false) and OnScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165020</dtimeReal>
+	<name>LANsConnected</name>
+	<triggerType>SET_OBJECTIVE_STATUS</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: not LANsConnected(false) and SeanConnected(true) and GraceConnected(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165023</dtimeReal>
+	<name>SetLabels</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: GraceConnected(true) and_not GraceGeneral(false) and OnScreen3,3 :end</conditions>
+</trigger>
+<uiEvent>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165023</dtimeReal>
+	<tab>objective</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165024</dtimeReal>
+	<tab>network</tab>
+</uiEvent>
+<componentEvent>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165030</dtimeReal>
+	<name>Server</name>
+	<networkLabel>
+		<network>LAN 1</network><label>Critical Operations</label>
+		<otherLabel>SECRET</otherLabel>
+	</networkLabel>
+	<cost>0</cost><cash>4000</cash>
+</componentEvent>
+<trigger>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165034</dtimeReal>
+	<name>SetLabels</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>3</timesGoneOff>
+	<conditions>ConditionList: GraceConnected(true) and_not GraceGeneral(false) and OnScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165037</dtimeReal>
+	<name>SetLabels</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>4</timesGoneOff>
+	<conditions>ConditionList: GraceConnected(true) and_not GraceGeneral(false) and OnScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165040</dtimeReal>
+	<name>SetLabels</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>5</timesGoneOff>
+	<conditions>ConditionList: GraceConnected(true) and_not GraceGeneral(false) and OnScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165043</dtimeReal>
+	<name>SetLabels</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>6</timesGoneOff>
+	<conditions>ConditionList: GraceConnected(true) and_not GraceGeneral(false) and OnScreen3,3 :end</conditions>
+</trigger>
+<componentEvent>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165048</dtimeReal>
+	<name>Server</name>
+	<networkLabel>
+		<network>LAN 2</network><label>SECRET</label>
+		<otherLabel>Critical Operations</otherLabel>
+	</networkLabel>
+	<cost>0</cost><cash>4000</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165050</dtimeReal>
+	<name>Server</name>
+	<networkLabel>
+		<network>LAN 2</network><label>General Operations</label>
+		<otherLabel>SECRET</otherLabel>
+	</networkLabel>
+	<cost>0</cost><cash>4000</cash>
+</componentEvent>
+<trigger>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165052</dtimeReal>
+	<name>SetLabels</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>7</timesGoneOff>
+	<conditions>ConditionList: GraceConnected(true) and_not GraceGeneral(false) and OnScreen3,3 :end</conditions>
+</trigger>
+<goalFailure>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165053</dtimeReal>
+	<name>Maintain Logistics Database</name>
+	<userList>Sean</userList>
+	<reason>I failed Maintain Logistics Database.  </reason>
+	<cost>0</cost><cash>4000</cash>
+</goalFailure>
+<uiEvent>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165053</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<gameEvent>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165054</dtimeReal>
+	<resume></resume>
+</gameEvent>
+<goalFailure>
+	<dtimeGame>20220105080000</dtimeGame>	<dtimeReal>20221015165054</dtimeReal>
+	<name>Maintain Logistics Database</name>
+	<userList>Sean</userList>
+	<reason>I failed Maintain Logistics Database.  </reason>
+	<cost>0</cost><cash>4000</cash>
+</goalFailure>
+<summaryEvent>
+	<dtimeGame>20220105080102</dtimeGame>	<dtimeReal>20221015165054</dtimeReal>
+	<bonus>0</bonus><cash>4000</cash>
+</summaryEvent>
+<userEvent>
+	<dtimeGame>20220105082456</dtimeGame>	<dtimeReal>20221015165059</dtimeReal>
+	<newMode>
+		<name>Sean</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3992</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105083153</dtimeGame>	<dtimeReal>20221015165101</dtimeReal>
+	<newMode>
+		<name>Sean</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3989</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220105090500</dtimeGame>	<dtimeReal>20221015165108</dtimeReal>
+	<name>Targeted Malware</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: OneHour(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220105090500</dtimeGame>	<dtimeReal>20221015165108</dtimeReal>
+	<name>Insiders</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: OneHour(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220105090500</dtimeGame>	<dtimeReal>20221015165108</dtimeReal>
+	<name>Breakin</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: OneHour(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220105090500</dtimeGame>	<dtimeReal>20221015165108</dtimeReal>
+	<name>Internet</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: OneHour(true) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220105090641</dtimeGame>	<dtimeReal>20221015165108</dtimeReal>
+	<newMode>
+		<name>Sean</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3977</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105092035</dtimeGame>	<dtimeReal>20221015165111</dtimeReal>
+	<newMode>
+		<name>Sean</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3972</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220105094127</dtimeGame>	<dtimeReal>20221015165115</dtimeReal>
+	<newMode>
+		<name>Sean</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>3964</cash>
+</userEvent>
+<goalFailure>
+	<dtimeGame>20220105094946</dtimeGame>	<dtimeReal>20221015165117</dtimeReal>
+	<name>Maintain Logistics Database</name>
+	<userList>Sean</userList>
+	<reason>I failed Maintain Logistics Database.  </reason>
+	<cost>38</cost><cash>3962</cash>
+</goalFailure>
+<userEvent>
+	<dtimeGame>20220105095522</dtimeGame>	<dtimeReal>20221015165118</dtimeReal>
+	<newMode>
+		<name>Sean</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>3960</cash>
+</userEvent>
+<gameEvent>
+	<dtimeGame>20220105101740</dtimeGame>	<dtimeReal>20221015165123</dtimeReal>
+	<pause></pause>
+</gameEvent>
+<goalFailure>
+	<dtimeGame>20220105101740</dtimeGame>	<dtimeReal>20221015165123</dtimeReal>
+	<name>Maintain Logistics Database</name>
+	<userList>Sean</userList>
+	<reason>I failed Maintain Logistics Database.  </reason>
+	<cost>0</cost><cash>3952</cash>
+</goalFailure>
+<gameEvent>
+	<dtimeGame>20220105101740</dtimeGame>	<dtimeReal>20221015165132</dtimeReal>
+	<resume></resume>
+</gameEvent>
+<goalFailure>
+	<dtimeGame>20220105101740</dtimeGame>	<dtimeReal>20221015165132</dtimeReal>
+	<name>Maintain Logistics Database</name>
+	<userList>Sean</userList>
+	<reason>I failed Maintain Logistics Database.  </reason>
+	<cost>0</cost><cash>3952</cash>
+</goalFailure>
+<trigger>
+	<dtimeGame>20220105102004</dtimeGame>	<dtimeReal>20221015165133</dtimeReal>
+	<name>Targeted Malware</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: OneHour(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220105102004</dtimeGame>	<dtimeReal>20221015165133</dtimeReal>
+	<name>Insiders</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: OneHour(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220105102004</dtimeGame>	<dtimeReal>20221015165133</dtimeReal>
+	<name>Breakin</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: OneHour(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220105102004</dtimeGame>	<dtimeReal>20221015165133</dtimeReal>
+	<name>Internet</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: OneHour(true) :end</conditions>
+</trigger>
+<uiEvent>
+	<dtimeGame>20220105102457</dtimeGame>	<dtimeReal>20221015165134</dtimeReal>
+	<tab>game</tab>
+</uiEvent>
+<goalFailure>
+	<dtimeGame>20220105102457</dtimeGame>	<dtimeReal>20221015165145</dtimeReal>
+	<name>Maintain Logistics Database</name>
+	<userList>Sean</userList>
+	<reason>I failed Maintain Logistics Database.  </reason>
+	<cost>0</cost><cash>3949</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220105102457</dtimeGame>	<dtimeReal>20221015165145</dtimeReal>
+	<name>Maintain Logistics Database</name>
+	<userList>Sean</userList>
+	<reason>I failed Maintain Logistics Database.  </reason>
+	<cost>0</cost><cash>3949</cash>
+</goalFailure>
+<uiEvent>
+	<dtimeGame>20220105102457</dtimeGame>	<dtimeReal>20221015165145</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220105103924</dtimeGame>	<dtimeReal>20221015165148</dtimeReal>
+	<tab>game</tab>
+</uiEvent>
+<gameEvent>
+	<dtimeGame>20220105103924</dtimeGame>	<dtimeReal>20221015165151</dtimeReal>
+	<end>quit</end>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220105103924</dtimeGame>	<dtimeReal>20221015165151</dtimeReal>
+	<end>quit</end>
+</gameEvent>
+</CyberCIEGEeventLog>

@@ -1,0 +1,1296 @@
+<?xml version="1.0"?>
+<!DOCTYPE CyberCIEGEeventLog SYSTEM "..\..\eventlog.dtd">
+<CyberCIEGEeventLog>
+<gameEvent>
+	<dtimeGame>20220101060200</dtimeGame>	<dtimeReal>20220905151908</dtimeReal>
+	<loadFile>..\Starting Scenarios\1_Introduction.sdf</loadFile>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220101060200</dtimeGame>	<dtimeReal>20220905151908</dtimeReal>
+	<loadFile>Introduction.CSM 9/30/16 3 47 PM</loadFile>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905151909</dtimeReal>
+	<creates>
+		<user>Curly</user>
+	</creates>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905151909</dtimeReal>
+	<creates>
+		<user>Moe</user>
+	</creates>
+</gameEvent>
+<componentEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905151909</dtimeReal>
+	<name>BitFlipper Firewall</name>
+	<networkConnect>LAN 1</networkConnect>
+	<cost>0</cost><cash>12000</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905151909</dtimeReal>
+	<name>BitFlipper Firewall</name>
+	<networkConnect>Internet</networkConnect>
+	<cost>0</cost><cash>12000</cash>
+</componentEvent>
+<gameEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905151909</dtimeReal>
+	<creates>
+		<deviceName>BitFlipper Firewall</deviceName>
+	</creates>
+</gameEvent>
+<componentEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905151909</dtimeReal>
+	<name>BortSoft Server</name>
+	<networkConnect>LAN 1</networkConnect>
+	<cost>0</cost><cash>12000</cash>
+</componentEvent>
+<assetEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905151909</dtimeReal>
+	<name>Moe's E-Mail</name>
+	<moveType>Add : SCENARIO_FILE</moveType>
+	<computerName>BortSoft Server</computerName>
+</assetEvent>
+<assetEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905151909</dtimeReal>
+	<name>Curly's E-Mail</name>
+	<moveType>Add : SCENARIO_FILE</moveType>
+	<computerName>BortSoft Server</computerName>
+</assetEvent>
+<assetEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905151909</dtimeReal>
+	<name>BortSoft Data</name>
+	<moveType>Add : SCENARIO_FILE</moveType>
+	<computerName>BortSoft Server</computerName>
+</assetEvent>
+<gameEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905151909</dtimeReal>
+	<creates>
+		<computerName>BortSoft Server</computerName>
+	</creates>
+</gameEvent>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905151909</dtimeReal>
+	<name>Modify BortSoft Data</name>
+	<userList>Moe</userList>
+	<reason>The Modify BortSoft Data goal failed for Moe because no workstation could access BortSoft Data.</reason>
+	<cost>0</cost><cash>12000</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905151909</dtimeReal>
+	<name>Read Moe's E-Mail</name>
+	<userList>Moe</userList>
+	<reason>The Modify BortSoft Data goal failed for me because no workstation could access BortSoft Data.</reason>
+	<cost>0</cost><cash>12000</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905151909</dtimeReal>
+	<name>Modify BortSoft Data</name>
+	<userList>Curly</userList>
+	<reason>The Modify BortSoft Data goal failed for Curly because no workstation could access BortSoft Data.</reason>
+	<cost>0</cost><cash>12000</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905151909</dtimeReal>
+	<name>Read Curly's E-Mail</name>
+	<userList>Curly</userList>
+	<reason>The Modify BortSoft Data goal failed for me because no workstation could access BortSoft Data.</reason>
+	<cost>0</cost><cash>12000</cash>
+</goalFailure>
+<gameEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905151909</dtimeReal>
+	<start></start>
+</gameEvent>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905151909</dtimeReal>
+	<name>SetIncomplete1_1</name>
+	<triggerType>SET_OBJECTIVE_STATUS</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: not MoeHasComputer(false) or_not CurlyHasComputer(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905151909</dtimeReal>
+	<name>SetIncomplete1_2</name>
+	<triggerType>SET_OBJECTIVE_STATUS</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: not (CompanyHas3PlusComputers(false) and CompanyHas3PlusCompsOnLAN1(false) and MoeHasComputer(false) and CurlyHasComputer(false)) :end</conditions>
+</trigger>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905151909</dtimeReal>
+	<name>Modify BortSoft Data</name>
+	<userList>Moe</userList>
+	<reason>The Modify BortSoft Data goal failed for Moe because no workstation could access BortSoft Data.</reason>
+	<cost>0</cost><cash>12000</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905151909</dtimeReal>
+	<name>Read Moe's E-Mail</name>
+	<userList>Moe</userList>
+	<reason>The Modify BortSoft Data goal failed for me because no workstation could access BortSoft Data.</reason>
+	<cost>0</cost><cash>12000</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905151909</dtimeReal>
+	<name>Modify BortSoft Data</name>
+	<userList>Curly</userList>
+	<reason>The Modify BortSoft Data goal failed for Curly because no workstation could access BortSoft Data.</reason>
+	<cost>0</cost><cash>12000</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905151909</dtimeReal>
+	<name>Read Curly's E-Mail</name>
+	<userList>Curly</userList>
+	<reason>The Modify BortSoft Data goal failed for me because no workstation could access BortSoft Data.</reason>
+	<cost>0</cost><cash>12000</cash>
+</goalFailure>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905151914</dtimeReal>
+	<name>IntroTipObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: WhichScreen2,2 and_not ObjectiveViewed_intrinsic0,0 :end</conditions>
+</trigger>
+<uiEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905151916</dtimeReal>
+	<tab>objective</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905151917</dtimeReal>
+	<name>ObjectiveViewed</name>
+	<triggerType>LOG_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: WhichScreen12,12 and_not ThirdPhaseCompleted(false) :end</conditions>
+</trigger>
+<gameEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905151917</dtimeReal>
+	<logTrigger>  <name>ObjectiveViewed</name>
+  <message>Objective viewed</message>
+  <conditions>ConditionList: WhichScreen12,12 and_not ThirdPhaseCompleted(false) :end,</conditions>
+</logTrigger>
+</gameEvent>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905151923</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905151926</dtimeReal>
+	<name>Modify BortSoft Data</name>
+	<userList>Moe</userList>
+	<reason>The Modify BortSoft Data goal failed for Moe because no workstation could access BortSoft Data.</reason>
+	<cost>0</cost><cash>12000</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905151926</dtimeReal>
+	<name>Read Moe's E-Mail</name>
+	<userList>Moe</userList>
+	<reason>The Modify BortSoft Data goal failed for me because no workstation could access BortSoft Data.</reason>
+	<cost>0</cost><cash>12000</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905151926</dtimeReal>
+	<name>Modify BortSoft Data</name>
+	<userList>Curly</userList>
+	<reason>The Modify BortSoft Data goal failed for Curly because no workstation could access BortSoft Data.</reason>
+	<cost>0</cost><cash>12000</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905151926</dtimeReal>
+	<name>Read Curly's E-Mail</name>
+	<userList>Curly</userList>
+	<reason>The Modify BortSoft Data goal failed for me because no workstation could access BortSoft Data.</reason>
+	<cost>0</cost><cash>12000</cash>
+</goalFailure>
+<uiEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905151926</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905151928</dtimeReal>
+	<name>IntroTip1</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: not CurlyHasComputer(false) and WhichScreen2,2 and_not FirstPhaseCompleted(false) and ObjectiveViewed_intrinsic0,1 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905151937</dtimeReal>
+	<name>IntroTip3a</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: not (MoeHasComputer(false) or CurlyHasComputer(false)) and WhichScreen9,9 :end</conditions>
+</trigger>
+<componentEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905152006</dtimeReal>
+	<name>Curly_ws</name>
+	<accountAdd>
+		<user>Curly</user>
+	</accountAdd>
+	<cost>0</cost><cash>12000</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905152006</dtimeReal>
+	<name>Curly_ws</name>
+	<buy>
+		<catalogName>Targo Worksaver</catalogName>
+		<position>2</position>
+	</buy>
+	<cost>1200</cost><cash>10800</cash>
+</componentEvent>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905152006</dtimeReal>
+	<name>Modify BortSoft Data</name>
+	<userList>Moe</userList>
+	<reason>The Modify BortSoft Data goal failed for Moe because no workstation could access BortSoft Data.</reason>
+	<cost>0</cost><cash>10800</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905152006</dtimeReal>
+	<name>Read Moe's E-Mail</name>
+	<userList>Moe</userList>
+	<reason>The Modify BortSoft Data goal failed for me because no workstation could access BortSoft Data.</reason>
+	<cost>0</cost><cash>10800</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905152006</dtimeReal>
+	<name>Modify BortSoft Data</name>
+	<userList>Curly</userList>
+	<reason>I failed Modify BortSoft Data.  </reason>
+	<cost>0</cost><cash>10800</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905152006</dtimeReal>
+	<name>Read Curly's E-Mail</name>
+	<userList>Curly</userList>
+	<reason>I failed Modify BortSoft Data.  </reason>
+	<cost>0</cost><cash>10800</cash>
+</goalFailure>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905152007</dtimeReal>
+	<name>IntroTip2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: not MoeHasComputer(false) and CurlyHasComputer(true) and (WhichScreen2,2 or WhichScreen12,2) and_not FirstPhaseCompleted(false) :end</conditions>
+</trigger>
+<componentEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905152018</dtimeReal>
+	<name>Moe_ws</name>
+	<accountAdd>
+		<user>Moe</user>
+	</accountAdd>
+	<cost>0</cost><cash>10800</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905152018</dtimeReal>
+	<name>Moe_ws</name>
+	<buy>
+		<catalogName>Targo Worksaver</catalogName>
+		<position>3</position>
+	</buy>
+	<cost>1200</cost><cash>9600</cash>
+</componentEvent>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905152018</dtimeReal>
+	<name>Modify BortSoft Data</name>
+	<userList>Moe</userList>
+	<reason>I failed Modify BortSoft Data.  </reason>
+	<cost>0</cost><cash>9600</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905152018</dtimeReal>
+	<name>Read Moe's E-Mail</name>
+	<userList>Moe</userList>
+	<reason>I failed Modify BortSoft Data.  </reason>
+	<cost>0</cost><cash>9600</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905152018</dtimeReal>
+	<name>Modify BortSoft Data</name>
+	<userList>Curly</userList>
+	<reason>I failed Modify BortSoft Data.  </reason>
+	<cost>0</cost><cash>9600</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905152018</dtimeReal>
+	<name>Read Curly's E-Mail</name>
+	<userList>Curly</userList>
+	<reason>I failed Modify BortSoft Data.  </reason>
+	<cost>0</cost><cash>9600</cash>
+</goalFailure>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905152018</dtimeReal>
+	<name>SetComplete1_1</name>
+	<triggerType>SET_OBJECTIVE_STATUS</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: MoeHasComputer(true) and CurlyHasComputer(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905152020</dtimeReal>
+	<name>IntroTip5</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,1 or HowManyNetworked12,1) and_not WhichScreen3,2 :end</conditions>
+</trigger>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905152024</dtimeReal>
+	<name>Modify BortSoft Data</name>
+	<userList>Moe</userList>
+	<reason>I failed Modify BortSoft Data.  </reason>
+	<cost>0</cost><cash>9600</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905152024</dtimeReal>
+	<name>Read Moe's E-Mail</name>
+	<userList>Moe</userList>
+	<reason>I failed Modify BortSoft Data.  </reason>
+	<cost>0</cost><cash>9600</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905152024</dtimeReal>
+	<name>Modify BortSoft Data</name>
+	<userList>Curly</userList>
+	<reason>I failed Modify BortSoft Data.  </reason>
+	<cost>0</cost><cash>9600</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905152024</dtimeReal>
+	<name>Read Curly's E-Mail</name>
+	<userList>Curly</userList>
+	<reason>I failed Modify BortSoft Data.  </reason>
+	<cost>0</cost><cash>9600</cash>
+</goalFailure>
+<uiEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905152025</dtimeReal>
+	<tab>network</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905152026</dtimeReal>
+	<name>IntroTip5a</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,1 or HowManyNetworked12,1) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905152028</dtimeReal>
+	<name>IntroTip5b</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,1 or HowManyNetworked12,1) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905152036</dtimeReal>
+	<name>IntroTip5a</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,1 or HowManyNetworked12,1) and WhichScreen3,3 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905152038</dtimeReal>
+	<name>IntroTip5b</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,1 or HowManyNetworked12,1) and WhichScreen3,3 :end</conditions>
+</trigger>
+<componentEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905152040</dtimeReal>
+	<name>Curly_ws</name>
+	<networkConnect>LAN 1</networkConnect>
+	<cost>0</cost><cash>9600</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905152045</dtimeReal>
+	<name>Moe_ws</name>
+	<networkConnect>LAN 1</networkConnect>
+	<cost>0</cost><cash>9600</cash>
+</componentEvent>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905152045</dtimeReal>
+	<name>SetComplete1_2</name>
+	<triggerType>SET_OBJECTIVE_STATUS</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: CompanyHas3PlusComputers(true) and CompanyHas3PlusCompsOnLAN1(true) and MoeHasComputer(true) and CurlyHasComputer(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905152045</dtimeReal>
+	<name>SetIncomplete1_4</name>
+	<triggerType>SET_OBJECTIVE_STATUS</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: (CompanyHas3PlusComputers(true) and CompanyHas3PlusCompsOnLAN1(true) and MoeHasComputer(true) and CurlyHasComputer(true)) and_not HasSomeIT(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905152048</dtimeReal>
+	<name>IntroTip5c</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and HowManyNetworked13,3 and WhichScreen3,3 :end</conditions>
+</trigger>
+<uiEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905152050</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905152053</dtimeReal>
+	<name>CheckITGuy</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: MoeHasComputer(true) and CurlyHasComputer(true) and CompanyHas3PlusCompsOnLAN1(true) and_not FirstPhaseCompleted(false) and_not HasSomeIT(false) and WhichScreen2,2 :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905152102</dtimeReal>
+	<hire>
+		<name>Larry</name>
+		<salary>0</salary>
+	</hire>
+	<cost>0</cost><cash>9600</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905152105</dtimeReal>
+	<name>AdvanceToPhase2</name>
+	<triggerType>SET_PHASE</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: WhichScreen2,2 and (CompanyHas3PlusComputers(true) and CompanyHas3PlusCompsOnLAN1(true) and MoeHasComputer(true) and CurlyHasComputer(true)) and HasSomeIT(true) and_not FirstPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905152115</dtimeReal>
+	<name>IntroTipPause2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and GamePaused(true) and WhichScreen2,2 and_not time1hour(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905152115</dtimeReal>
+	<name>SetComplete1_4</name>
+	<triggerType>SET_OBJECTIVE_STATUS</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: (CompanyHas3PlusComputers(true) and CompanyHas3PlusCompsOnLAN1(true) and MoeHasComputer(true) and CurlyHasComputer(true)) and HasSomeIT(true) :end</conditions>
+</trigger>
+<gameEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220905152121</dtimeReal>
+	<resume></resume>
+</gameEvent>
+<summaryEvent>
+	<dtimeGame>20220410083102</dtimeGame>	<dtimeReal>20220905152121</dtimeReal>
+	<bonus>0</bonus><cash>9600</cash>
+</summaryEvent>
+<trigger>
+	<dtimeGame>20220410083502</dtimeGame>	<dtimeReal>20220905152122</dtimeReal>
+	<name>Phase1</name>
+	<triggerType>SAVEGAME_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) :end</conditions>
+</trigger>
+<gameEvent>
+	<dtimeGame>20220410083502</dtimeGame>	<dtimeReal>20220905152122</dtimeReal>
+	<saveFile>Phase1.sdf</saveFile>
+</gameEvent>
+<trigger>
+	<dtimeGame>20220410094504</dtimeGame>	<dtimeReal>20220905152137</dtimeReal>
+	<name>BadPolicies</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) :end</conditions>
+</trigger>
+<warning>
+	<dtimeGame>20220410094504</dtimeGame>	<dtimeReal>20220905152137</dtimeReal>
+	<malware>Trojan Horse:Aladinz</malware>
+	<name>Curly_ws</name>
+	<cause>User impulsively executed email attachments</cause>
+</warning>
+<warning>
+	<dtimeGame>20220410094504</dtimeGame>	<dtimeReal>20220905152137</dtimeReal>
+	<malware>Virus:POP.Sling Virus</malware>
+	<name>Curly_ws</name>
+	<cause>User impulsively executed email attachments</cause>
+</warning>
+<warning>
+	<dtimeGame>20220410094504</dtimeGame>	<dtimeReal>20220905152137</dtimeReal>
+	<malware>Trojan Horse:Aladinz</malware>
+	<name>Moe_ws</name>
+	<cause>User impulsively executed email attachments</cause>
+</warning>
+<warning>
+	<dtimeGame>20220410094504</dtimeGame>	<dtimeReal>20220905152137</dtimeReal>
+	<malware>Virus:POP.Sling Virus</malware>
+	<name>Moe_ws</name>
+	<cause>User impulsively executed email attachments</cause>
+</warning>
+<trigger>
+	<dtimeGame>20220410094504</dtimeGame>	<dtimeReal>20220905152137</dtimeReal>
+	<name>Malware</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) :end</conditions>
+</trigger>
+<assetAttacked>
+	<dtimeGame>20220410094504</dtimeGame>	<dtimeReal>20220905152137</dtimeReal>
+	<name>BortSoft Data</name>
+	<motiveType>Modification</motiveType>
+	<motive>70</motive>
+	<attackType>ATTACK_TARG_MAL_SOFTWARE</attackType>
+	<attackIndex>[18]</attackIndex>
+	<computerName>BortSoft Server</computerName>
+	<attacker>Attacker</attacker>
+	<cost>500</cost><cash>9129</cash>
+	<reason>Malicious software (Aladinz) on Curly_ws has corrupted BortSoft Data on BortSoft Server. Malware installed on computer because user impulsively executes email attachments.</reason>
+</assetAttacked>
+<trigger>
+	<dtimeGame>20220410094504</dtimeGame>	<dtimeReal>20220905152137</dtimeReal>
+	<name>TipAttackLog</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: assetAttacked(true) and_not attackLogViewed_intrinsic0,0 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410094504</dtimeGame>	<dtimeReal>20220905152137</dtimeReal>
+	<name>DLTrojanPenalty</name>
+	<triggerType>CASH_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and (CurlyHasVirus(true) or MoeHasVirus(true)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410100918</dtimeGame>	<dtimeReal>20220905152143</dtimeReal>
+	<name>attackLogViewed</name>
+	<triggerType>LOG_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: WhichScreen23,23 :end</conditions>
+</trigger>
+<gameEvent>
+	<dtimeGame>20220410100918</dtimeGame>	<dtimeReal>20220905152143</dtimeReal>
+	<logTrigger>  <name>attackLogViewed</name>
+  <message>viewed attack log</message>
+  <conditions>ConditionList: WhichScreen23,23 :end,</conditions>
+</logTrigger>
+</gameEvent>
+<trigger>
+	<dtimeGame>20220410101004</dtimeGame>	<dtimeReal>20220905152154</dtimeReal>
+	<name>CurlyWarnAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen2,2 and CurlyHasVirus(true) and_not CurlyNoAttach(false) and attackLogViewed_intrinsic0,1 :end</conditions>
+</trigger>
+<summaryEvent>
+	<dtimeGame>20220410101102</dtimeGame>	<dtimeReal>20220905152155</dtimeReal>
+	<bonus>-0</bonus><cash>8639</cash>
+</summaryEvent>
+<trigger>
+	<dtimeGame>20220410102502</dtimeGame>	<dtimeReal>20220905152158</dtimeReal>
+	<name>CurlyWarnAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen2,2 and CurlyHasVirus(true) and_not CurlyNoAttach(false) and attackLogViewed_intrinsic0,1 :end</conditions>
+</trigger>
+<uiEvent>
+	<dtimeGame>20220410102930</dtimeGame>	<dtimeReal>20220905152158</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220410102930</dtimeGame>	<dtimeReal>20220905152159</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102930</dtimeGame>	<dtimeReal>20220905152200</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(false) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<componentEvent>
+	<dtimeGame>20220410102930</dtimeGame>	<dtimeReal>20220905152206</dtimeReal>
+	<name>Curly_ws</name>
+	<procSetting>
+		<field>NoEmailAttachmentExecute:</field>
+		<value>true</value>
+		<newProtection>-1</newProtection>
+	</procSetting>
+	<cost>150</cost><cash>8487</cash>
+</componentEvent>
+<trigger>
+	<dtimeGame>20220410102930</dtimeGame>	<dtimeReal>20220905152209</dtimeReal>
+	<name>TipSelectWS</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoAttach(true) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410102930</dtimeGame>	<dtimeReal>20220905152210</dtimeReal>
+	<name>TipBewareAttach</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoAttach(true) and MoeNoAttach(false)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<componentEvent>
+	<dtimeGame>20220410102930</dtimeGame>	<dtimeReal>20220905152215</dtimeReal>
+	<name>Moe_ws</name>
+	<procSetting>
+		<field>NoEmailAttachmentExecute:</field>
+		<value>true</value>
+		<newProtection>-1</newProtection>
+	</procSetting>
+	<cost>150</cost><cash>8337</cash>
+</componentEvent>
+<trigger>
+	<dtimeGame>20220410102930</dtimeGame>	<dtimeReal>20220905152221</dtimeReal>
+	<name>ReturnFromComponent</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and ((MoeNoAttach(true) and CurlyNoAttach(true) and_not TrojWarnWentOff(false)) or (MoeNoExternalSW(false) and CurlyNoExternalSW(false) and TrojWarnWentOff(false))) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<uiEvent>
+	<dtimeGame>20220410102930</dtimeGame>	<dtimeReal>20220905152223</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<userEvent>
+	<dtimeGame>20220410103456</dtimeGame>	<dtimeReal>20220905152224</dtimeReal>
+	<newMode>
+		<name>Moe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>8337</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220410103720</dtimeGame>	<dtimeReal>20220905152224</dtimeReal>
+	<newMode>
+		<name>Curly</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>8337</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220410104501</dtimeGame>	<dtimeReal>20220905152226</dtimeReal>
+	<name>MoeWarnExtSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen2,2 and MoeHasVirus(true) and_not MoeNoExternalSW(false) and CurlyNoAttach(true) and MoeNoAttach(true) and attackLogViewed_intrinsic0,1 :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220410104851</dtimeGame>	<dtimeReal>20220905152227</dtimeReal>
+	<newMode>
+		<name>Moe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>8336</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220410105813</dtimeGame>	<dtimeReal>20220905152229</dtimeReal>
+	<newMode>
+		<name>Curly</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>8335</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220410110002</dtimeGame>	<dtimeReal>20220905152229</dtimeReal>
+	<name>BadPolicies</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) :end</conditions>
+</trigger>
+<warning>
+	<dtimeGame>20220410110002</dtimeGame>	<dtimeReal>20220905152229</dtimeReal>
+	<malware>Trojan Horse:Aladinz</malware>
+	<name>Curly_ws</name>
+	<cause>User installed unauthorized external software containing malware because procedures allowed it.</cause>
+</warning>
+<warning>
+	<dtimeGame>20220410110002</dtimeGame>	<dtimeReal>20220905152229</dtimeReal>
+	<malware>Virus:POP.Sling Virus</malware>
+	<name>Curly_ws</name>
+	<cause>User installed unauthorized external software containing malware because procedures allowed it.</cause>
+</warning>
+<warning>
+	<dtimeGame>20220410110002</dtimeGame>	<dtimeReal>20220905152229</dtimeReal>
+	<malware>Trojan Horse:Aladinz</malware>
+	<name>Moe_ws</name>
+	<cause>User installed unauthorized external software containing malware because procedures allowed it.</cause>
+</warning>
+<warning>
+	<dtimeGame>20220410110002</dtimeGame>	<dtimeReal>20220905152229</dtimeReal>
+	<malware>Virus:POP.Sling Virus</malware>
+	<name>Moe_ws</name>
+	<cause>User installed unauthorized external software containing malware because procedures allowed it.</cause>
+</warning>
+<trigger>
+	<dtimeGame>20220410110002</dtimeGame>	<dtimeReal>20220905152229</dtimeReal>
+	<name>Malware</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) :end</conditions>
+</trigger>
+<assetAttacked>
+	<dtimeGame>20220410110002</dtimeGame>	<dtimeReal>20220905152229</dtimeReal>
+	<name>BortSoft Data</name>
+	<motiveType>Modification</motiveType>
+	<motive>70</motive>
+	<attackType>ATTACK_TARG_MAL_SOFTWARE</attackType>
+	<attackIndex>[18]</attackIndex>
+	<computerName>BortSoft Server</computerName>
+	<attacker>Attacker</attacker>
+	<cost>500</cost><cash>7835</cash>
+	<reason>Malicious software (Aladinz) on Curly_ws has corrupted BortSoft Data on BortSoft Server. User installed unauthorized external software containing malware because procedures allowed it.</reason>
+</assetAttacked>
+<trigger>
+	<dtimeGame>20220410110002</dtimeGame>	<dtimeReal>20220905152229</dtimeReal>
+	<name>CurlyWarnExtSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen2,2 and CurlyHasVirus(true) and_not CurlyNoExternalSW(false) and CurlyNoAttach(true) and MoeNoAttach(true) and attackLogViewed_intrinsic0,1 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410110002</dtimeGame>	<dtimeReal>20220905152229</dtimeReal>
+	<name>DLTrojanPenalty</name>
+	<triggerType>CASH_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and (CurlyHasVirus(true) or MoeHasVirus(true)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220410110246</dtimeGame>	<dtimeReal>20220905152230</dtimeReal>
+	<newMode>
+		<name>Moe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>7335</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220410110500</dtimeGame>	<dtimeReal>20220905152230</dtimeReal>
+	<name>MoeWarnExtSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen2,2 and MoeHasVirus(true) and_not MoeNoExternalSW(false) and CurlyNoAttach(true) and MoeNoAttach(true) and attackLogViewed_intrinsic0,1 :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220410111207</dtimeGame>	<dtimeReal>20220905152232</dtimeReal>
+	<newMode>
+		<name>Curly</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>7334</cash>
+</userEvent>
+<summaryEvent>
+	<dtimeGame>20220410111802</dtimeGame>	<dtimeReal>20220905152233</dtimeReal>
+	<bonus>-0</bonus><cash>7333</cash>
+</summaryEvent>
+<trigger>
+	<dtimeGame>20220410112504</dtimeGame>	<dtimeReal>20220905152234</dtimeReal>
+	<name>MoeWarnExtSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>3</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen2,2 and MoeHasVirus(true) and_not MoeNoExternalSW(false) and CurlyNoAttach(true) and MoeNoAttach(true) and attackLogViewed_intrinsic0,1 :end</conditions>
+</trigger>
+<uiEvent>
+	<dtimeGame>20220410112830</dtimeGame>	<dtimeReal>20220905152235</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220410112830</dtimeGame>	<dtimeReal>20220905152235</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410112830</dtimeGame>	<dtimeReal>20220905152236</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<uiEvent>
+	<dtimeGame>20220410112830</dtimeGame>	<dtimeReal>20220905152245</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220410114454</dtimeGame>	<dtimeReal>20220905152248</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220410114454</dtimeGame>	<dtimeReal>20220905152249</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410114454</dtimeGame>	<dtimeReal>20220905152250</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(false)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<componentEvent>
+	<dtimeGame>20220410114454</dtimeGame>	<dtimeReal>20220905152253</dtimeReal>
+	<name>Moe_ws</name>
+	<procSetting>
+		<field>NoExternalSoftware:</field>
+		<value>true</value>
+		<newProtection>-1</newProtection>
+	</procSetting>
+	<cost>300</cost><cash>7025</cash>
+</componentEvent>
+<trigger>
+	<dtimeGame>20220410114454</dtimeGame>	<dtimeReal>20220905152259</dtimeReal>
+	<name>TipSelectWS2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>3</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and (FirstPhaseCompleted(true) and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(true)) and TrojWarnWentOff(true) and_not SecondPhaseCompleted(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410114454</dtimeGame>	<dtimeReal>20220905152300</dtimeReal>
+	<name>TipNoExternalSW</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>3</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen4,4 and_not (CurlyNoExternalSW(false) and MoeNoExternalSW(true)) and CurlyNoAttach(true) and MoeNoAttach(true) and_not SecondPhaseCompleted(false) and TrojWarnWentOff(true) :end</conditions>
+</trigger>
+<componentEvent>
+	<dtimeGame>20220410114454</dtimeGame>	<dtimeReal>20220905152303</dtimeReal>
+	<name>Curly_ws</name>
+	<procSetting>
+		<field>NoExternalSoftware:</field>
+		<value>true</value>
+		<newProtection>-1</newProtection>
+	</procSetting>
+	<cost>300</cost><cash>6725</cash>
+</componentEvent>
+<trigger>
+	<dtimeGame>20220410114454</dtimeGame>	<dtimeReal>20220905152309</dtimeReal>
+	<name>ReturnFromComponent</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: WhichScreen4,4 and ((MoeNoAttach(true) and CurlyNoAttach(true) and_not TrojWarnWentOff(true)) or (MoeNoExternalSW(true) and CurlyNoExternalSW(true) and TrojWarnWentOff(true))) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<uiEvent>
+	<dtimeGame>20220410114454</dtimeGame>	<dtimeReal>20220905152311</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220410114504</dtimeGame>	<dtimeReal>20220905152311</dtimeReal>
+	<name>SetUserProcComplete</name>
+	<triggerType>SET_OBJECTIVE_STATUS</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen2,2 and MoeNoAttach(true) and CurlyNoAttach(true) and MoeNoExternalSW(true) and CurlyNoExternalSW(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410115001</dtimeGame>	<dtimeReal>20220905152312</dtimeReal>
+	<name>WarnPoorTraining</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen2,2 and UserProcComplete(true) and_not (CurlyTraining80(false) and MoeTraining80(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410120500</dtimeGame>	<dtimeReal>20220905152315</dtimeReal>
+	<name>WarnPoorTraining</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen2,2 and UserProcComplete(true) and_not (CurlyTraining80(false) and MoeTraining80(false)) :end</conditions>
+</trigger>
+<uiEvent>
+	<dtimeGame>20220410120917</dtimeGame>	<dtimeReal>20220905152316</dtimeReal>
+	<tab>user</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220410120917</dtimeGame>	<dtimeReal>20220905152316</dtimeReal>
+	<name>TipTrain</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen6,6 and UserProcComplete(true) and_not (CurlyTraining80(false) and MoeTraining80(false)) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220410120917</dtimeGame>	<dtimeReal>20220905152320</dtimeReal>
+	<train>
+		<name>Curly</name>
+		<level>75</level>
+	</train>
+	<cost>250</cost><cash>6466</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220410120917</dtimeGame>	<dtimeReal>20220905152326</dtimeReal>
+	<name>TipTrain</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen6,6 and UserProcComplete(true) and_not (CurlyTraining80(false) and MoeTraining80(false)) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220410120917</dtimeGame>	<dtimeReal>20220905152329</dtimeReal>
+	<train>
+		<name>Curly</name>
+		<level>80</level>
+	</train>
+	<cost>250</cost><cash>6216</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220410120917</dtimeGame>	<dtimeReal>20220905152334</dtimeReal>
+	<train>
+		<name>Moe</name>
+		<level>75</level>
+	</train>
+	<cost>250</cost><cash>5966</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220410120917</dtimeGame>	<dtimeReal>20220905152336</dtimeReal>
+	<name>TipTrain</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>3</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen6,6 and UserProcComplete(true) and_not (CurlyTraining80(true) and MoeTraining80(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410120917</dtimeGame>	<dtimeReal>20220905152346</dtimeReal>
+	<name>TipTrain</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>4</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen6,6 and UserProcComplete(true) and_not (CurlyTraining80(true) and MoeTraining80(false)) :end</conditions>
+</trigger>
+<uiEvent>
+	<dtimeGame>20220410120917</dtimeGame>	<dtimeReal>20220905152347</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220410121503</dtimeGame>	<dtimeReal>20220905152349</dtimeReal>
+	<name>BadPolicies</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>3</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) :end</conditions>
+</trigger>
+<warning>
+	<dtimeGame>20220410121503</dtimeGame>	<dtimeReal>20220905152349</dtimeReal>
+	<malware>Trojan Horse:Aladinz</malware>
+	<name>Moe_ws</name>
+	<cause>User installed unauthorized external software containing malware because of not enough training.</cause>
+</warning>
+<warning>
+	<dtimeGame>20220410121503</dtimeGame>	<dtimeReal>20220905152349</dtimeReal>
+	<malware>Virus:POP.Sling Virus</malware>
+	<name>Moe_ws</name>
+	<cause>User installed unauthorized external software containing malware because of not enough training.</cause>
+</warning>
+<trigger>
+	<dtimeGame>20220410121503</dtimeGame>	<dtimeReal>20220905152349</dtimeReal>
+	<name>Malware</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>3</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) :end</conditions>
+</trigger>
+<assetAttacked>
+	<dtimeGame>20220410121503</dtimeGame>	<dtimeReal>20220905152349</dtimeReal>
+	<name>BortSoft Data</name>
+	<motiveType>Modification</motiveType>
+	<motive>70</motive>
+	<attackType>ATTACK_TARG_MAL_SOFTWARE</attackType>
+	<attackIndex>[18]</attackIndex>
+	<computerName>BortSoft Server</computerName>
+	<attacker>Attacker</attacker>
+	<cost>500</cost><cash>5464</cash>
+	<reason>Malicious software (Aladinz) on Curly_ws has corrupted BortSoft Data on BortSoft Server. User installed unauthorized external software containing malware because procedures allowed it.</reason>
+</assetAttacked>
+<trigger>
+	<dtimeGame>20220410121503</dtimeGame>	<dtimeReal>20220905152349</dtimeReal>
+	<name>DLTrojanPenalty</name>
+	<triggerType>CASH_TRIGGER</triggerType>
+	<timesGoneOff>3</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and (CurlyHasVirus(true) or MoeHasVirus(true)) and_not SecondPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410122000</dtimeGame>	<dtimeReal>20220905152350</dtimeReal>
+	<name>WarnPoorTraining</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>3</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen2,2 and UserProcComplete(true) and_not (CurlyTraining80(true) and MoeTraining80(false)) :end</conditions>
+</trigger>
+<uiEvent>
+	<dtimeGame>20220410123126</dtimeGame>	<dtimeReal>20220905152352</dtimeReal>
+	<tab>user</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220410123126</dtimeGame>	<dtimeReal>20220905152356</dtimeReal>
+	<name>TipTrain</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>5</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen6,6 and UserProcComplete(true) and_not (CurlyTraining80(true) and MoeTraining80(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410123126</dtimeGame>	<dtimeReal>20220905152406</dtimeReal>
+	<name>TipTrain</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>6</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen6,6 and UserProcComplete(true) and_not (CurlyTraining80(true) and MoeTraining80(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410123126</dtimeGame>	<dtimeReal>20220905152416</dtimeReal>
+	<name>TipTrain</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>7</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen6,6 and UserProcComplete(true) and_not (CurlyTraining80(true) and MoeTraining80(false)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410123126</dtimeGame>	<dtimeReal>20220905152426</dtimeReal>
+	<name>TipTrain</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>8</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen6,6 and UserProcComplete(true) and_not (CurlyTraining80(true) and MoeTraining80(false)) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220410123126</dtimeGame>	<dtimeReal>20220905152429</dtimeReal>
+	<train>
+		<name>Moe</name>
+		<level>80</level>
+	</train>
+	<cost>250</cost><cash>4709</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220410123126</dtimeGame>	<dtimeReal>20220905152436</dtimeReal>
+	<train>
+		<name>Curly</name>
+		<level>85</level>
+	</train>
+	<cost>250</cost><cash>4459</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220410123126</dtimeGame>	<dtimeReal>20220905152454</dtimeReal>
+	<train>
+		<name>Curly</name>
+		<level>95</level>
+	</train>
+	<cost>1250</cost><cash>3209</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220410123126</dtimeGame>	<dtimeReal>20220905152500</dtimeReal>
+	<train>
+		<name>Moe</name>
+		<level>95</level>
+	</train>
+	<cost>1250</cost><cash>1959</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220410123126</dtimeGame>	<dtimeReal>20220905152509</dtimeReal>
+	<newMode>
+		<name>Moe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>1959</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220410123126</dtimeGame>	<dtimeReal>20220905152510</dtimeReal>
+	<newMode>
+		<name>Moe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>1959</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220410123126</dtimeGame>	<dtimeReal>20220905152520</dtimeReal>
+	<train>
+		<name>Curly</name>
+		<level>95</level>
+	</train>
+	<cost>1250</cost><cash>709</cash>
+</userEvent>
+<uiEvent>
+	<dtimeGame>20220410123126</dtimeGame>	<dtimeReal>20220905152527</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<summaryEvent>
+	<dtimeGame>20220410123200</dtimeGame>	<dtimeReal>20220905152528</dtimeReal>
+	<bonus>-0</bonus><cash>708</cash>
+</summaryEvent>
+<trigger>
+	<dtimeGame>20220410123503</dtimeGame>	<dtimeReal>20220905152528</dtimeReal>
+	<name>SetUserTrainComplete</name>
+	<triggerType>SET_OBJECTIVE_STATUS</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and WhichScreen2,2 and CurlyTraining80(true) and MoeTraining80(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410124000</dtimeGame>	<dtimeReal>20220905152529</dtimeReal>
+	<name>AdvancetoPhase3Virus</name>
+	<triggerType>SET_PHASE</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and UserProcComplete(true) and UserTrainComplete(true) and_not SecondPhaseCompleted(false) and (MoeHasVirus(true) or CurlyHasVirus(true)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410124000</dtimeGame>	<dtimeReal>20220905152533</dtimeReal>
+	<name>ComputersAvailable</name>
+	<triggerType>COMPUTER_AVAIABILITY</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: AdvancePhase3Virus(true) and (MoeHasVirus(true) or CurlyHasVirus(true)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410124000</dtimeGame>	<dtimeReal>20220905152533</dtimeReal>
+	<name>RemoveMalware</name>
+	<triggerType>CLEAR_MALWARE</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: AdvancePhase3Virus(true) and (MoeHasVirus(true) or CurlyHasVirus(true)) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410124000</dtimeGame>	<dtimeReal>20220905152533</dtimeReal>
+	<name>Phase2</name>
+	<triggerType>SAVEGAME_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: SecondPhaseCompleted(true) :end</conditions>
+</trigger>
+<gameEvent>
+	<dtimeGame>20220410124000</dtimeGame>	<dtimeReal>20220905152533</dtimeReal>
+	<saveFile>Phase2.sdf</saveFile>
+</gameEvent>
+<trigger>
+	<dtimeGame>20220410124000</dtimeGame>	<dtimeReal>20220905152533</dtimeReal>
+	<name>VirusCleanupThought</name>
+	<triggerType>SET_USER_THOUGHT</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: AdvancePhase3Virus(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410124000</dtimeGame>	<dtimeReal>20220905152533</dtimeReal>
+	<name>VirusCleanupMoeThought</name>
+	<triggerType>SET_USER_THOUGHT</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: AdvancePhase3Virus(true) :end</conditions>
+</trigger>
+<triggerErase>
+	<dtimeGame>20220410124037</dtimeGame>	<dtimeReal>20220905152534</dtimeReal>
+	<name>ComputersAvailable</name>
+	<triggerType>COMPUTER_AVAIABILITY</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: AdvancePhase3Virus(true) and (MoeHasVirus(false) or CurlyHasVirus(false)) :end</conditions>
+</triggerErase>
+<userEvent>
+	<dtimeGame>20220410124051</dtimeGame>	<dtimeReal>20220905152534</dtimeReal>
+	<newMode>
+		<name>Moe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>705</cash>
+</userEvent>
+<summaryEvent>
+	<dtimeGame>20220410124101</dtimeGame>	<dtimeReal>20220905152534</dtimeReal>
+	<bonus>0</bonus><cash>706</cash>
+</summaryEvent>
+<userEvent>
+	<dtimeGame>20220410124315</dtimeGame>	<dtimeReal>20220905152534</dtimeReal>
+	<newMode>
+		<name>Curly</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>706</cash>
+</userEvent>
+<uiEvent>
+	<dtimeGame>20220410124808</dtimeGame>	<dtimeReal>20220905152535</dtimeReal>
+	<tab>objective</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220410124808</dtimeGame>	<dtimeReal>20220905152540</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220410125500</dtimeGame>	<dtimeReal>20220905152542</dtimeReal>
+	<name>PhySecTicker</name>
+	<triggerType>TICKER_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: not OfficeHasSecurity(false) and SecondPhaseCompleted(true) :end</conditions>
+</trigger>
+<gameEvent>
+	<dtimeGame>20220410130212</dtimeGame>	<dtimeReal>20220905152543</dtimeReal>
+	<pause></pause>
+</gameEvent>
+<uiEvent>
+	<dtimeGame>20220410130212</dtimeGame>	<dtimeReal>20220905152544</dtimeReal>
+	<tab>game</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220410130212</dtimeGame>	<dtimeReal>20220905152550</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<gameEvent>
+	<dtimeGame>20220410130212</dtimeGame>	<dtimeReal>20220905152552</dtimeReal>
+	<resume></resume>
+</gameEvent>
+<trigger>
+	<dtimeGame>20220410131002</dtimeGame>	<dtimeReal>20220905152554</dtimeReal>
+	<name>PhysSecTip</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: not OfficeHasSecurity(false) and SecondPhaseCompleted(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410135503</dtimeGame>	<dtimeReal>20220905152603</dtimeReal>
+	<name>BadPolicies</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>4</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410135503</dtimeGame>	<dtimeReal>20220905152603</dtimeReal>
+	<name>Malware</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>4</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410135503</dtimeGame>	<dtimeReal>20220905152603</dtimeReal>
+	<name>BreakingHW</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: SecondPhaseCompleted(true) :end</conditions>
+</trigger>
+<warning>
+	<dtimeGame>20220410135503</dtimeGame>	<dtimeReal>20220905152611</dtimeReal>
+	<hwStolen>Moe_ws</hwStolen>
+	<attackType>13</attackType>
+</warning>
+<goalFailure>
+	<dtimeGame>20220410135503</dtimeGame>	<dtimeReal>20220905152611</dtimeReal>
+	<name>Modify BortSoft Data</name>
+	<userList>Moe</userList>
+	<reason>I failed Modify BortSoft Data.  </reason>
+	<cost>0</cost><cash>734</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410135503</dtimeGame>	<dtimeReal>20220905152611</dtimeReal>
+	<name>Read Moe's E-Mail</name>
+	<userList>Moe</userList>
+	<reason>I failed Modify BortSoft Data.  </reason>
+	<cost>0</cost><cash>734</cash>
+</goalFailure>
+<componentEvent>
+	<dtimeGame>20220410135503</dtimeGame>	<dtimeReal>20220905152611</dtimeReal>
+	<name>Moe_ws</name>
+	<networkDisconnect>LAN 1</networkDisconnect>
+	<cost>0</cost><cash>734</cash>
+</componentEvent>
+<trigger>
+	<dtimeGame>20220410135503</dtimeGame>	<dtimeReal>20220905152611</dtimeReal>
+	<name>ClearThought</name>
+	<triggerType>CLEAR_TRIGGERED_THOUGHTS</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: AdvancePhase3Virus(true) :end</conditions>
+</trigger>
+<summaryEvent>
+	<dtimeGame>20220410135603</dtimeGame>	<dtimeReal>20220905152614</dtimeReal>
+	<bonus>-0</bonus><cash>734</cash>
+</summaryEvent>
+<userEvent>
+	<dtimeGame>20220410135808</dtimeGame>	<dtimeReal>20220905152614</dtimeReal>
+	<newMode>
+		<name>Moe</name>
+		<animMode>2</animMode>
+	</newMode>
+	<cost>0</cost><cash>734</cash>
+</userEvent>
+<uiEvent>
+	<dtimeGame>20220410140036</dtimeGame>	<dtimeReal>20220905152615</dtimeReal>
+	<tab>game</tab>
+</uiEvent>
+<gameEvent>
+	<dtimeGame>20220410140036</dtimeGame>	<dtimeReal>20220905152639</dtimeReal>
+	<saveFile>savedUntilPhase2.sdf</saveFile>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220410140036</dtimeGame>	<dtimeReal>20220905152648</dtimeReal>
+	<end>quit</end>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220410140036</dtimeGame>	<dtimeReal>20220905152648</dtimeReal>
+	<end>quit</end>
+</gameEvent>
+</CyberCIEGEeventLog>

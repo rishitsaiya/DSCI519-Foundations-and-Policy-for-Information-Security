@@ -1,0 +1,3602 @@
+<?xml version="1.0"?>
+<!DOCTYPE CyberCIEGEeventLog SYSTEM "..\..\eventlog.dtd">
+<CyberCIEGEeventLog>
+<gameEvent>
+	<dtimeGame>20220101060200</dtimeGame>	<dtimeReal>20221126153140</dtimeReal>
+	<loadFile>..\Identity Management\1_Authentication.sdf</loadFile>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220101060200</dtimeGame>	<dtimeReal>20221126153140</dtimeReal>
+	<loadFile>Authentication.CSM 9/30/16 3 46 PM</loadFile>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153141</dtimeReal>
+	<creates>
+		<user>Blake</user>
+	</creates>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153141</dtimeReal>
+	<creates>
+		<user>Customer</user>
+	</creates>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153141</dtimeReal>
+	<creates>
+		<user>Joe</user>
+	</creates>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153141</dtimeReal>
+	<creates>
+		<user>Mary</user>
+	</creates>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153141</dtimeReal>
+	<creates>
+		<user>Frank</user>
+	</creates>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153141</dtimeReal>
+	<creates>
+		<user>Peggy</user>
+	</creates>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153141</dtimeReal>
+	<creates>
+		<user>Fiona</user>
+	</creates>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153141</dtimeReal>
+	<creates>
+		<user>ITguy1</user>
+	</creates>
+</gameEvent>
+<componentEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153141</dtimeReal>
+	<name>customer router</name>
+	<networkConnect>Internet</networkConnect>
+	<cost>0</cost><cash>20000</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153141</dtimeReal>
+	<name>customer router</name>
+	<networkConnect>Customer LAN</networkConnect>
+	<cost>0</cost><cash>20000</cash>
+</componentEvent>
+<gameEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153141</dtimeReal>
+	<creates>
+		<deviceName>customer router</deviceName>
+	</creates>
+</gameEvent>
+<componentEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153141</dtimeReal>
+	<name>HotelRouter</name>
+	<networkConnect>Offsite LAN</networkConnect>
+	<cost>0</cost><cash>20000</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153141</dtimeReal>
+	<name>HotelRouter</name>
+	<networkConnect>Internet</networkConnect>
+	<cost>0</cost><cash>20000</cash>
+</componentEvent>
+<gameEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153141</dtimeReal>
+	<creates>
+		<deviceName>HotelRouter</deviceName>
+	</creates>
+</gameEvent>
+<componentEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153141</dtimeReal>
+	<name>router</name>
+	<networkConnect>Lan1</networkConnect>
+	<cost>0</cost><cash>20000</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153141</dtimeReal>
+	<name>router</name>
+	<networkConnect>Internet</networkConnect>
+	<cost>0</cost><cash>20000</cash>
+</componentEvent>
+<gameEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153141</dtimeReal>
+	<creates>
+		<deviceName>router</deviceName>
+	</creates>
+</gameEvent>
+<componentEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153141</dtimeReal>
+	<name>Lollipop Server</name>
+	<networkConnect>Lan1</networkConnect>
+	<cost>0</cost><cash>20000</cash>
+</componentEvent>
+<assetEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153141</dtimeReal>
+	<name>Sugar Spinner Data</name>
+	<moveType>Add : SCENARIO_FILE</moveType>
+	<computerName>Lollipop Server</computerName>
+</assetEvent>
+<assetEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153141</dtimeReal>
+	<name>M and F Web Site</name>
+	<moveType>Add : SCENARIO_FILE</moveType>
+	<computerName>Lollipop Server</computerName>
+</assetEvent>
+<gameEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153141</dtimeReal>
+	<creates>
+		<computerName>Lollipop Server</computerName>
+	</creates>
+</gameEvent>
+<componentEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153141</dtimeReal>
+	<name>Button Holer</name>
+	<networkConnect>Lan1</networkConnect>
+	<cost>0</cost><cash>20000</cash>
+</componentEvent>
+<gameEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153141</dtimeReal>
+	<creates>
+		<computerName>Button Holer</computerName>
+	</creates>
+</gameEvent>
+<componentEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153141</dtimeReal>
+	<name>Joe's Workstation</name>
+	<networkConnect>Lan1</networkConnect>
+	<cost>0</cost><cash>20000</cash>
+</componentEvent>
+<gameEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153141</dtimeReal>
+	<creates>
+		<computerName>Joe's Workstation</computerName>
+	</creates>
+</gameEvent>
+<componentEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153141</dtimeReal>
+	<name>Mary's Workstation</name>
+	<networkConnect>Lan1</networkConnect>
+	<cost>0</cost><cash>20000</cash>
+</componentEvent>
+<gameEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153141</dtimeReal>
+	<creates>
+		<computerName>Mary's Workstation</computerName>
+	</creates>
+</gameEvent>
+<componentEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153141</dtimeReal>
+	<name>Frank's Workstation</name>
+	<networkConnect>Lan1</networkConnect>
+	<cost>0</cost><cash>20000</cash>
+</componentEvent>
+<gameEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153141</dtimeReal>
+	<creates>
+		<computerName>Frank's Workstation</computerName>
+	</creates>
+</gameEvent>
+<componentEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153141</dtimeReal>
+	<name>Peggy's Workstation</name>
+	<networkConnect>Lan1</networkConnect>
+	<cost>0</cost><cash>20000</cash>
+</componentEvent>
+<gameEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153141</dtimeReal>
+	<creates>
+		<computerName>Peggy's Workstation</computerName>
+	</creates>
+</gameEvent>
+<componentEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153141</dtimeReal>
+	<name>Hotel Workstation</name>
+	<networkConnect>Offsite LAN</networkConnect>
+	<cost>0</cost><cash>20000</cash>
+</componentEvent>
+<gameEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153141</dtimeReal>
+	<creates>
+		<computerName>Hotel Workstation</computerName>
+	</creates>
+</gameEvent>
+<componentEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153141</dtimeReal>
+	<name>Visitor's Workstation</name>
+	<networkConnect>Lan1</networkConnect>
+	<cost>0</cost><cash>20000</cash>
+</componentEvent>
+<gameEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153141</dtimeReal>
+	<creates>
+		<computerName>Visitor's Workstation</computerName>
+	</creates>
+</gameEvent>
+<componentEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153141</dtimeReal>
+	<name>Customer's Workstation</name>
+	<networkConnect>Customer LAN</networkConnect>
+	<cost>0</cost><cash>20000</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153141</dtimeReal>
+	<name>Customer's Workstation</name>
+	<accountAdd>
+		<user>Customer</user>
+	</accountAdd>
+	<cost>0</cost><cash>20000</cash>
+</componentEvent>
+<gameEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153141</dtimeReal>
+	<creates>
+		<computerName>Customer's Workstation</computerName>
+	</creates>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153141</dtimeReal>
+	<creates>
+		<computerName>Smartcard Minter</computerName>
+	</creates>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153141</dtimeReal>
+	<creates>
+		<computerName>Veriscream CA</computerName>
+	</creates>
+</gameEvent>
+<goalFailure>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153141</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Frank</userList>
+	<reason>The Modify Sugar Data goal failed for Frank because no workstation could access Sugar Spinner Data.</reason>
+	<cost>0</cost><cash>20000</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153141</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Mary</userList>
+	<reason>The Modify Sugar Data goal failed for Mary because no workstation could access Sugar Spinner Data.</reason>
+	<cost>0</cost><cash>20000</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153141</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Joe</userList>
+	<reason>The Modify Sugar Data goal failed for Joe because no workstation could access Sugar Spinner Data.</reason>
+	<cost>0</cost><cash>20000</cash>
+</goalFailure>
+<gameEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153141</dtimeReal>
+	<start></start>
+</gameEvent>
+<trigger>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153141</dtimeReal>
+	<name>IdentEncy</name>
+	<triggerType>ECONTEXT_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: time1hour(false) or_not time1hour(false) :end</conditions>
+</trigger>
+<uiEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126153246</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<goalFailure>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126155530</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Frank</userList>
+	<reason>The Modify Sugar Data goal failed for Frank because no workstation could access Sugar Spinner Data.</reason>
+	<cost>0</cost><cash>20000</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126155530</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Mary</userList>
+	<reason>The Modify Sugar Data goal failed for Mary because no workstation could access Sugar Spinner Data.</reason>
+	<cost>0</cost><cash>20000</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126155530</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Joe</userList>
+	<reason>The Modify Sugar Data goal failed for Joe because no workstation could access Sugar Spinner Data.</reason>
+	<cost>0</cost><cash>20000</cash>
+</goalFailure>
+<uiEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126155530</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126155532</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126155540</dtimeReal>
+	<tab>game</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126155543</dtimeReal>
+	<tab>objective</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126155545</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<componentEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126155619</dtimeReal>
+	<name>Lollipop Server</name>
+	<accountAdd>
+		<user>Joe</user>
+	</accountAdd>
+	<cost>0</cost><cash>20000</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126155620</dtimeReal>
+	<name>Lollipop Server</name>
+	<accountAdd>
+		<user>Mary</user>
+	</accountAdd>
+	<cost>0</cost><cash>20000</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126155620</dtimeReal>
+	<name>Lollipop Server</name>
+	<accountAdd>
+		<user>Frank</user>
+	</accountAdd>
+	<cost>0</cost><cash>20000</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126155621</dtimeReal>
+	<name>Lollipop Server</name>
+	<accountAdd>
+		<user>Peggy</user>
+	</accountAdd>
+	<cost>0</cost><cash>20000</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126155654</dtimeReal>
+	<name>Button Holer</name>
+	<authServerAdd>Lollipop Server</authServerAdd>	<cost>0</cost><cash>20000</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126155654</dtimeReal>
+	<name>Joe's Workstation</name>
+	<authServerAdd>Lollipop Server</authServerAdd>	<cost>0</cost><cash>20000</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126155655</dtimeReal>
+	<name>Mary's Workstation</name>
+	<authServerAdd>Lollipop Server</authServerAdd>	<cost>0</cost><cash>20000</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126155655</dtimeReal>
+	<name>Frank's Workstation</name>
+	<authServerAdd>Lollipop Server</authServerAdd>	<cost>0</cost><cash>20000</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126155655</dtimeReal>
+	<name>Peggy's Workstation</name>
+	<authServerAdd>Lollipop Server</authServerAdd>	<cost>0</cost><cash>20000</cash>
+</componentEvent>
+<uiEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126155705</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126155708</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<componentEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126155708</dtimeReal>
+	<name>Lollipop Server</name>
+	<configSetting>
+		<field>UseBiometrics:</field>
+		<value>true</value>
+		<newProtection>-1</newProtection>
+	</configSetting>
+	<cost>700</cost><cash>19300</cash>
+</componentEvent>
+<uiEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126155710</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<gameEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126155711</dtimeReal>
+	<resume></resume>
+</gameEvent>
+<assetEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126155711</dtimeReal>
+	<name>Peggy's Stuff</name>
+	<moveType>Add : Peggy</moveType>
+	<computerName>Peggy's Workstation</computerName>
+</assetEvent>
+<assetEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126155711</dtimeReal>
+	<name>Frank's Stuff</name>
+	<moveType>Add : Frank</moveType>
+	<computerName>Frank's Workstation</computerName>
+</assetEvent>
+<assetEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126155711</dtimeReal>
+	<name>Mary's Stuff</name>
+	<moveType>Add : Mary</moveType>
+	<computerName>Mary's Workstation</computerName>
+</assetEvent>
+<assetEvent>
+	<dtimeGame>20220106080000</dtimeGame>	<dtimeReal>20221126155711</dtimeReal>
+	<name>Joe's Stuff</name>
+	<moveType>Add : Joe</moveType>
+	<computerName>Joe's Workstation</computerName>
+</assetEvent>
+<summaryEvent>
+	<dtimeGame>20220106080102</dtimeGame>	<dtimeReal>20221126155711</dtimeReal>
+	<bonus>1</bonus><cash>19301</cash>
+</summaryEvent>
+<trigger>
+	<dtimeGame>20220106080502</dtimeGame>	<dtimeReal>20221126155712</dtimeReal>
+	<name>insider</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106080502</dtimeGame>	<dtimeReal>20221126155712</dtimeReal>
+	<name>InterentTrojan</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106080502</dtimeGame>	<dtimeReal>20221126155712</dtimeReal>
+	<name>WireTap</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106080502</dtimeGame>	<dtimeReal>20221126155712</dtimeReal>
+	<name>DoneUsersIdentified</name>
+	<triggerType>SET_OBJECTIVE_STATUS</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: not UnaccountableWSAccess(false) and_not IdentifiedUsers(false) and_not JoeFailsStuff(false) and_not FrankFailsStuff(false) and_not MaryFailsStuff(false) and_not PeggyFailsStuff(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106080502</dtimeGame>	<dtimeReal>20221126155712</dtimeReal>
+	<name>DriveBy</name>
+	<triggerType>SET_OBJECTIVE_STATUS</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: IdentifiedUsers(true) and_not (JoeLong(false) and FrankLong(false) and MaryLong(false) and PeggyLong(false)) and DrivebyDone(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106080502</dtimeGame>	<dtimeReal>20221126155712</dtimeReal>
+	<name>DriveByMessage</name>
+	<triggerType>MESSAGE_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: :end</conditions>
+</trigger>
+<gameEvent>
+	<dtimeGame>20220106080834</dtimeGame>	<dtimeReal>20221126155726</dtimeReal>
+	<pause></pause>
+</gameEvent>
+<uiEvent>
+	<dtimeGame>20220106080834</dtimeGame>	<dtimeReal>20221126155727</dtimeReal>
+	<tab>objective</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220106080834</dtimeGame>	<dtimeReal>20221126155744</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220106080834</dtimeGame>	<dtimeReal>20221126155824</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<componentEvent>
+	<dtimeGame>20220106080834</dtimeGame>	<dtimeReal>20221126155855</dtimeReal>
+	<name>Lollipop Server</name>
+	<procSetting>
+		<field>PasswordLength:Medium</field>
+		<value>false</value>
+		<newProtection>-1</newProtection>
+	</procSetting>
+	<cost>25</cost><cash>19282</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106080834</dtimeGame>	<dtimeReal>20221126155855</dtimeReal>
+	<name>Lollipop Server</name>
+	<procSetting>
+		<field>PasswordLength:Long</field>
+		<value>true</value>
+		<newProtection>-1</newProtection>
+	</procSetting>
+	<cost>50</cost><cash>19232</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106080834</dtimeGame>	<dtimeReal>20221126155906</dtimeReal>
+	<name>Lollipop Server</name>
+	<configSetting>
+		<field>RemoteAuthentication:</field>
+		<value>true</value>
+		<newProtection>-1</newProtection>
+	</configSetting>
+	<cost>200</cost><cash>19032</cash>
+</componentEvent>
+<uiEvent>
+	<dtimeGame>20220106080834</dtimeGame>	<dtimeReal>20221126155937</dtimeReal>
+	<tab>objective</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220106080834</dtimeGame>	<dtimeReal>20221126155938</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<gameEvent>
+	<dtimeGame>20220106080834</dtimeGame>	<dtimeReal>20221126155939</dtimeReal>
+	<resume></resume>
+</gameEvent>
+<trigger>
+	<dtimeGame>20220106081000</dtimeGame>	<dtimeReal>20221126155940</dtimeReal>
+	<name>DriveByDone</name>
+	<triggerType>SET_OBJECTIVE_STATUS</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: JoeLong(true) and MaryLong(true) and FrankLong(true) and PeggyLong(true) and_not DrivebyDone(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106081000</dtimeGame>	<dtimeReal>20221126155940</dtimeReal>
+	<name>SpeakWritePasswords</name>
+	<triggerType>SPEAK_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: :end</conditions>
+</trigger>
+<uiEvent>
+	<dtimeGame>20220106082809</dtimeGame>	<dtimeReal>20221126155943</dtimeReal>
+	<tab>objective</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220106082809</dtimeGame>	<dtimeReal>20221126155945</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<gameEvent>
+	<dtimeGame>20220106083317</dtimeGame>	<dtimeReal>20221126155946</dtimeReal>
+	<pause></pause>
+</gameEvent>
+<uiEvent>
+	<dtimeGame>20220106083317</dtimeGame>	<dtimeReal>20221126155947</dtimeReal>
+	<tab>objective</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220106083317</dtimeGame>	<dtimeReal>20221126160003</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<gameEvent>
+	<dtimeGame>20220106083317</dtimeGame>	<dtimeReal>20221126160005</dtimeReal>
+	<resume></resume>
+</gameEvent>
+<trigger>
+	<dtimeGame>20220106090501</dtimeGame>	<dtimeReal>20221126160012</dtimeReal>
+	<name>InterentTrojan</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106091003</dtimeGame>	<dtimeReal>20221126160013</dtimeReal>
+	<name>AccountableSugarGoodJob</name>
+	<triggerType>MESSAGE_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: not UnaccountableAccessSugar(false) and_not AnyAssetAttacked(false) and AllGoalsMet(true) :end</conditions>
+</trigger>
+<gameEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160018</dtimeReal>
+	<pause></pause>
+</gameEvent>
+<uiEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160019</dtimeReal>
+	<tab>objective</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160020</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160022</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160028</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<removeDeniedGroup>Public</removeDeniedGroup>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160059</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<removeDeniedGroup>Public</removeDeniedGroup>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160059</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<changeGroupMask>
+		<groupName>Public</groupName><mode>14</mode>
+		</changeGroupMask>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160059</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<removeDeniedGroup>Public</removeDeniedGroup>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160100</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<removeDeniedGroup>Public</removeDeniedGroup>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160100</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<changeGroupMask>
+		<groupName>Public</groupName><mode>12</mode>
+		</changeGroupMask>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160100</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<removeDeniedGroup>Public</removeDeniedGroup>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160101</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<removeDeniedGroup>Public</removeDeniedGroup>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160101</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<changeGroupMask>
+		<groupName>Public</groupName><mode>8</mode>
+		</changeGroupMask>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160101</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<removeDeniedGroup>Public</removeDeniedGroup>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160102</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<removeDeniedGroup>Public</removeDeniedGroup>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160102</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<changeGroupMask>
+		<groupName>Public</groupName><mode>0</mode>
+		</changeGroupMask>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160102</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<removeDeniedGroup>Public</removeDeniedGroup>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160103</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<addDeniedUser>Joe</addDeniedUser>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160105</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<changeUserMask>
+		<userName>Joe</userName><mode>1</mode>
+		</changeUserMask>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160105</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<addDontCareUser>
+		<userName>Joe</userName><mode>0</mode>
+		</addDontCareUser>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160105</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<removeDeniedUser>Joe</removeDeniedUser>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160106</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<changeUserMask>
+		<userName>Joe</userName><mode>3</mode>
+		</changeUserMask>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160106</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<addDontCareUser>
+		<userName>Joe</userName><mode>0</mode>
+		</addDontCareUser>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160106</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<removeDeniedUser>Joe</removeDeniedUser>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160107</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<changeUserMask>
+		<userName>Joe</userName><mode>7</mode>
+		</changeUserMask>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160107</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<addDontCareUser>
+		<userName>Joe</userName><mode>0</mode>
+		</addDontCareUser>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160107</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<removeDeniedUser>Joe</removeDeniedUser>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160108</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<changeUserMask>
+		<userName>Joe</userName><mode>15</mode>
+		</changeUserMask>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160108</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<addDontCareUser>
+		<userName>Joe</userName><mode>0</mode>
+		</addDontCareUser>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160108</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<removeDeniedUser>Joe</removeDeniedUser>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160110</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<addDeniedUser>Mary</addDeniedUser>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160111</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<changeUserMask>
+		<userName>Mary</userName><mode>1</mode>
+		</changeUserMask>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160111</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<addDontCareUser>
+		<userName>Mary</userName><mode>0</mode>
+		</addDontCareUser>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160111</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<removeDeniedUser>Mary</removeDeniedUser>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160112</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<changeUserMask>
+		<userName>Mary</userName><mode>3</mode>
+		</changeUserMask>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160112</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<addDontCareUser>
+		<userName>Mary</userName><mode>0</mode>
+		</addDontCareUser>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160112</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<removeDeniedUser>Mary</removeDeniedUser>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160113</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<changeUserMask>
+		<userName>Mary</userName><mode>7</mode>
+		</changeUserMask>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160113</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<addDontCareUser>
+		<userName>Mary</userName><mode>0</mode>
+		</addDontCareUser>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160113</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<removeDeniedUser>Mary</removeDeniedUser>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160114</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<changeUserMask>
+		<userName>Mary</userName><mode>15</mode>
+		</changeUserMask>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160114</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<addDontCareUser>
+		<userName>Mary</userName><mode>0</mode>
+		</addDontCareUser>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160114</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<removeDeniedUser>Mary</removeDeniedUser>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160115</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<addDeniedUser>Frank</addDeniedUser>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160116</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<changeUserMask>
+		<userName>Frank</userName><mode>1</mode>
+		</changeUserMask>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160116</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<addDontCareUser>
+		<userName>Frank</userName><mode>0</mode>
+		</addDontCareUser>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160116</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<removeDeniedUser>Frank</removeDeniedUser>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160117</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<changeUserMask>
+		<userName>Frank</userName><mode>3</mode>
+		</changeUserMask>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160117</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<addDontCareUser>
+		<userName>Frank</userName><mode>0</mode>
+		</addDontCareUser>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160117</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<removeDeniedUser>Frank</removeDeniedUser>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160118</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<changeUserMask>
+		<userName>Frank</userName><mode>7</mode>
+		</changeUserMask>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160118</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<addDontCareUser>
+		<userName>Frank</userName><mode>0</mode>
+		</addDontCareUser>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160118</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<removeDeniedUser>Frank</removeDeniedUser>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160119</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<changeUserMask>
+		<userName>Frank</userName><mode>15</mode>
+		</changeUserMask>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160119</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<addDontCareUser>
+		<userName>Frank</userName><mode>0</mode>
+		</addDontCareUser>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160119</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<removeDeniedUser>Frank</removeDeniedUser>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160120</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<addDeniedUser>Peggy</addDeniedUser>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160121</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<changeUserMask>
+		<userName>Peggy</userName><mode>1</mode>
+		</changeUserMask>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160121</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<addDontCareUser>
+		<userName>Peggy</userName><mode>0</mode>
+		</addDontCareUser>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160121</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<removeDeniedUser>Peggy</removeDeniedUser>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160122</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<changeUserMask>
+		<userName>Peggy</userName><mode>3</mode>
+		</changeUserMask>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160122</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<addDontCareUser>
+		<userName>Peggy</userName><mode>0</mode>
+		</addDontCareUser>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160122</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<removeDeniedUser>Peggy</removeDeniedUser>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160123</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<changeUserMask>
+		<userName>Peggy</userName><mode>7</mode>
+		</changeUserMask>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160123</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<addDontCareUser>
+		<userName>Peggy</userName><mode>0</mode>
+		</addDontCareUser>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160123</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<removeDeniedUser>Peggy</removeDeniedUser>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160124</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<changeUserMask>
+		<userName>Peggy</userName><mode>15</mode>
+		</changeUserMask>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160124</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<addDontCareUser>
+		<userName>Peggy</userName><mode>0</mode>
+		</addDontCareUser>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160124</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<removeDeniedUser>Peggy</removeDeniedUser>
+	</assetACL>
+	<cost>0</cost><cash>19090</cash>
+</componentEvent>
+<uiEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160134</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<gameEvent>
+	<dtimeGame>20220106091357</dtimeGame>	<dtimeReal>20221126160135</dtimeReal>
+	<resume></resume>
+</gameEvent>
+<trigger>
+	<dtimeGame>20220106092001</dtimeGame>	<dtimeReal>20221126160136</dtimeReal>
+	<name>insider</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106092001</dtimeGame>	<dtimeReal>20221126160136</dtimeReal>
+	<name>WireTap</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106093002</dtimeGame>	<dtimeReal>20221126160138</dtimeReal>
+	<name>Internet</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) and AllGoalsMet(true) and DrivebyDone(true) and_not UnaccountableAccessSugar(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106093002</dtimeGame>	<dtimeReal>20221126160138</dtimeReal>
+	<name>Outside Breakin</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: ((PhaseTwoDone(false) and BlakeTyping(true)) or (DrivebyDone(true) and_not PhaseTwoDone(false))) and_not AnyAssetAttacked(false) and AllGoalsMet(true) and_not UnaccountableAccessSugar(false) :end</conditions>
+</trigger>
+<uiEvent>
+	<dtimeGame>20220106095444</dtimeGame>	<dtimeReal>20221126160144</dtimeReal>
+	<tab>objective</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220106095444</dtimeGame>	<dtimeReal>20221126160147</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220106100502</dtimeGame>	<dtimeReal>20221126160150</dtimeReal>
+	<name>InterentTrojan</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>3</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106103501</dtimeGame>	<dtimeReal>20221126160156</dtimeReal>
+	<name>insider</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>3</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106103501</dtimeGame>	<dtimeReal>20221126160156</dtimeReal>
+	<name>WireTap</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>3</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106105004</dtimeGame>	<dtimeReal>20221126160159</dtimeReal>
+	<name>Internet</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) and AllGoalsMet(true) and DrivebyDone(true) and_not UnaccountableAccessSugar(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106105004</dtimeGame>	<dtimeReal>20221126160159</dtimeReal>
+	<name>Outside Breakin</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: ((PhaseTwoDone(false) and BlakeTyping(true)) or (DrivebyDone(true) and_not PhaseTwoDone(false))) and_not AnyAssetAttacked(false) and AllGoalsMet(true) and_not UnaccountableAccessSugar(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106110500</dtimeGame>	<dtimeReal>20221126160202</dtimeReal>
+	<name>InterentTrojan</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>4</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106114002</dtimeGame>	<dtimeReal>20221126160209</dtimeReal>
+	<name>RanSecure</name>
+	<triggerType>SET_OBJECTIVE_STATUS</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: IdentifiedUsers(true) and DrivebyDone(true) and_not AnyAssetAttacked(false) and AllGoalsMet(true) and AccountableSugarGoodJob_intrinsic0,1 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106114002</dtimeGame>	<dtimeReal>20221126160209</dtimeReal>
+	<name>DonePhaseI</name>
+	<triggerType>SET_PHASE</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: IdentifiedUsers(true) and DrivebyDone(true) and RanSecure(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106114002</dtimeGame>	<dtimeReal>20221126160221</dtimeReal>
+	<name>SavePhaseI</name>
+	<triggerType>SAVEGAME_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: :end</conditions>
+</trigger>
+<gameEvent>
+	<dtimeGame>20220106114002</dtimeGame>	<dtimeReal>20221126160221</dtimeReal>
+	<saveFile>AuthPhaseOne.sdf</saveFile>
+</gameEvent>
+<trigger>
+	<dtimeGame>20220106114102</dtimeGame>	<dtimeReal>20221126160221</dtimeReal>
+	<name>IntroduceFiona</name>
+	<triggerType>CHANGE_ASSET_USAGE_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: PhaseIdone(true) :end</conditions>
+</trigger>
+<componentEvent>
+	<dtimeGame>20220106114102</dtimeGame>	<dtimeReal>20221126160221</dtimeReal>
+	<name>Hotel Workstation</name>
+	<accountRemove>
+		<group>Public</group>
+	</accountRemove>
+	<cost>0</cost><cash>19221</cash>
+</componentEvent>
+<goalFailure>
+	<dtimeGame>20220106114102</dtimeGame>	<dtimeReal>20221126160221</dtimeReal>
+	<name>Remote Sugar Data Access</name>
+	<userList>Fiona</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>0</cost><cash>19221</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220106114102</dtimeGame>	<dtimeReal>20221126160221</dtimeReal>
+	<name>Remote Sugar Data Access</name>
+	<userList>Fiona</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>0</cost><cash>19221</cash>
+</goalFailure>
+<summaryEvent>
+	<dtimeGame>20220106114204</dtimeGame>	<dtimeReal>20221126160222</dtimeReal>
+	<bonus>1</bonus><cash>19221</cash>
+</summaryEvent>
+<trigger>
+	<dtimeGame>20220106114502</dtimeGame>	<dtimeReal>20221126160222</dtimeReal>
+	<name>GoToFiona</name>
+	<triggerType>SPEAK_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: FionaFailsGoal(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106114502</dtimeGame>	<dtimeReal>20221126160222</dtimeReal>
+	<name>NotDoneUsersIdentified</name>
+	<triggerType>SET_OBJECTIVE_STATUS</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: UnaccountableWSAccess(true) and IdentifiedUsers(true) :end</conditions>
+</trigger>
+<gameEvent>
+	<dtimeGame>20220106114507</dtimeGame>	<dtimeReal>20221126160222</dtimeReal>
+	<pause></pause>
+</gameEvent>
+<goalFailure>
+	<dtimeGame>20220106114507</dtimeGame>	<dtimeReal>20221126160222</dtimeReal>
+	<name>Remote Sugar Data Access</name>
+	<userList>Fiona</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>0</cost><cash>19222</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220106114507</dtimeGame>	<dtimeReal>20221126160222</dtimeReal>
+	<name>Remote Sugar Data Access</name>
+	<userList>Fiona</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>0</cost><cash>19222</cash>
+</goalFailure>
+<uiEvent>
+	<dtimeGame>20220106114507</dtimeGame>	<dtimeReal>20221126160224</dtimeReal>
+	<tab>objective</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220106114507</dtimeGame>	<dtimeReal>20221126160409</dtimeReal>
+	<tab>network</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220106114507</dtimeGame>	<dtimeReal>20221126160411</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<goalFailure>
+	<dtimeGame>20220106114507</dtimeGame>	<dtimeReal>20221126160438</dtimeReal>
+	<name>Remote Sugar Data Access</name>
+	<userList>Fiona</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>0</cost><cash>19222</cash>
+</goalFailure>
+<uiEvent>
+	<dtimeGame>20220106114507</dtimeGame>	<dtimeReal>20221126160438</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<gameEvent>
+	<dtimeGame>20220106114507</dtimeGame>	<dtimeReal>20221126160439</dtimeReal>
+	<resume></resume>
+</gameEvent>
+<goalFailure>
+	<dtimeGame>20220106114507</dtimeGame>	<dtimeReal>20221126160439</dtimeReal>
+	<name>Remote Sugar Data Access</name>
+	<userList>Fiona</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>0</cost><cash>19222</cash>
+</goalFailure>
+<userEvent>
+	<dtimeGame>20220106121014</dtimeGame>	<dtimeReal>20221126160446</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>19230</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106121711</dtimeGame>	<dtimeReal>20221126160447</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>19232</cash>
+</userEvent>
+<gameEvent>
+	<dtimeGame>20220106121833</dtimeGame>	<dtimeReal>20221126160448</dtimeReal>
+	<pause></pause>
+</gameEvent>
+<goalFailure>
+	<dtimeGame>20220106121833</dtimeGame>	<dtimeReal>20221126160448</dtimeReal>
+	<name>Remote Sugar Data Access</name>
+	<userList>Fiona</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>0</cost><cash>19232</cash>
+</goalFailure>
+<uiEvent>
+	<dtimeGame>20220106121833</dtimeGame>	<dtimeReal>20221126160449</dtimeReal>
+	<tab>objective</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220106121833</dtimeGame>	<dtimeReal>20221126160452</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<componentEvent>
+	<dtimeGame>20220106121833</dtimeGame>	<dtimeReal>20221126160456</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<addDeniedUser>Fiona</addDeniedUser>
+	</assetACL>
+	<cost>0</cost><cash>19232</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106121833</dtimeGame>	<dtimeReal>20221126160457</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<changeUserMask>
+		<userName>Fiona</userName><mode>1</mode>
+		</changeUserMask>
+	</assetACL>
+	<cost>0</cost><cash>19232</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106121833</dtimeGame>	<dtimeReal>20221126160457</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<addDontCareUser>
+		<userName>Fiona</userName><mode>0</mode>
+		</addDontCareUser>
+	</assetACL>
+	<cost>0</cost><cash>19232</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106121833</dtimeGame>	<dtimeReal>20221126160457</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<removeDeniedUser>Fiona</removeDeniedUser>
+	</assetACL>
+	<cost>0</cost><cash>19232</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106121833</dtimeGame>	<dtimeReal>20221126160458</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<changeUserMask>
+		<userName>Fiona</userName><mode>3</mode>
+		</changeUserMask>
+	</assetACL>
+	<cost>0</cost><cash>19232</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106121833</dtimeGame>	<dtimeReal>20221126160458</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<addDontCareUser>
+		<userName>Fiona</userName><mode>0</mode>
+		</addDontCareUser>
+	</assetACL>
+	<cost>0</cost><cash>19232</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106121833</dtimeGame>	<dtimeReal>20221126160458</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<removeDeniedUser>Fiona</removeDeniedUser>
+	</assetACL>
+	<cost>0</cost><cash>19232</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106121833</dtimeGame>	<dtimeReal>20221126160459</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<changeUserMask>
+		<userName>Fiona</userName><mode>7</mode>
+		</changeUserMask>
+	</assetACL>
+	<cost>0</cost><cash>19232</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106121833</dtimeGame>	<dtimeReal>20221126160459</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<addDontCareUser>
+		<userName>Fiona</userName><mode>0</mode>
+		</addDontCareUser>
+	</assetACL>
+	<cost>0</cost><cash>19232</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106121833</dtimeGame>	<dtimeReal>20221126160459</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<removeDeniedUser>Fiona</removeDeniedUser>
+	</assetACL>
+	<cost>0</cost><cash>19232</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106121833</dtimeGame>	<dtimeReal>20221126160501</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<changeUserMask>
+		<userName>Fiona</userName><mode>15</mode>
+		</changeUserMask>
+	</assetACL>
+	<cost>0</cost><cash>19232</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106121833</dtimeGame>	<dtimeReal>20221126160501</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<addDontCareUser>
+		<userName>Fiona</userName><mode>0</mode>
+		</addDontCareUser>
+	</assetACL>
+	<cost>0</cost><cash>19232</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220106121833</dtimeGame>	<dtimeReal>20221126160501</dtimeReal>
+	<name>Lollipop Server</name>
+	<assetACL>
+		<assetName>Sugar Spinner Data</assetName>
+		<removeDeniedUser>Fiona</removeDeniedUser>
+	</assetACL>
+	<cost>0</cost><cash>19232</cash>
+</componentEvent>
+<goalFailure>
+	<dtimeGame>20220106121833</dtimeGame>	<dtimeReal>20221126160504</dtimeReal>
+	<name>Remote Sugar Data Access</name>
+	<userList>Fiona</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>0</cost><cash>19232</cash>
+</goalFailure>
+<uiEvent>
+	<dtimeGame>20220106121833</dtimeGame>	<dtimeReal>20221126160504</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<gameEvent>
+	<dtimeGame>20220106121833</dtimeGame>	<dtimeReal>20221126160506</dtimeReal>
+	<resume></resume>
+</gameEvent>
+<goalFailure>
+	<dtimeGame>20220106121833</dtimeGame>	<dtimeReal>20221126160506</dtimeReal>
+	<name>Remote Sugar Data Access</name>
+	<userList>Fiona</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>0</cost><cash>19232</cash>
+</goalFailure>
+<userEvent>
+	<dtimeGame>20220106122414</dtimeGame>	<dtimeReal>20221126160507</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>19234</cash>
+</userEvent>
+<uiEvent>
+	<dtimeGame>20220106123102</dtimeGame>	<dtimeReal>20221126160508</dtimeReal>
+	<tab>objective</tab>
+</uiEvent>
+<goalFailure>
+	<dtimeGame>20220106123102</dtimeGame>	<dtimeReal>20221126160512</dtimeReal>
+	<name>Remote Sugar Data Access</name>
+	<userList>Fiona</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>0</cost><cash>19237</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220106123102</dtimeGame>	<dtimeReal>20221126160512</dtimeReal>
+	<name>Remote Sugar Data Access</name>
+	<userList>Fiona</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>3</cost><cash>19237</cash>
+</goalFailure>
+<uiEvent>
+	<dtimeGame>20220106123102</dtimeGame>	<dtimeReal>20221126160512</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<userEvent>
+	<dtimeGame>20220106123112</dtimeGame>	<dtimeReal>20221126160512</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>19237</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106123810</dtimeGame>	<dtimeReal>20221126160514</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>19239</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220106124004</dtimeGame>	<dtimeReal>20221126160514</dtimeReal>
+	<name>InterentTrojan</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>5</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220106124507</dtimeGame>	<dtimeReal>20221126160515</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>19241</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220106125501</dtimeGame>	<dtimeReal>20221126160517</dtimeReal>
+	<name>insider</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>4</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106125501</dtimeGame>	<dtimeReal>20221126160517</dtimeReal>
+	<name>WireTap</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>4</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220106125901</dtimeGame>	<dtimeReal>20221126160518</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>19246</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220106130003</dtimeGame>	<dtimeReal>20221126160518</dtimeReal>
+	<name>GoToFiona</name>
+	<triggerType>SPEAK_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: FionaFailsGoal(true) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220106130559</dtimeGame>	<dtimeReal>20221126160519</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>19247</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106131953</dtimeGame>	<dtimeReal>20221126160522</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>19252</cash>
+</userEvent>
+<gameEvent>
+	<dtimeGame>20220106132945</dtimeGame>	<dtimeReal>20221126160524</dtimeReal>
+	<pause></pause>
+</gameEvent>
+<goalFailure>
+	<dtimeGame>20220106132945</dtimeGame>	<dtimeReal>20221126160524</dtimeReal>
+	<name>Remote Sugar Data Access</name>
+	<userList>Fiona</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>0</cost><cash>19255</cash>
+</goalFailure>
+<uiEvent>
+	<dtimeGame>20220106132945</dtimeGame>	<dtimeReal>20221126160526</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<componentEvent>
+	<dtimeGame>20220106132945</dtimeGame>	<dtimeReal>20221126160538</dtimeReal>
+	<name>Lollipop Server</name>
+	<configSetting>
+		<field>UseOneTimePasswordToken:</field>
+		<value>true</value>
+		<newProtection>-1</newProtection>
+	</configSetting>
+	<cost>500</cost><cash>18755</cash>
+</componentEvent>
+<goalFailure>
+	<dtimeGame>20220106132945</dtimeGame>	<dtimeReal>20221126160540</dtimeReal>
+	<name>Remote Sugar Data Access</name>
+	<userList>Fiona</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>0</cost><cash>18755</cash>
+</goalFailure>
+<uiEvent>
+	<dtimeGame>20220106132945</dtimeGame>	<dtimeReal>20221126160540</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<gameEvent>
+	<dtimeGame>20220106132945</dtimeGame>	<dtimeReal>20221126160542</dtimeReal>
+	<resume></resume>
+</gameEvent>
+<goalFailure>
+	<dtimeGame>20220106132945</dtimeGame>	<dtimeReal>20221126160542</dtimeReal>
+	<name>Remote Sugar Data Access</name>
+	<userList>Fiona</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>0</cost><cash>18755</cash>
+</goalFailure>
+<trigger>
+	<dtimeGame>20220106134003</dtimeGame>	<dtimeReal>20221126160544</dtimeReal>
+	<name>InterentTrojan</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>6</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220106134735</dtimeGame>	<dtimeReal>20221126160546</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>18761</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220106141003</dtimeGame>	<dtimeReal>20221126160550</dtimeReal>
+	<name>insider</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>5</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106141003</dtimeGame>	<dtimeReal>20221126160550</dtimeReal>
+	<name>WireTap</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>5</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106141500</dtimeGame>	<dtimeReal>20221126160551</dtimeReal>
+	<name>GoToFiona</name>
+	<triggerType>SPEAK_TRIGGER</triggerType>
+	<timesGoneOff>3</timesGoneOff>
+	<conditions>ConditionList: FionaFailsGoal(true) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220106142221</dtimeGame>	<dtimeReal>20221126160553</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>18772</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106143616</dtimeGame>	<dtimeReal>20221126160556</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>18777</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220106144001</dtimeGame>	<dtimeReal>20221126160556</dtimeReal>
+	<name>InterentTrojan</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>7</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220106150405</dtimeGame>	<dtimeReal>20221126160602</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>18786</cash>
+</userEvent>
+<goalFailure>
+	<dtimeGame>20220106150620</dtimeGame>	<dtimeReal>20221126160602</dtimeReal>
+	<name>Remote Sugar Data Access</name>
+	<userList>Fiona</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>16</cost><cash>18786</cash>
+</goalFailure>
+<userEvent>
+	<dtimeGame>20220106151103</dtimeGame>	<dtimeReal>20221126160603</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>18788</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220106152502</dtimeGame>	<dtimeReal>20221126160606</dtimeReal>
+	<name>insider</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>6</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106152502</dtimeGame>	<dtimeReal>20221126160606</dtimeReal>
+	<name>WireTap</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>6</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106154000</dtimeGame>	<dtimeReal>20221126160609</dtimeReal>
+	<name>InterentTrojan</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>8</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220106154550</dtimeGame>	<dtimeReal>20221126160610</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>18799</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106155247</dtimeGame>	<dtimeReal>20221126160612</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>18801</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106155945</dtimeGame>	<dtimeReal>20221126160613</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>18803</cash>
+</userEvent>
+<goalFailure>
+	<dtimeGame>20220106162110</dtimeGame>	<dtimeReal>20221126160618</dtimeReal>
+	<name>Remote Sugar Data Access</name>
+	<userList>Fiona</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>17</cost><cash>18810</cash>
+</goalFailure>
+<userEvent>
+	<dtimeGame>20220106162734</dtimeGame>	<dtimeReal>20221126160619</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>18812</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106163431</dtimeGame>	<dtimeReal>20221126160620</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>18814</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220106164002</dtimeGame>	<dtimeReal>20221126160621</dtimeReal>
+	<name>insider</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>7</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106164002</dtimeGame>	<dtimeReal>20221126160621</dtimeReal>
+	<name>InterentTrojan</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>9</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106164002</dtimeGame>	<dtimeReal>20221126160621</dtimeReal>
+	<name>WireTap</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>7</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220106165523</dtimeGame>	<dtimeReal>20221126160625</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>18821</cash>
+</userEvent>
+<goalFailure>
+	<dtimeGame>20220106173151</dtimeGame>	<dtimeReal>20221126160632</dtimeReal>
+	<name>Remote Sugar Data Access</name>
+	<userList>Fiona</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>16</cost><cash>18833</cash>
+</goalFailure>
+<trigger>
+	<dtimeGame>20220106174000</dtimeGame>	<dtimeReal>20221126160634</dtimeReal>
+	<name>InterentTrojan</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>10</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220106174405</dtimeGame>	<dtimeReal>20221126160635</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>18837</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106175103</dtimeGame>	<dtimeReal>20221126160636</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>18839</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220106175502</dtimeGame>	<dtimeReal>20221126160637</dtimeReal>
+	<name>insider</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>8</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106175502</dtimeGame>	<dtimeReal>20221126160637</dtimeReal>
+	<name>WireTap</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>8</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220106175800</dtimeGame>	<dtimeReal>20221126160638</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>18841</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106181155</dtimeGame>	<dtimeReal>20221126160641</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>18845</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106181852</dtimeGame>	<dtimeReal>20221126160642</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>18848</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106182549</dtimeGame>	<dtimeReal>20221126160644</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>18850</cash>
+</userEvent>
+<uiEvent>
+	<dtimeGame>20220106183154</dtimeGame>	<dtimeReal>20221126160645</dtimeReal>
+	<tab>objective</tab>
+</uiEvent>
+<goalFailure>
+	<dtimeGame>20220106183154</dtimeGame>	<dtimeReal>20221126160649</dtimeReal>
+	<name>Remote Sugar Data Access</name>
+	<userList>Fiona</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>0</cost><cash>18852</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220106183154</dtimeGame>	<dtimeReal>20221126160649</dtimeReal>
+	<name>Remote Sugar Data Access</name>
+	<userList>Fiona</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>0</cost><cash>18852</cash>
+</goalFailure>
+<uiEvent>
+	<dtimeGame>20220106183154</dtimeGame>	<dtimeReal>20221126160649</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220106183502</dtimeGame>	<dtimeReal>20221126160650</dtimeReal>
+	<name>GoToFiona</name>
+	<triggerType>SPEAK_TRIGGER</triggerType>
+	<timesGoneOff>4</timesGoneOff>
+	<conditions>ConditionList: FionaFailsGoal(true) :end</conditions>
+</trigger>
+<uiEvent>
+	<dtimeGame>20220106183725</dtimeGame>	<dtimeReal>20221126160650</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<goalFailure>
+	<dtimeGame>20220106183725</dtimeGame>	<dtimeReal>20221126160655</dtimeReal>
+	<name>Remote Sugar Data Access</name>
+	<userList>Fiona</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>0</cost><cash>18854</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220106183725</dtimeGame>	<dtimeReal>20221126160655</dtimeReal>
+	<name>Remote Sugar Data Access</name>
+	<userList>Fiona</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>1</cost><cash>18854</cash>
+</goalFailure>
+<uiEvent>
+	<dtimeGame>20220106183725</dtimeGame>	<dtimeReal>20221126160655</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220106184005</dtimeGame>	<dtimeReal>20221126160656</dtimeReal>
+	<name>InterentTrojan</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>11</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<gameEvent>
+	<dtimeGame>20220106184657</dtimeGame>	<dtimeReal>20221126160657</dtimeReal>
+	<pause></pause>
+</gameEvent>
+<goalFailure>
+	<dtimeGame>20220106184657</dtimeGame>	<dtimeReal>20221126160657</dtimeReal>
+	<name>Remote Sugar Data Access</name>
+	<userList>Fiona</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>0</cost><cash>18857</cash>
+</goalFailure>
+<uiEvent>
+	<dtimeGame>20220106184657</dtimeGame>	<dtimeReal>20221126160839</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220106184657</dtimeGame>	<dtimeReal>20221126161053</dtimeReal>
+	<tab>objective</tab>
+</uiEvent>
+<goalFailure>
+	<dtimeGame>20220106184657</dtimeGame>	<dtimeReal>20221126161056</dtimeReal>
+	<name>Remote Sugar Data Access</name>
+	<userList>Fiona</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>0</cost><cash>18857</cash>
+</goalFailure>
+<uiEvent>
+	<dtimeGame>20220106184657</dtimeGame>	<dtimeReal>20221126161056</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220106184657</dtimeGame>	<dtimeReal>20221126161058</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220106184657</dtimeGame>	<dtimeReal>20221126161422</dtimeReal>
+	<tab>objective</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220106184657</dtimeGame>	<dtimeReal>20221126161434</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<componentEvent>
+	<dtimeGame>20220106184657</dtimeGame>	<dtimeReal>20221126161457</dtimeReal>
+	<name>Lollipop Server</name>
+	<accountAdd>
+		<user>Fiona</user>
+	</accountAdd>
+	<cost>0</cost><cash>18857</cash>
+</componentEvent>
+<uiEvent>
+	<dtimeGame>20220106184657</dtimeGame>	<dtimeReal>20221126161459</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220106184657</dtimeGame>	<dtimeReal>20221126161502</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220106184657</dtimeGame>	<dtimeReal>20221126161503</dtimeReal>
+	<tab>objective</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220106184657</dtimeGame>	<dtimeReal>20221126161505</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<gameEvent>
+	<dtimeGame>20220106184657</dtimeGame>	<dtimeReal>20221126161506</dtimeReal>
+	<resume></resume>
+</gameEvent>
+<summaryEvent>
+	<dtimeGame>20220106184701</dtimeGame>	<dtimeReal>20221126161506</dtimeReal>
+	<bonus>2</bonus><cash>18858</cash>
+</summaryEvent>
+<trigger>
+	<dtimeGame>20220106190501</dtimeGame>	<dtimeReal>20221126161509</dtimeReal>
+	<name>FionaHasAccess</name>
+	<triggerType>SET_OBJECTIVE_STATUS</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: not FionaFailsGoal(false) and PhaseIdone(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106190501</dtimeGame>	<dtimeReal>20221126161509</dtimeReal>
+	<name>UsingOneTimePW</name>
+	<triggerType>SPEAK_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: not FionaFailsGoal(false) and SpinnerHasOneTimePW(true) and PhaseIdone(true) :end</conditions>
+</trigger>
+<uiEvent>
+	<dtimeGame>20220106190501</dtimeGame>	<dtimeReal>20221126161509</dtimeReal>
+	<tab>objective</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220106190501</dtimeGame>	<dtimeReal>20221126161513</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220106191004</dtimeGame>	<dtimeReal>20221126161514</dtimeReal>
+	<name>insider</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>9</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106191004</dtimeGame>	<dtimeReal>20221126161514</dtimeReal>
+	<name>WireTap</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>9</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<gameEvent>
+	<dtimeGame>20220106191153</dtimeGame>	<dtimeReal>20221126161514</dtimeReal>
+	<pause></pause>
+</gameEvent>
+<uiEvent>
+	<dtimeGame>20220106191153</dtimeGame>	<dtimeReal>20221126161524</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220106191153</dtimeGame>	<dtimeReal>20221126161530</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<gameEvent>
+	<dtimeGame>20220106191153</dtimeGame>	<dtimeReal>20221126161531</dtimeReal>
+	<resume></resume>
+</gameEvent>
+<trigger>
+	<dtimeGame>20220106194002</dtimeGame>	<dtimeReal>20221126161537</dtimeReal>
+	<name>InterentTrojan</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>12</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106200503</dtimeGame>	<dtimeReal>20221126161543</dtimeReal>
+	<name>Internet</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>3</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) and AllGoalsMet(true) and DrivebyDone(true) and_not UnaccountableAccessSugar(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106200503</dtimeGame>	<dtimeReal>20221126161543</dtimeReal>
+	<name>Outside Breakin</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>3</timesGoneOff>
+	<conditions>ConditionList: ((PhaseTwoDone(false) and BlakeTyping(true)) or (DrivebyDone(true) and_not PhaseTwoDone(false))) and_not AnyAssetAttacked(false) and AllGoalsMet(true) and_not UnaccountableAccessSugar(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106202503</dtimeGame>	<dtimeReal>20221126161547</dtimeReal>
+	<name>insider</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>10</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106202503</dtimeGame>	<dtimeReal>20221126161547</dtimeReal>
+	<name>WireTap</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>10</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106204000</dtimeGame>	<dtimeReal>20221126161550</dtimeReal>
+	<name>InterentTrojan</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>13</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106204502</dtimeGame>	<dtimeReal>20221126161551</dtimeReal>
+	<name>SecureRemoteAccess</name>
+	<triggerType>SET_OBJECTIVE_STATUS</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: not FionaFailsGoal(false) and PhaseIdone(true) and_not SugarSniffedPW(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106204502</dtimeGame>	<dtimeReal>20221126161551</dtimeReal>
+	<name>DonePhaseTwo</name>
+	<triggerType>SET_PHASE</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: SecureRemoteAccess(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106204502</dtimeGame>	<dtimeReal>20221126161557</dtimeReal>
+	<name>IntroduceBlake</name>
+	<triggerType>CHANGE_ASSET_USAGE_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: PhaseTwoDone(true) :end</conditions>
+</trigger>
+<goalFailure>
+	<dtimeGame>20220106204502</dtimeGame>	<dtimeReal>20221126161557</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>0</cost><cash>19069</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220106204502</dtimeGame>	<dtimeReal>20221126161557</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>0</cost><cash>19069</cash>
+</goalFailure>
+<trigger>
+	<dtimeGame>20220106204502</dtimeGame>	<dtimeReal>20221126161557</dtimeReal>
+	<name>GoToBlake</name>
+	<triggerType>SPEAK_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: BlakeFailsGoal(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106204502</dtimeGame>	<dtimeReal>20221126161557</dtimeReal>
+	<name>SavePhaseTwo</name>
+	<triggerType>SAVEGAME_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: :end</conditions>
+</trigger>
+<gameEvent>
+	<dtimeGame>20220106204502</dtimeGame>	<dtimeReal>20221126161557</dtimeReal>
+	<saveFile>AuthPhaseTwo.sdf</saveFile>
+</gameEvent>
+<summaryEvent>
+	<dtimeGame>20220106204601</dtimeGame>	<dtimeReal>20221126161558</dtimeReal>
+	<bonus>1</bonus><cash>19070</cash>
+</summaryEvent>
+<gameEvent>
+	<dtimeGame>20220106205304</dtimeGame>	<dtimeReal>20221126161559</dtimeReal>
+	<pause></pause>
+</gameEvent>
+<goalFailure>
+	<dtimeGame>20220106205304</dtimeGame>	<dtimeReal>20221126161559</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>0</cost><cash>19079</cash>
+</goalFailure>
+<uiEvent>
+	<dtimeGame>20220106205304</dtimeGame>	<dtimeReal>20221126161600</dtimeReal>
+	<tab>objective</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220106205304</dtimeGame>	<dtimeReal>20221126161632</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<componentEvent>
+	<dtimeGame>20220106205304</dtimeGame>	<dtimeReal>20221126161715</dtimeReal>
+	<name>Visitor's Workstation</name>
+	<accountAdd>
+		<group>Marketing</group>
+	</accountAdd>
+	<cost>0</cost><cash>19079</cash>
+</componentEvent>
+<uiEvent>
+	<dtimeGame>20220106205304</dtimeGame>	<dtimeReal>20221126161716</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<componentEvent>
+	<dtimeGame>20220106205304</dtimeGame>	<dtimeReal>20221126161743</dtimeReal>
+	<name>Lollipop Server</name>
+	<accountAdd>
+		<group>Marketing</group>
+	</accountAdd>
+	<cost>0</cost><cash>19079</cash>
+</componentEvent>
+<uiEvent>
+	<dtimeGame>20220106205304</dtimeGame>	<dtimeReal>20221126161745</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<goalFailure>
+	<dtimeGame>20220106205304</dtimeGame>	<dtimeReal>20221126161806</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>0</cost><cash>19079</cash>
+</goalFailure>
+<uiEvent>
+	<dtimeGame>20220106205304</dtimeGame>	<dtimeReal>20221126161806</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220106205304</dtimeGame>	<dtimeReal>20221126161807</dtimeReal>
+	<tab>asset</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220106205304</dtimeGame>	<dtimeReal>20221126161818</dtimeReal>
+	<tab>network</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220106205304</dtimeGame>	<dtimeReal>20221126161818</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<goalFailure>
+	<dtimeGame>20220106205304</dtimeGame>	<dtimeReal>20221126161828</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>0</cost><cash>19079</cash>
+</goalFailure>
+<uiEvent>
+	<dtimeGame>20220106205304</dtimeGame>	<dtimeReal>20221126161828</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220106205304</dtimeGame>	<dtimeReal>20221126161900</dtimeReal>
+	<tab>zone</tab>
+</uiEvent>
+<goalFailure>
+	<dtimeGame>20220106205304</dtimeGame>	<dtimeReal>20221126161929</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>0</cost><cash>19079</cash>
+</goalFailure>
+<uiEvent>
+	<dtimeGame>20220106205304</dtimeGame>	<dtimeReal>20221126161929</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<componentEvent>
+	<dtimeGame>20220106205304</dtimeGame>	<dtimeReal>20221126162058</dtimeReal>
+	<name>AuthCardReader_2</name>
+	<buy>
+		<catalogName>AuthCardReader</catalogName>
+		<position>6</position>
+	</buy>
+	<cost>10000</cost><cash>9079</cash>
+</componentEvent>
+<goalFailure>
+	<dtimeGame>20220106205304</dtimeGame>	<dtimeReal>20221126162058</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>0</cost><cash>9079</cash>
+</goalFailure>
+<gameEvent>
+	<dtimeGame>20220106205304</dtimeGame>	<dtimeReal>20221126162104</dtimeReal>
+	<resume></resume>
+</gameEvent>
+<goalFailure>
+	<dtimeGame>20220106205304</dtimeGame>	<dtimeReal>20221126162104</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>0</cost><cash>9079</cash>
+</goalFailure>
+<trigger>
+	<dtimeGame>20220106205504</dtimeGame>	<dtimeReal>20221126162104</dtimeReal>
+	<name>GoToBlake</name>
+	<triggerType>SPEAK_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: BlakeFailsGoal(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106210001</dtimeGame>	<dtimeReal>20221126162105</dtimeReal>
+	<name>NoBlakeProfile</name>
+	<triggerType>TICKER_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: PhaseTwoDone(true) and BlakeFailsGoal(true) and_not VisitorHasBlakeProfile(false) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220106210122</dtimeGame>	<dtimeReal>20221126162106</dtimeReal>
+	<newMode>
+		<name>Blake</name>
+		<animMode>4</animMode>
+	</newMode>
+	<cost>0</cost><cash>9089</cash>
+</userEvent>
+<uiEvent>
+	<dtimeGame>20220106214141</dtimeGame>	<dtimeReal>20221126162114</dtimeReal>
+	<tab>objective</tab>
+</uiEvent>
+<goalFailure>
+	<dtimeGame>20220106214141</dtimeGame>	<dtimeReal>20221126162117</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>0</cost><cash>9137</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220106214141</dtimeGame>	<dtimeReal>20221126162117</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>8</cost><cash>9137</cash>
+</goalFailure>
+<uiEvent>
+	<dtimeGame>20220106214141</dtimeGame>	<dtimeReal>20221126162117</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220106214502</dtimeGame>	<dtimeReal>20221126162117</dtimeReal>
+	<name>InterentTrojan</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>14</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106214502</dtimeGame>	<dtimeReal>20221126162117</dtimeReal>
+	<name>NoBlakeProfile</name>
+	<triggerType>TICKER_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: PhaseTwoDone(true) and BlakeFailsGoal(true) and_not VisitorHasBlakeProfile(false) :end</conditions>
+</trigger>
+<gameEvent>
+	<dtimeGame>20220106215604</dtimeGame>	<dtimeReal>20221126162120</dtimeReal>
+	<pause></pause>
+</gameEvent>
+<goalFailure>
+	<dtimeGame>20220106215604</dtimeGame>	<dtimeReal>20221126162120</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>0</cost><cash>9156</cash>
+</goalFailure>
+<uiEvent>
+	<dtimeGame>20220106215604</dtimeGame>	<dtimeReal>20221126162127</dtimeReal>
+	<tab>objective</tab>
+</uiEvent>
+<goalFailure>
+	<dtimeGame>20220106215604</dtimeGame>	<dtimeReal>20221126162130</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>0</cost><cash>9156</cash>
+</goalFailure>
+<uiEvent>
+	<dtimeGame>20220106215604</dtimeGame>	<dtimeReal>20221126162130</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220106215604</dtimeGame>	<dtimeReal>20221126162133</dtimeReal>
+	<tab>zone</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220106215604</dtimeGame>	<dtimeReal>20221126162139</dtimeReal>
+	<tab>zone</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220106215604</dtimeGame>	<dtimeReal>20221126162140</dtimeReal>
+	<tab>zone</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220106215604</dtimeGame>	<dtimeReal>20221126162141</dtimeReal>
+	<tab>zone</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220106215604</dtimeGame>	<dtimeReal>20221126162143</dtimeReal>
+	<tab>zone</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220106215604</dtimeGame>	<dtimeReal>20221126162145</dtimeReal>
+	<tab>zone</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220106215604</dtimeGame>	<dtimeReal>20221126162148</dtimeReal>
+	<tab>zone</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220106215604</dtimeGame>	<dtimeReal>20221126162151</dtimeReal>
+	<tab>zone</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220106215604</dtimeGame>	<dtimeReal>20221126162153</dtimeReal>
+	<tab>zone</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220106215604</dtimeGame>	<dtimeReal>20221126162153</dtimeReal>
+	<tab>zone</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220106215604</dtimeGame>	<dtimeReal>20221126162153</dtimeReal>
+	<tab>zone</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220106215604</dtimeGame>	<dtimeReal>20221126162154</dtimeReal>
+	<tab>zone</tab>
+</uiEvent>
+<goalFailure>
+	<dtimeGame>20220106215604</dtimeGame>	<dtimeReal>20221126162203</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>0</cost><cash>9156</cash>
+</goalFailure>
+<uiEvent>
+	<dtimeGame>20220106215604</dtimeGame>	<dtimeReal>20221126162203</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220106215604</dtimeGame>	<dtimeReal>20221126162252</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<componentEvent>
+	<dtimeGame>20220106215604</dtimeGame>	<dtimeReal>20221126162316</dtimeReal>
+	<name>Visitor's Workstation</name>
+	<configSetting>
+		<field>UseSmartcard:</field>
+		<value>true</value>
+		<newProtection>-1</newProtection>
+	</configSetting>
+	<cost>700</cost><cash>8456</cash>
+</componentEvent>
+<goalFailure>
+	<dtimeGame>20220106215604</dtimeGame>	<dtimeReal>20221126162321</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>0</cost><cash>8456</cash>
+</goalFailure>
+<uiEvent>
+	<dtimeGame>20220106215604</dtimeGame>	<dtimeReal>20221126162321</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<gameEvent>
+	<dtimeGame>20220106215604</dtimeGame>	<dtimeReal>20221126162323</dtimeReal>
+	<resume></resume>
+</gameEvent>
+<goalFailure>
+	<dtimeGame>20220106215604</dtimeGame>	<dtimeReal>20221126162323</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>0</cost><cash>8456</cash>
+</goalFailure>
+<trigger>
+	<dtimeGame>20220106220004</dtimeGame>	<dtimeReal>20221126162323</dtimeReal>
+	<name>insider</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>11</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106220004</dtimeGame>	<dtimeReal>20221126162323</dtimeReal>
+	<name>WireTap</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>11</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106221004</dtimeGame>	<dtimeReal>20221126162326</dtimeReal>
+	<name>GoToBlake</name>
+	<triggerType>SPEAK_TRIGGER</triggerType>
+	<timesGoneOff>3</timesGoneOff>
+	<conditions>ConditionList: BlakeFailsGoal(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106223003</dtimeGame>	<dtimeReal>20221126162330</dtimeReal>
+	<name>NoBlakeProfile</name>
+	<triggerType>TICKER_TRIGGER</triggerType>
+	<timesGoneOff>3</timesGoneOff>
+	<conditions>ConditionList: PhaseTwoDone(true) and BlakeFailsGoal(true) and_not VisitorHasBlakeProfile(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106224500</dtimeGame>	<dtimeReal>20221126162333</dtimeReal>
+	<name>InterentTrojan</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>15</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<goalFailure>
+	<dtimeGame>20220106230645</dtimeGame>	<dtimeReal>20221126162337</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>16</cost><cash>8541</cash>
+</goalFailure>
+<gameEvent>
+	<dtimeGame>20220106231352</dtimeGame>	<dtimeReal>20221126162339</dtimeReal>
+	<pause></pause>
+</gameEvent>
+<goalFailure>
+	<dtimeGame>20220106231352</dtimeGame>	<dtimeReal>20221126162339</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>0</cost><cash>8550</cash>
+</goalFailure>
+<uiEvent>
+	<dtimeGame>20220106231352</dtimeGame>	<dtimeReal>20221126162340</dtimeReal>
+	<tab>objective</tab>
+</uiEvent>
+<goalFailure>
+	<dtimeGame>20220106231352</dtimeGame>	<dtimeReal>20221126162343</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>0</cost><cash>8550</cash>
+</goalFailure>
+<uiEvent>
+	<dtimeGame>20220106231352</dtimeGame>	<dtimeReal>20221126162343</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220106231352</dtimeGame>	<dtimeReal>20221126162345</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<assetEvent>
+	<dtimeGame>20220106231352</dtimeGame>	<dtimeReal>20221126162540</dtimeReal>
+	<name>Sugar Spinner Data</name>
+	<moveType>Remove : PLAYER</moveType>
+	<computerName>Lollipop Server</computerName>
+</assetEvent>
+<assetEvent>
+	<dtimeGame>20220106231352</dtimeGame>	<dtimeReal>20221126162540</dtimeReal>
+	<name>Sugar Spinner Data</name>
+	<moveType>Add : PLAYER</moveType>
+	<computerName>Visitor's Workstation</computerName>
+</assetEvent>
+<uiEvent>
+	<dtimeGame>20220106231352</dtimeGame>	<dtimeReal>20221126162540</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<goalFailure>
+	<dtimeGame>20220106231352</dtimeGame>	<dtimeReal>20221126162550</dtimeReal>
+	<name>Remote Sugar Data Access</name>
+	<userList>Fiona</userList>
+	<reason>Asset Goal Remote Sugar Data Access failed for Fiona because no one machine with suitable software could access all the assets required in the asset goal.</reason>
+	<cost>0</cost><cash>8550</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220106231352</dtimeGame>	<dtimeReal>20221126162550</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake</userList>
+	<reason>Asset Goal Modify Sugar Data failed for Blake because user doesn't have modify rights to asset Sugar Spinner Data</reason>
+	<cost>0</cost><cash>8550</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220106231352</dtimeGame>	<dtimeReal>20221126162550</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Peggy</userList>
+	<reason>Asset Goal Modify Sugar Data failed for Peggy because user doesn't have modify rights to asset Sugar Spinner Data</reason>
+	<cost>0</cost><cash>8550</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220106231352</dtimeGame>	<dtimeReal>20221126162550</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Frank</userList>
+	<reason>Asset Goal Modify Sugar Data failed for Frank because user doesn't have modify rights to asset Sugar Spinner Data</reason>
+	<cost>0</cost><cash>8550</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220106231352</dtimeGame>	<dtimeReal>20221126162550</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Mary</userList>
+	<reason>Asset Goal Modify Sugar Data failed for Mary because user doesn't have modify rights to asset Sugar Spinner Data</reason>
+	<cost>0</cost><cash>8550</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220106231352</dtimeGame>	<dtimeReal>20221126162550</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Joe</userList>
+	<reason>Asset Goal Modify Sugar Data failed for Joe because user doesn't have modify rights to asset Sugar Spinner Data</reason>
+	<cost>0</cost><cash>8550</cash>
+</goalFailure>
+<uiEvent>
+	<dtimeGame>20220106231352</dtimeGame>	<dtimeReal>20221126162550</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<gameEvent>
+	<dtimeGame>20220106231352</dtimeGame>	<dtimeReal>20221126162551</dtimeReal>
+	<resume></resume>
+</gameEvent>
+<goalFailure>
+	<dtimeGame>20220106231352</dtimeGame>	<dtimeReal>20221126162551</dtimeReal>
+	<name>Remote Sugar Data Access</name>
+	<userList>Fiona</userList>
+	<reason>Asset Goal Remote Sugar Data Access failed for Fiona because no one machine with suitable software could access all the assets required in the asset goal.</reason>
+	<cost>0</cost><cash>8550</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220106231352</dtimeGame>	<dtimeReal>20221126162551</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake</userList>
+	<reason>Asset Goal Modify Sugar Data failed for Blake because user doesn't have modify rights to asset Sugar Spinner Data</reason>
+	<cost>0</cost><cash>8550</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220106231352</dtimeGame>	<dtimeReal>20221126162551</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Peggy</userList>
+	<reason>Asset Goal Modify Sugar Data failed for Peggy because user doesn't have modify rights to asset Sugar Spinner Data</reason>
+	<cost>0</cost><cash>8550</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220106231352</dtimeGame>	<dtimeReal>20221126162551</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Frank</userList>
+	<reason>Asset Goal Modify Sugar Data failed for Frank because user doesn't have modify rights to asset Sugar Spinner Data</reason>
+	<cost>0</cost><cash>8550</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220106231352</dtimeGame>	<dtimeReal>20221126162551</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Mary</userList>
+	<reason>Asset Goal Modify Sugar Data failed for Mary because user doesn't have modify rights to asset Sugar Spinner Data</reason>
+	<cost>0</cost><cash>8550</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220106231352</dtimeGame>	<dtimeReal>20221126162551</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Joe</userList>
+	<reason>Asset Goal Modify Sugar Data failed for Joe because user doesn't have modify rights to asset Sugar Spinner Data</reason>
+	<cost>0</cost><cash>8550</cash>
+</goalFailure>
+<summaryEvent>
+	<dtimeGame>20220106231404</dtimeGame>	<dtimeReal>20221126162551</dtimeReal>
+	<bonus>-0</bonus><cash>8548</cash>
+</summaryEvent>
+<trigger>
+	<dtimeGame>20220106231504</dtimeGame>	<dtimeReal>20221126162551</dtimeReal>
+	<name>insider</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>12</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106231504</dtimeGame>	<dtimeReal>20221126162551</dtimeReal>
+	<name>WireTap</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>12</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106231504</dtimeGame>	<dtimeReal>20221126162551</dtimeReal>
+	<name>GoToFiona</name>
+	<triggerType>SPEAK_TRIGGER</triggerType>
+	<timesGoneOff>5</timesGoneOff>
+	<conditions>ConditionList: FionaFailsGoal(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220106231504</dtimeGame>	<dtimeReal>20221126162551</dtimeReal>
+	<name>NoBlakeProfile</name>
+	<triggerType>TICKER_TRIGGER</triggerType>
+	<timesGoneOff>4</timesGoneOff>
+	<conditions>ConditionList: PhaseTwoDone(true) and BlakeFailsGoal(true) and_not VisitorHasBlakeProfile(false) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220106231602</dtimeGame>	<dtimeReal>20221126162551</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>8544</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106231659</dtimeGame>	<dtimeReal>20221126162551</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>8544</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220106232504</dtimeGame>	<dtimeReal>20221126162553</dtimeReal>
+	<name>GoToBlake</name>
+	<triggerType>SPEAK_TRIGGER</triggerType>
+	<timesGoneOff>4</timesGoneOff>
+	<conditions>ConditionList: BlakeFailsGoal(true) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220106232956</dtimeGame>	<dtimeReal>20221126162554</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>8521</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106232956</dtimeGame>	<dtimeReal>20221126162554</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>8521</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106233040</dtimeGame>	<dtimeReal>20221126162554</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>8519</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106233054</dtimeGame>	<dtimeReal>20221126162554</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>8519</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106233654</dtimeGame>	<dtimeReal>20221126162556</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>8509</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106233654</dtimeGame>	<dtimeReal>20221126162556</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>8509</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106233737</dtimeGame>	<dtimeReal>20221126162556</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>8507</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106233903</dtimeGame>	<dtimeReal>20221126162556</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>8503</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106234435</dtimeGame>	<dtimeReal>20221126162557</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>8494</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220106234504</dtimeGame>	<dtimeReal>20221126162557</dtimeReal>
+	<name>InterentTrojan</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>16</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220106235054</dtimeGame>	<dtimeReal>20221126162559</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>8484</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106235054</dtimeGame>	<dtimeReal>20221126162559</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>8484</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106235137</dtimeGame>	<dtimeReal>20221126162559</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>8482</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106235303</dtimeGame>	<dtimeReal>20221126162559</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>8478</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106235755</dtimeGame>	<dtimeReal>20221126162600</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>8471</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106235755</dtimeGame>	<dtimeReal>20221126162600</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>8471</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220106235853</dtimeGame>	<dtimeReal>20221126162600</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>8469</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107000005</dtimeGame>	<dtimeReal>20221126162600</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>8466</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107000453</dtimeGame>	<dtimeReal>20221126162601</dtimeReal>
+	<newMode>
+		<name>Joe</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>8459</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107000536</dtimeGame>	<dtimeReal>20221126162602</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>8457</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107000550</dtimeGame>	<dtimeReal>20221126162602</dtimeReal>
+	<newMode>
+		<name>Mary</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>8457</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107001150</dtimeGame>	<dtimeReal>20221126162603</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>8446</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107001400</dtimeGame>	<dtimeReal>20221126162603</dtimeReal>
+	<newMode>
+		<name>Fiona</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>8441</cash>
+</userEvent>
+<gameEvent>
+	<dtimeGame>20220107001410</dtimeGame>	<dtimeReal>20221126162603</dtimeReal>
+	<pause></pause>
+</gameEvent>
+<goalFailure>
+	<dtimeGame>20220107001410</dtimeGame>	<dtimeReal>20221126162603</dtimeReal>
+	<name>Remote Sugar Data Access</name>
+	<userList>Fiona</userList>
+	<reason>Asset Goal Remote Sugar Data Access failed for Fiona because no one machine with suitable software could access all the assets required in the asset goal.</reason>
+	<cost>0</cost><cash>8441</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220107001410</dtimeGame>	<dtimeReal>20221126162603</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake</userList>
+	<reason>Asset Goal Modify Sugar Data failed for Blake because user doesn't have modify rights to asset Sugar Spinner Data</reason>
+	<cost>0</cost><cash>8441</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220107001410</dtimeGame>	<dtimeReal>20221126162603</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Peggy</userList>
+	<reason>Asset Goal Modify Sugar Data failed for Peggy because user doesn't have modify rights to asset Sugar Spinner Data</reason>
+	<cost>0</cost><cash>8441</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220107001410</dtimeGame>	<dtimeReal>20221126162603</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Frank</userList>
+	<reason>Asset Goal Modify Sugar Data failed for Frank because user doesn't have modify rights to asset Sugar Spinner Data</reason>
+	<cost>0</cost><cash>8441</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220107001410</dtimeGame>	<dtimeReal>20221126162603</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Mary</userList>
+	<reason>Asset Goal Modify Sugar Data failed for Mary because user doesn't have modify rights to asset Sugar Spinner Data</reason>
+	<cost>0</cost><cash>8441</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220107001410</dtimeGame>	<dtimeReal>20221126162603</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Joe</userList>
+	<reason>Asset Goal Modify Sugar Data failed for Joe because user doesn't have modify rights to asset Sugar Spinner Data</reason>
+	<cost>0</cost><cash>8441</cash>
+</goalFailure>
+<uiEvent>
+	<dtimeGame>20220107001410</dtimeGame>	<dtimeReal>20221126162605</dtimeReal>
+	<tab>objective</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220107001410</dtimeGame>	<dtimeReal>20221126162607</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<assetEvent>
+	<dtimeGame>20220107001410</dtimeGame>	<dtimeReal>20221126162626</dtimeReal>
+	<name>Sugar Spinner Data</name>
+	<moveType>Remove : PLAYER</moveType>
+	<computerName>Visitor's Workstation</computerName>
+</assetEvent>
+<assetEvent>
+	<dtimeGame>20220107001410</dtimeGame>	<dtimeReal>20221126162626</dtimeReal>
+	<name>Sugar Spinner Data</name>
+	<moveType>Add : PLAYER</moveType>
+	<computerName>Lollipop Server</computerName>
+</assetEvent>
+<uiEvent>
+	<dtimeGame>20220107001410</dtimeGame>	<dtimeReal>20221126162626</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220107001410</dtimeGame>	<dtimeReal>20221126162637</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<componentEvent>
+	<dtimeGame>20220107001410</dtimeGame>	<dtimeReal>20221126162646</dtimeReal>
+	<name>Visitor's Workstation</name>
+	<authServerAdd>Lollipop Server</authServerAdd>	<cost>0</cost><cash>8441</cash>
+</componentEvent>
+<uiEvent>
+	<dtimeGame>20220107001410</dtimeGame>	<dtimeReal>20221126162648</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<goalFailure>
+	<dtimeGame>20220107001410</dtimeGame>	<dtimeReal>20221126162650</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>0</cost><cash>8441</cash>
+</goalFailure>
+<uiEvent>
+	<dtimeGame>20220107001410</dtimeGame>	<dtimeReal>20221126162650</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<gameEvent>
+	<dtimeGame>20220107001410</dtimeGame>	<dtimeReal>20221126162651</dtimeReal>
+	<resume></resume>
+</gameEvent>
+<goalFailure>
+	<dtimeGame>20220107001410</dtimeGame>	<dtimeReal>20221126162651</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>0</cost><cash>8441</cash>
+</goalFailure>
+<summaryEvent>
+	<dtimeGame>20220107001502</dtimeGame>	<dtimeReal>20221126162651</dtimeReal>
+	<bonus>1</bonus><cash>8442</cash>
+</summaryEvent>
+<userEvent>
+	<dtimeGame>20220107001853</dtimeGame>	<dtimeReal>20221126162652</dtimeReal>
+	<newMode>
+		<name>Peggy</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>8446</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107001936</dtimeGame>	<dtimeReal>20221126162652</dtimeReal>
+	<newMode>
+		<name>Frank</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>8447</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220107003004</dtimeGame>	<dtimeReal>20221126162655</dtimeReal>
+	<name>insider</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>13</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220107003004</dtimeGame>	<dtimeReal>20221126162655</dtimeReal>
+	<name>WireTap</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>13</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220107003004</dtimeGame>	<dtimeReal>20221126162655</dtimeReal>
+	<name>NoBlakeProfile</name>
+	<triggerType>TICKER_TRIGGER</triggerType>
+	<timesGoneOff>5</timesGoneOff>
+	<conditions>ConditionList: PhaseTwoDone(true) and BlakeFailsGoal(true) and_not VisitorHasBlakeProfile(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220107004004</dtimeGame>	<dtimeReal>20221126162657</dtimeReal>
+	<name>GoToBlake</name>
+	<triggerType>SPEAK_TRIGGER</triggerType>
+	<timesGoneOff>5</timesGoneOff>
+	<conditions>ConditionList: BlakeFailsGoal(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220107004501</dtimeGame>	<dtimeReal>20221126162658</dtimeReal>
+	<name>InterentTrojan</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>17</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<gameEvent>
+	<dtimeGame>20220107005832</dtimeGame>	<dtimeReal>20221126162701</dtimeReal>
+	<pause></pause>
+</gameEvent>
+<goalFailure>
+	<dtimeGame>20220107005832</dtimeGame>	<dtimeReal>20221126162701</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>0</cost><cash>8495</cash>
+</goalFailure>
+<uiEvent>
+	<dtimeGame>20220107005832</dtimeGame>	<dtimeReal>20221126162702</dtimeReal>
+	<tab>objective</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220107005832</dtimeGame>	<dtimeReal>20221126162704</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<componentEvent>
+	<dtimeGame>20220107005832</dtimeGame>	<dtimeReal>20221126162720</dtimeReal>
+	<name>Visitor's Workstation</name>
+	<authServerRemove>Lollipop Server</authServerRemove>	<cost>0</cost><cash>8495</cash>
+</componentEvent>
+<uiEvent>
+	<dtimeGame>20220107005832</dtimeGame>	<dtimeReal>20221126162721</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<componentEvent>
+	<dtimeGame>20220107005832</dtimeGame>	<dtimeReal>20221126162725</dtimeReal>
+	<name>Visitor's Workstation</name>
+	<accountAdd>
+		<group>Marketing</group>
+	</accountAdd>
+	<cost>0</cost><cash>8495</cash>
+</componentEvent>
+<uiEvent>
+	<dtimeGame>20220107005832</dtimeGame>	<dtimeReal>20221126162726</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220107005832</dtimeGame>	<dtimeReal>20221126162810</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<componentEvent>
+	<dtimeGame>20220107005832</dtimeGame>	<dtimeReal>20221126162844</dtimeReal>
+	<name>Lollipop Server</name>
+	<configSetting>
+		<field>UseSmartcard:</field>
+		<value>true</value>
+		<newProtection>-1</newProtection>
+	</configSetting>
+	<cost>700</cost><cash>7795</cash>
+</componentEvent>
+<goalFailure>
+	<dtimeGame>20220107005832</dtimeGame>	<dtimeReal>20221126162854</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>0</cost><cash>7795</cash>
+</goalFailure>
+<uiEvent>
+	<dtimeGame>20220107005832</dtimeGame>	<dtimeReal>20221126162854</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<gameEvent>
+	<dtimeGame>20220107005832</dtimeGame>	<dtimeReal>20221126162855</dtimeReal>
+	<resume></resume>
+</gameEvent>
+<goalFailure>
+	<dtimeGame>20220107005832</dtimeGame>	<dtimeReal>20221126162855</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>0</cost><cash>7795</cash>
+</goalFailure>
+<trigger>
+	<dtimeGame>20220107011500</dtimeGame>	<dtimeReal>20221126162858</dtimeReal>
+	<name>NoBlakeProfile</name>
+	<triggerType>TICKER_TRIGGER</triggerType>
+	<timesGoneOff>6</timesGoneOff>
+	<conditions>ConditionList: PhaseTwoDone(true) and BlakeFailsGoal(true) and_not VisitorHasBlakeProfile(false) :end</conditions>
+</trigger>
+<uiEvent>
+	<dtimeGame>20220107012533</dtimeGame>	<dtimeReal>20221126162900</dtimeReal>
+	<tab>objective</tab>
+</uiEvent>
+<goalFailure>
+	<dtimeGame>20220107012533</dtimeGame>	<dtimeReal>20221126162904</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>0</cost><cash>7828</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220107012533</dtimeGame>	<dtimeReal>20221126162904</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>6</cost><cash>7828</cash>
+</goalFailure>
+<uiEvent>
+	<dtimeGame>20220107012533</dtimeGame>	<dtimeReal>20221126162904</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<gameEvent>
+	<dtimeGame>20220107013352</dtimeGame>	<dtimeReal>20221126162905</dtimeReal>
+	<pause></pause>
+</gameEvent>
+<goalFailure>
+	<dtimeGame>20220107013352</dtimeGame>	<dtimeReal>20221126162905</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>0</cost><cash>7837</cash>
+</goalFailure>
+<uiEvent>
+	<dtimeGame>20220107013352</dtimeGame>	<dtimeReal>20221126162907</dtimeReal>
+	<tab>asset</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220107013352</dtimeGame>	<dtimeReal>20221126162909</dtimeReal>
+	<tab>user</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220107013352</dtimeGame>	<dtimeReal>20221126162933</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<goalFailure>
+	<dtimeGame>20220107013352</dtimeGame>	<dtimeReal>20221126162933</dtimeReal>
+	<name>Modify Sugar Data</name>
+	<userList>Blake</userList>
+	<reason>The server wants a password?  Do I have an account?</reason>
+	<cost>0</cost><cash>7837</cash>
+</goalFailure>
+<uiEvent>
+	<dtimeGame>20220107013352</dtimeGame>	<dtimeReal>20221126162933</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220107013352</dtimeGame>	<dtimeReal>20221126162934</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220107013352</dtimeGame>	<dtimeReal>20221126162951</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220107013352</dtimeGame>	<dtimeReal>20221126163013</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220107013352</dtimeGame>	<dtimeReal>20221126163022</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<componentEvent>
+	<dtimeGame>20220107013352</dtimeGame>	<dtimeReal>20221126163042</dtimeReal>
+	<name>Visitor's Workstation</name>
+	<accountRemove>
+		<group>Marketing</group>
+	</accountRemove>
+	<cost>0</cost><cash>7837</cash>
+</componentEvent>
+<uiEvent>
+	<dtimeGame>20220107013352</dtimeGame>	<dtimeReal>20221126163044</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<componentEvent>
+	<dtimeGame>20220107013352</dtimeGame>	<dtimeReal>20221126163049</dtimeReal>
+	<name>Visitor's Workstation</name>
+	<profileAdd>
+		<group>Marketing</group>
+	</profileAdd>
+	<cost>0</cost><cash>7837</cash>
+</componentEvent>
+<uiEvent>
+	<dtimeGame>20220107013352</dtimeGame>	<dtimeReal>20221126163050</dtimeReal>
+	<tab>component</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220107013352</dtimeGame>	<dtimeReal>20221126163053</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<gameEvent>
+	<dtimeGame>20220107013352</dtimeGame>	<dtimeReal>20221126163054</dtimeReal>
+	<resume></resume>
+</gameEvent>
+<summaryEvent>
+	<dtimeGame>20220107013404</dtimeGame>	<dtimeReal>20221126163054</dtimeReal>
+	<bonus>3</bonus><cash>7840</cash>
+</summaryEvent>
+<userEvent>
+	<dtimeGame>20220107014309</dtimeGame>	<dtimeReal>20221126163056</dtimeReal>
+	<newMode>
+		<name>Blake</name>
+		<animMode>5</animMode>
+	</newMode>
+	<cost>0</cost><cash>7864</cash>
+</userEvent>
+<userEvent>
+	<dtimeGame>20220107014309</dtimeGame>	<dtimeReal>20221126163056</dtimeReal>
+	<newMode>
+		<name>Blake</name>
+		<animMode>12</animMode>
+	</newMode>
+	<cost>0</cost><cash>7864</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220107014504</dtimeGame>	<dtimeReal>20221126163056</dtimeReal>
+	<name>insider</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>14</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220107014504</dtimeGame>	<dtimeReal>20221126163056</dtimeReal>
+	<name>InterentTrojan</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>18</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220107014504</dtimeGame>	<dtimeReal>20221126163056</dtimeReal>
+	<name>WireTap</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>14</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220107020503</dtimeGame>	<dtimeReal>20221126163101</dtimeReal>
+	<name>UsingIdCard</name>
+	<triggerType>SPEAK_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: not BlakeFailsGoal(false) and PhaseTwoDone(true) and VisitorHasBlakeProfile(true) and (VisitorHasCardReader5,8 or VisitorHasCardReader6,8 or VisitorHasCardReader7,8 or VisitorHasCardReader8,8) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220107024500</dtimeGame>	<dtimeReal>20221126163109</dtimeReal>
+	<name>InterentTrojan</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>19</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220107025004</dtimeGame>	<dtimeReal>20221126163110</dtimeReal>
+	<name>Internet</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>4</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) and AllGoalsMet(true) and DrivebyDone(true) and_not UnaccountableAccessSugar(false) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220107025725</dtimeGame>	<dtimeReal>20221126163112</dtimeReal>
+	<newMode>
+		<name>Blake</name>
+		<animMode>1</animMode>
+	</newMode>
+	<cost>0</cost><cash>8063</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220107030004</dtimeGame>	<dtimeReal>20221126163112</dtimeReal>
+	<name>insider</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>15</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220107030004</dtimeGame>	<dtimeReal>20221126163112</dtimeReal>
+	<name>WireTap</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>15</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<userEvent>
+	<dtimeGame>20220107030418</dtimeGame>	<dtimeReal>20221126163113</dtimeReal>
+	<newMode>
+		<name>Blake</name>
+		<animMode>3</animMode>
+	</newMode>
+	<cost>0</cost><cash>8082</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220107034502</dtimeGame>	<dtimeReal>20221126163138</dtimeReal>
+	<name>InterentTrojan</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>20</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220107041000</dtimeGame>	<dtimeReal>20221126163143</dtimeReal>
+	<name>Internet</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>5</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) and AllGoalsMet(true) and DrivebyDone(true) and_not UnaccountableAccessSugar(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220107041501</dtimeGame>	<dtimeReal>20221126163144</dtimeReal>
+	<name>insider</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>16</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220107041501</dtimeGame>	<dtimeReal>20221126163144</dtimeReal>
+	<name>WireTap</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>16</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220107042003</dtimeGame>	<dtimeReal>20221126163145</dtimeReal>
+	<name>Outside Breakin</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>4</timesGoneOff>
+	<conditions>ConditionList: ((PhaseTwoDone(true) and BlakeTyping(true)) or (DrivebyDone(true) and_not PhaseTwoDone(true))) and_not AnyAssetAttacked(false) and AllGoalsMet(true) and_not UnaccountableAccessSugar(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220107042003</dtimeGame>	<dtimeReal>20221126163145</dtimeReal>
+	<name>VisitorWorkingOK</name>
+	<triggerType>SET_OBJECTIVE_STATUS</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: not BlakeFailsGoal(false) and PublicAllowedVisitorRoom(true) and PhaseTwoDone(true) and_not AnyAssetAttacked(false) and BlakeTyping(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220107044500</dtimeGame>	<dtimeReal>20221126163151</dtimeReal>
+	<name>InterentTrojan</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>21</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220107053001</dtimeGame>	<dtimeReal>20221126163200</dtimeReal>
+	<name>insider</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>17</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220107053001</dtimeGame>	<dtimeReal>20221126163200</dtimeReal>
+	<name>Internet</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>6</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) and AllGoalsMet(true) and DrivebyDone(true) and_not UnaccountableAccessSugar(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220107053001</dtimeGame>	<dtimeReal>20221126163200</dtimeReal>
+	<name>WireTap</name>
+	<triggerType>ATTACK_TRIGGER</triggerType>
+	<timesGoneOff>17</timesGoneOff>
+	<conditions>ConditionList: not AnyAssetAttacked(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220107053503</dtimeGame>	<dtimeReal>20221126163201</dtimeReal>
+	<name>Win</name>
+	<triggerType>WIN_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: VisitorAssetAccess(true) :end</conditions>
+</trigger>
+<gameEvent>
+	<dtimeGame>20220107053503</dtimeGame>	<dtimeReal>20221126163201</dtimeReal>
+	<end>win</end>
+</gameEvent>
+<uiEvent>
+	<dtimeGame>20220107053503</dtimeGame>	<dtimeReal>20221126163206</dtimeReal>
+	<tab>game</tab>
+</uiEvent>
+<gameEvent>
+	<dtimeGame>20220107053503</dtimeGame>	<dtimeReal>20221126163227</dtimeReal>
+	<end>quit</end>
+</gameEvent>
+</CyberCIEGEeventLog>

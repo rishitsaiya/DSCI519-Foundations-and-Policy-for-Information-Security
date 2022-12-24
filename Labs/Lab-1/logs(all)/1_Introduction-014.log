@@ -1,0 +1,523 @@
+<?xml version="1.0"?>
+<!DOCTYPE CyberCIEGEeventLog SYSTEM "..\..\eventlog.dtd">
+<CyberCIEGEeventLog>
+<gameEvent>
+	<dtimeGame>20220101060200</dtimeGame>	<dtimeReal>20220906111641</dtimeReal>
+	<loadFile>..\Starting Scenarios\1_Introduction.sdf</loadFile>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220101060200</dtimeGame>	<dtimeReal>20220906111641</dtimeReal>
+	<loadFile>Introduction.CSM 9/30/16 3 47 PM</loadFile>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111642</dtimeReal>
+	<creates>
+		<user>Curly</user>
+	</creates>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111642</dtimeReal>
+	<creates>
+		<user>Moe</user>
+	</creates>
+</gameEvent>
+<componentEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111642</dtimeReal>
+	<name>BitFlipper Firewall</name>
+	<networkConnect>LAN 1</networkConnect>
+	<cost>0</cost><cash>12000</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111642</dtimeReal>
+	<name>BitFlipper Firewall</name>
+	<networkConnect>Internet</networkConnect>
+	<cost>0</cost><cash>12000</cash>
+</componentEvent>
+<gameEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111642</dtimeReal>
+	<creates>
+		<deviceName>BitFlipper Firewall</deviceName>
+	</creates>
+</gameEvent>
+<componentEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111642</dtimeReal>
+	<name>BortSoft Server</name>
+	<networkConnect>LAN 1</networkConnect>
+	<cost>0</cost><cash>12000</cash>
+</componentEvent>
+<assetEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111642</dtimeReal>
+	<name>Moe's E-Mail</name>
+	<moveType>Add : SCENARIO_FILE</moveType>
+	<computerName>BortSoft Server</computerName>
+</assetEvent>
+<assetEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111642</dtimeReal>
+	<name>Curly's E-Mail</name>
+	<moveType>Add : SCENARIO_FILE</moveType>
+	<computerName>BortSoft Server</computerName>
+</assetEvent>
+<assetEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111642</dtimeReal>
+	<name>BortSoft Data</name>
+	<moveType>Add : SCENARIO_FILE</moveType>
+	<computerName>BortSoft Server</computerName>
+</assetEvent>
+<gameEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111642</dtimeReal>
+	<creates>
+		<computerName>BortSoft Server</computerName>
+	</creates>
+</gameEvent>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111642</dtimeReal>
+	<name>Modify BortSoft Data</name>
+	<userList>Moe</userList>
+	<reason>The Modify BortSoft Data goal failed for Moe because no workstation could access BortSoft Data.</reason>
+	<cost>0</cost><cash>12000</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111642</dtimeReal>
+	<name>Read Moe's E-Mail</name>
+	<userList>Moe</userList>
+	<reason>The Modify BortSoft Data goal failed for me because no workstation could access BortSoft Data.</reason>
+	<cost>0</cost><cash>12000</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111642</dtimeReal>
+	<name>Modify BortSoft Data</name>
+	<userList>Curly</userList>
+	<reason>The Modify BortSoft Data goal failed for Curly because no workstation could access BortSoft Data.</reason>
+	<cost>0</cost><cash>12000</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111642</dtimeReal>
+	<name>Read Curly's E-Mail</name>
+	<userList>Curly</userList>
+	<reason>The Modify BortSoft Data goal failed for me because no workstation could access BortSoft Data.</reason>
+	<cost>0</cost><cash>12000</cash>
+</goalFailure>
+<gameEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111642</dtimeReal>
+	<start></start>
+</gameEvent>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111642</dtimeReal>
+	<name>SetIncomplete1_1</name>
+	<triggerType>SET_OBJECTIVE_STATUS</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: not MoeHasComputer(false) or_not CurlyHasComputer(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111642</dtimeReal>
+	<name>SetIncomplete1_2</name>
+	<triggerType>SET_OBJECTIVE_STATUS</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: not (CompanyHas3PlusComputers(false) and CompanyHas3PlusCompsOnLAN1(false) and MoeHasComputer(false) and CurlyHasComputer(false)) :end</conditions>
+</trigger>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111642</dtimeReal>
+	<name>Modify BortSoft Data</name>
+	<userList>Moe</userList>
+	<reason>The Modify BortSoft Data goal failed for Moe because no workstation could access BortSoft Data.</reason>
+	<cost>0</cost><cash>12000</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111642</dtimeReal>
+	<name>Read Moe's E-Mail</name>
+	<userList>Moe</userList>
+	<reason>The Modify BortSoft Data goal failed for me because no workstation could access BortSoft Data.</reason>
+	<cost>0</cost><cash>12000</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111642</dtimeReal>
+	<name>Modify BortSoft Data</name>
+	<userList>Curly</userList>
+	<reason>The Modify BortSoft Data goal failed for Curly because no workstation could access BortSoft Data.</reason>
+	<cost>0</cost><cash>12000</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111642</dtimeReal>
+	<name>Read Curly's E-Mail</name>
+	<userList>Curly</userList>
+	<reason>The Modify BortSoft Data goal failed for me because no workstation could access BortSoft Data.</reason>
+	<cost>0</cost><cash>12000</cash>
+</goalFailure>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111647</dtimeReal>
+	<name>IntroTipObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: WhichScreen2,2 and_not ObjectiveViewed_intrinsic0,0 :end</conditions>
+</trigger>
+<uiEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111649</dtimeReal>
+	<tab>objective</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111649</dtimeReal>
+	<name>ObjectiveViewed</name>
+	<triggerType>LOG_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: WhichScreen12,12 and_not ThirdPhaseCompleted(false) :end</conditions>
+</trigger>
+<gameEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111649</dtimeReal>
+	<logTrigger>  <name>ObjectiveViewed</name>
+  <message>Objective viewed</message>
+  <conditions>ConditionList: WhichScreen12,12 and_not ThirdPhaseCompleted(false) :end,</conditions>
+</logTrigger>
+</gameEvent>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111654</dtimeReal>
+	<name>Modify BortSoft Data</name>
+	<userList>Moe</userList>
+	<reason>The Modify BortSoft Data goal failed for Moe because no workstation could access BortSoft Data.</reason>
+	<cost>0</cost><cash>12000</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111654</dtimeReal>
+	<name>Read Moe's E-Mail</name>
+	<userList>Moe</userList>
+	<reason>The Modify BortSoft Data goal failed for me because no workstation could access BortSoft Data.</reason>
+	<cost>0</cost><cash>12000</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111654</dtimeReal>
+	<name>Modify BortSoft Data</name>
+	<userList>Curly</userList>
+	<reason>The Modify BortSoft Data goal failed for Curly because no workstation could access BortSoft Data.</reason>
+	<cost>0</cost><cash>12000</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111654</dtimeReal>
+	<name>Read Curly's E-Mail</name>
+	<userList>Curly</userList>
+	<reason>The Modify BortSoft Data goal failed for me because no workstation could access BortSoft Data.</reason>
+	<cost>0</cost><cash>12000</cash>
+</goalFailure>
+<uiEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111654</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111657</dtimeReal>
+	<name>IntroTip3a</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: not (MoeHasComputer(false) or CurlyHasComputer(false)) and WhichScreen9,9 :end</conditions>
+</trigger>
+<componentEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111702</dtimeReal>
+	<name>Moe_ws</name>
+	<accountAdd>
+		<user>Moe</user>
+	</accountAdd>
+	<cost>0</cost><cash>12000</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111702</dtimeReal>
+	<name>Moe_ws</name>
+	<buy>
+		<catalogName>Targo Worksaver</catalogName>
+		<position>3</position>
+	</buy>
+	<cost>1200</cost><cash>10800</cash>
+</componentEvent>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111702</dtimeReal>
+	<name>Modify BortSoft Data</name>
+	<userList>Moe</userList>
+	<reason>I failed Modify BortSoft Data.  </reason>
+	<cost>0</cost><cash>10800</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111702</dtimeReal>
+	<name>Read Moe's E-Mail</name>
+	<userList>Moe</userList>
+	<reason>I failed Modify BortSoft Data.  </reason>
+	<cost>0</cost><cash>10800</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111702</dtimeReal>
+	<name>Modify BortSoft Data</name>
+	<userList>Curly</userList>
+	<reason>The Modify BortSoft Data goal failed for Curly because no workstation could access BortSoft Data.</reason>
+	<cost>0</cost><cash>10800</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111702</dtimeReal>
+	<name>Read Curly's E-Mail</name>
+	<userList>Curly</userList>
+	<reason>The Modify BortSoft Data goal failed for me because no workstation could access BortSoft Data.</reason>
+	<cost>0</cost><cash>10800</cash>
+</goalFailure>
+<componentEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111707</dtimeReal>
+	<name>Curly_ws</name>
+	<accountAdd>
+		<user>Curly</user>
+	</accountAdd>
+	<cost>0</cost><cash>10800</cash>
+</componentEvent>
+<componentEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111707</dtimeReal>
+	<name>Curly_ws</name>
+	<buy>
+		<catalogName>Targo Worksaver</catalogName>
+		<position>2</position>
+	</buy>
+	<cost>1200</cost><cash>9600</cash>
+</componentEvent>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111707</dtimeReal>
+	<name>Modify BortSoft Data</name>
+	<userList>Moe</userList>
+	<reason>I failed Modify BortSoft Data.  </reason>
+	<cost>0</cost><cash>9600</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111707</dtimeReal>
+	<name>Read Moe's E-Mail</name>
+	<userList>Moe</userList>
+	<reason>I failed Modify BortSoft Data.  </reason>
+	<cost>0</cost><cash>9600</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111707</dtimeReal>
+	<name>Modify BortSoft Data</name>
+	<userList>Curly</userList>
+	<reason>I failed Modify BortSoft Data.  </reason>
+	<cost>0</cost><cash>9600</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111707</dtimeReal>
+	<name>Read Curly's E-Mail</name>
+	<userList>Curly</userList>
+	<reason>I failed Modify BortSoft Data.  </reason>
+	<cost>0</cost><cash>9600</cash>
+</goalFailure>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111708</dtimeReal>
+	<name>SetComplete1_1</name>
+	<triggerType>SET_OBJECTIVE_STATUS</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: MoeHasComputer(true) and CurlyHasComputer(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111710</dtimeReal>
+	<name>IntroTip5</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,1 or HowManyNetworked12,1) and_not WhichScreen3,2 :end</conditions>
+</trigger>
+<uiEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111711</dtimeReal>
+	<tab>objective</tab>
+</uiEvent>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111713</dtimeReal>
+	<name>Modify BortSoft Data</name>
+	<userList>Moe</userList>
+	<reason>I failed Modify BortSoft Data.  </reason>
+	<cost>0</cost><cash>9600</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111713</dtimeReal>
+	<name>Read Moe's E-Mail</name>
+	<userList>Moe</userList>
+	<reason>I failed Modify BortSoft Data.  </reason>
+	<cost>0</cost><cash>9600</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111713</dtimeReal>
+	<name>Modify BortSoft Data</name>
+	<userList>Curly</userList>
+	<reason>I failed Modify BortSoft Data.  </reason>
+	<cost>0</cost><cash>9600</cash>
+</goalFailure>
+<goalFailure>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111713</dtimeReal>
+	<name>Read Curly's E-Mail</name>
+	<userList>Curly</userList>
+	<reason>I failed Modify BortSoft Data.  </reason>
+	<cost>0</cost><cash>9600</cash>
+</goalFailure>
+<uiEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111713</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111714</dtimeReal>
+	<tab>network</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111716</dtimeReal>
+	<name>IntroTip5a</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,1 or HowManyNetworked12,1) and WhichScreen3,3 :end</conditions>
+</trigger>
+<componentEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111717</dtimeReal>
+	<name>Moe_ws</name>
+	<networkConnect>LAN 1</networkConnect>
+	<cost>0</cost><cash>9600</cash>
+</componentEvent>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111718</dtimeReal>
+	<name>IntroTip5b</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: (MoeHasComputer(true) and CurlyHasComputer(true)) and (HowManyNetworked11,2 or HowManyNetworked12,2) and WhichScreen3,3 :end</conditions>
+</trigger>
+<componentEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111720</dtimeReal>
+	<name>Curly_ws</name>
+	<networkConnect>LAN 1</networkConnect>
+	<cost>0</cost><cash>9600</cash>
+</componentEvent>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111721</dtimeReal>
+	<name>SetComplete1_2</name>
+	<triggerType>SET_OBJECTIVE_STATUS</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: CompanyHas3PlusComputers(true) and CompanyHas3PlusCompsOnLAN1(true) and MoeHasComputer(true) and CurlyHasComputer(true) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111721</dtimeReal>
+	<name>SetIncomplete1_4</name>
+	<triggerType>SET_OBJECTIVE_STATUS</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: (CompanyHas3PlusComputers(true) and CompanyHas3PlusCompsOnLAN1(true) and MoeHasComputer(true) and CurlyHasComputer(true)) and_not HasSomeIT(false) :end</conditions>
+</trigger>
+<uiEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111721</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111724</dtimeReal>
+	<tab>objective</tab>
+</uiEvent>
+<uiEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111726</dtimeReal>
+	<tab>office</tab>
+</uiEvent>
+<gameEvent>
+	<dtimeGame>20220410083000</dtimeGame>	<dtimeReal>20220906111728</dtimeReal>
+	<resume></resume>
+</gameEvent>
+<summaryEvent>
+	<dtimeGame>20220410083102</dtimeGame>	<dtimeReal>20220906111728</dtimeReal>
+	<bonus>-0</bonus><cash>9600</cash>
+</summaryEvent>
+<userEvent>
+	<dtimeGame>20220410083257</dtimeGame>	<dtimeReal>20220906111729</dtimeReal>
+	<newMode>
+		<name>Curly</name>
+		<animMode>14</animMode>
+	</newMode>
+	<cost>0</cost><cash>9600</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220410083302</dtimeGame>	<dtimeReal>20220906111729</dtimeReal>
+	<name>CheckITGuy</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: MoeHasComputer(true) and CurlyHasComputer(true) and CompanyHas3PlusCompsOnLAN1(true) and_not FirstPhaseCompleted(false) and_not HasSomeIT(false) and WhichScreen2,2 :end</conditions>
+</trigger>
+<gameEvent>
+	<dtimeGame>20220410083414</dtimeGame>	<dtimeReal>20220906111729</dtimeReal>
+	<pause></pause>
+</gameEvent>
+<userEvent>
+	<dtimeGame>20220410083414</dtimeGame>	<dtimeReal>20220906111733</dtimeReal>
+	<hire>
+		<name>Larry</name>
+		<salary>0</salary>
+	</hire>
+	<cost>0</cost><cash>9600</cash>
+</userEvent>
+<trigger>
+	<dtimeGame>20220410083414</dtimeGame>	<dtimeReal>20220906111734</dtimeReal>
+	<name>AdvanceToPhase2</name>
+	<triggerType>SET_PHASE</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: WhichScreen2,2 and (CompanyHas3PlusComputers(true) and CompanyHas3PlusCompsOnLAN1(true) and MoeHasComputer(true) and CurlyHasComputer(true)) and HasSomeIT(true) and_not FirstPhaseCompleted(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083414</dtimeGame>	<dtimeReal>20220906111737</dtimeReal>
+	<name>IntroTipPause2</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: FirstPhaseCompleted(true) and GamePaused(true) and WhichScreen2,2 and_not time1hour(false) :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083414</dtimeGame>	<dtimeReal>20220906111737</dtimeReal>
+	<name>SetComplete1_4</name>
+	<triggerType>SET_OBJECTIVE_STATUS</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: (CompanyHas3PlusComputers(true) and CompanyHas3PlusCompsOnLAN1(true) and MoeHasComputer(true) and CurlyHasComputer(true)) and HasSomeIT(true) :end</conditions>
+</trigger>
+<uiEvent>
+	<dtimeGame>20220410083414</dtimeGame>	<dtimeReal>20220906111741</dtimeReal>
+	<tab>objective</tab>
+</uiEvent>
+<trigger>
+	<dtimeGame>20220410083414</dtimeGame>	<dtimeReal>20220906111746</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>1</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083414</dtimeGame>	<dtimeReal>20220906111806</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>2</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083414</dtimeGame>	<dtimeReal>20220906111826</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>3</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083414</dtimeGame>	<dtimeReal>20220906111846</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>4</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083414</dtimeGame>	<dtimeReal>20220906111906</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>5</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083414</dtimeGame>	<dtimeReal>20220906111926</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>6</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<trigger>
+	<dtimeGame>20220410083414</dtimeGame>	<dtimeReal>20220906111946</dtimeReal>
+	<name>ReturnFromObjective</name>
+	<triggerType>HELPTIP_TRIGGER</triggerType>
+	<timesGoneOff>7</timesGoneOff>
+	<conditions>ConditionList: (TimesObjectiveViewed0,1 or TimesObjectiveViewed1,1) and WhichScreen12,12 :end</conditions>
+</trigger>
+<gameEvent>
+	<dtimeGame>20220410083414</dtimeGame>	<dtimeReal>20220906111952</dtimeReal>
+	<end>quit</end>
+</gameEvent>
+<gameEvent>
+	<dtimeGame>20220410083414</dtimeGame>	<dtimeReal>20220906111952</dtimeReal>
+	<end>quit</end>
+</gameEvent>
+</CyberCIEGEeventLog>
